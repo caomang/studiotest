@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E8F2FE"
+            android:gravity="center"
+             android:textColor="#3773c0"
+            android:padding="7dp"
+            android:text="连接管"
+            android:textSize="20sp" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="3dp"
+                 android:textColor="#3773c0"
+                android:text="材质"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="fill_parent"
+                android:background="@drawable/shape_matters_router_child_divider" />
+
+            <Spinner
+                android:id="@+id/sp_lianjieuan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:background="@drawable/approve_list_edittext2"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="@drawable/shape_matters_router_child_divider" />
+    </LinearLayout>
+
+</LinearLayout>

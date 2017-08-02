@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg" >
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/top_title_back" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white" >
+
+        <TableLayout
+            android:id="@+id/tl_table"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:shrinkColumns="2" >
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="7"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/lv_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.5"
+                android:background="@color/white"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/littleGray"
+                android:dividerHeight="1px"
+                android:fadingEdge="none"
+                android:fadingEdgeLength="0dp"
+                android:scrollbars="none" >
+            </ListView>
+
+            <LinearLayout
+                android:id="@+id/ll_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="8.5"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="3dp" >
+
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="#bd504b" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="已完成"
+                        android:textColor="#7B7B7B"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="#740176" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="当前节点"
+                        android:textColor="#7B7B7B"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="#4c7db8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="待完成"
+                        android:textColor="#7B7B7B"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

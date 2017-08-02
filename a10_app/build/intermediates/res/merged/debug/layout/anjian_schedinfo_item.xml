@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/single2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_schedtype"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="任务类型:"
+                    android:textColor="#E6000000"
+                    android:textSize="18sp" />
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/tv_schedname" -->
+<!--                     android:layout_width="0dp" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_weight="1" -->
+<!--                     android:text="任务名称" -->
+<!--                     android:textColor="@color/black" -->
+<!--                     android:textSize="18sp" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/tv_schedtime" -->
+<!--                     android:layout_width="0dp" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_weight="1" -->
+<!--                     android:text="计划时间:" -->
+<!--                     android:textColor="@color/black" -->
+<!--                     android:textSize="18sp" /> -->
+            </LinearLayout>
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+
+                <TextView
+                    android:id="@+id/tv_schedname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="任务名称:"
+                    android:textColor="#E6000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+
+                <TextView
+                    android:id="@+id/tv_schedtime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="计划时间:"
+                    android:textColor="#E6000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+           
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_daijian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="待检:[ ]"
+                    android:textColor="#E6000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_save"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="已保存:[ ]"
+                    android:textColor="#E6000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_update"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="已上传:[ ]"
+                    android:textColor="#E6000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/arrow" />
+    </LinearLayout>
+
+</LinearLayout>

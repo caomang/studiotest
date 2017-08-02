@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    android:paddingBottom="3dp" >
+
+<!--     <include layout="@layout/mobile_title" /> -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    style="@style/mail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal|top"
+                    android:paddingTop="10dp"
+                    android:text="收件人:  " />
+
+                <EditText
+                    android:id="@+id/et_mail_receivers"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_mail_add_people"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/mail_add_people" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp" >
+
+                <TextView
+                    style="@style/mail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:paddingTop="10dp"
+                    android:text="抄    送:  " />
+
+                <EditText
+                    android:id="@+id/et_mail_cc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_mail_add_people_cc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/mail_add_people" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp" >
+
+                <TextView
+                    style="@style/mail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:paddingTop="10dp"
+                    android:text="密    送:  " />
+
+                <EditText
+                    android:id="@+id/et_mail_bc"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_mail_add_people_bc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/mail_add_people" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp" >
+
+                <TextView
+                    style="@style/mail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:paddingTop="10dp"
+                    android:text="主    题:  " />
+
+                <EditText
+                    android:id="@+id/et_mail_subject"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp" >
+
+                <TextView
+                    style="@style/mail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top"
+                    android:paddingTop="10dp"
+                    android:text="正    文:  " />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical" >
+
+                    <ListView
+                        android:id="@+id/lv_attachements"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="#00000000"
+                        android:divider="#000000"
+                        android:dividerHeight="0px"
+                        android:fadingEdgeLength="5dp"
+                        android:listSelector="#00000000" >
+                    </ListView>
+
+                    <EditText
+                        android:id="@+id/et_mail_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="260dp"
+                        android:gravity="top"
+                        android:singleLine="false"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

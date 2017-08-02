@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/top_title_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="路由选择联系人"
+            android:textColor="#FFFFE0"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/mail_choose" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_absolute_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textColor="#9D9393"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/littleGray" />
+
+    <ExpandableListView
+        android:id="@+id/ep_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:cacheColorHint="#00000000"
+        android:childDivider="@drawable/shape_matters_router_child_divider"
+        android:divider="@color/littleGray"
+        android:dividerHeight="1px"
+        android:fadeScrollbars="false"
+        android:fadingEdgeLength="1px" >
+    </ExpandableListView>
+
+</LinearLayout>

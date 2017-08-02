@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/action_item_btn"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Chart"
+        android:drawableBottom="@drawable/line_itme_list_newspaper"
+        android:drawablePadding="3dp"
+        android:textColor="#727071"
+        android:textSize="16sp" />
+ <!-- android:textColor="#fff" -->
+
+<!--     <View -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="1dp" -->
+<!--         android:background="@color/b_gray" /> -->
+
+</LinearLayout>

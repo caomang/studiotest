@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp" >
+
+        <TextView
+            android:id="@+id/tv_home_phone"
+            style="@style/approve_detail_user_phone_info_layout"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="客户电话" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/tv_home_phone"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <EditText
+            android:id="@+id/tv_home_phone_num"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/bt_home_save"
+            android:layout_toRightOf="@+id/view"
+            android:background="@null"
+            android:text="000"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/bt_home_save"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/bt_home_delete"
+            android:background="@drawable/tabs_background_unselect"
+            android:text="保存"
+            android:textColor="#3D7DC4"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/bt_home_delete"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/tabs_background_unselect"
+            android:text="删除"
+            android:textColor="#3D7DC4"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+</LinearLayout>

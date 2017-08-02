@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_login_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/ic_squared_title_bg"
+        android:gravity="center_vertical"
+         >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_main_logo" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/tv_squared_userinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_squared_title_userinfo"
+                android:textColor="@color/c_type_squared_userinfo"
+                 />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv_squared_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/main_menu_grid_padding_top"
+        android:drawSelectorOnTop="true"
+        android:gravity="center_horizontal"
+        android:horizontalSpacing="5dip"
+        android:listSelector="@drawable/gv_item_mo_forground"
+        android:numColumns="3"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/main_meni_grid_padding_left"
+        android:paddingRight="@dimen/main_meni_grid_padding_right"
+        android:scrollbars="none"
+        android:verticalSpacing="10dip" >
+    </GridView>
+
+</LinearLayout>

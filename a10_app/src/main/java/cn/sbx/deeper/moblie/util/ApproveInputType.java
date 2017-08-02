@@ -1,0 +1,5 @@
+package cn.sbx.deeper.moblie.util;
+
+public enum ApproveInputType {
+	BUTTON,CHECKBOX,PASSWORD,RADIO,TEXT,TEXTAREA,HTML,FILE,CONTACT,HIDDEN,PICTURE,USER,SUGGEST,H_DIVIDER,LABEL
+}

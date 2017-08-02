@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mobile_title_height"
+        android:background="#f9f9f9"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <cn.sbx.deeper.moblie.util.MyHorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="3dp"
+                    android:layout_height="1dp" />
+
+                <RadioGroup
+                    android:id="@+id/rg_group_types"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="3dp"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+        </cn.sbx.deeper.moblie.util.MyHorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="8"
+            android:gravity="right|center_vertical" >
+
+            <Button
+                android:id="@+id/btn_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_submit2"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text="查 询"
+                android:textColor="@color/littleWhile"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <cn.sbx.deeper.moblie.view.MyListView
+        android:id="@+id/lv_pending_matters"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/littleWhile"
+        android:cacheColorHint="#82806E"
+        android:divider="@color/littleGray"
+        android:dividerHeight="1px"
+        android:fadingEdgeLength="5dp" />
+
+</LinearLayout>

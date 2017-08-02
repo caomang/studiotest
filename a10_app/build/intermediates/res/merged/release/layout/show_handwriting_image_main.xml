@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="客户签名"
+        android:textSize="16sp"
+        android:layout_marginTop="3dp"
+        android:gravity="center_horizontal"
+        />
+    <!-- <ImageView -->
+    <!-- android:id="@+id/iv_sign" -->
+    <!-- android:layout_marginTop="50dp" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center" -->
+    <!-- /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tv_sign" -->
+    <!-- android:layout_marginTop="50dp" -->
+    <!-- android:layout_below="@id/iv_sign" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center" -->
+    <!-- android:text="点此签名" -->
+    <!-- /> -->
+
+</LinearLayout>

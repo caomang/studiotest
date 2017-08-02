@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '23.0.3'
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+
+    defaultConfig {
+//        applicationId "com.sunboxsoft.deeper.moblie.app.chaobiao"
+        applicationId "GuiHuaZongYuan.guandaoA10Ukey.app"
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86"
+        }
+
+        minSdkVersion 11
+        targetSdkVersion 22
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.+'
+    compile 'com.google.code.gson:gson:2.2.2'
+    compile files('libs/afinal.jar')
+    compile files('libs/androidprintsdk.jar')
+    compile files('libs/ant.jar')
+    compile files('libs/arrayvpnjar.jar')
+    compile files('libs/baidumapapi_v3_3_0.jar')
+    compile files('libs/BSMCPBaseUtils.jar')
+    compile files('libs/commons-codec-1.3.jar')
+    compile files('libs/commons-net-3.0.1.jar')
+    compile files('libs/eneter-messaging-android-5.0.0.jar')
+    compile files('libs/httpmime-4.1.2.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/phonegap.0.9.5.jar')
+    compile files('libs/sbx_deeper_mobile_store_mdm.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+    compile files('libs/ksoap2-android-assembly-2.4-jar-with-dependencies.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile files('libs/sqldroid-1.0.3.jar')
+    compile 'net.zetetic:android-database-sqlcipher:3.5.0@aar'
+
+}

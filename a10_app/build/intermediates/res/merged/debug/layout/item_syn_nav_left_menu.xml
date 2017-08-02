@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+     >
+    <ImageView
+        android:id="@+id/iv_syn_icon"
+        android:layout_width="@dimen/menu_slide_left_img_width"
+        android:layout_height="@dimen/menu_slide_left_img_height"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_default_left"
+         />
+
+    <TextView
+        style="@style/style_left_menu_item"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_syn_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="公文"
+        />
+
+</LinearLayout>

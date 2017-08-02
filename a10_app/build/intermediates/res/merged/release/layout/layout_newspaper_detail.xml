@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@color/b_gray" >
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/top_title_back" >
+        </Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="4dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_text_size_inc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_btn_text_size_inc" />
+
+            <Button
+                android:id="@+id/btn_text_size_dec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_btn_text_size_dec" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_contentview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_newspaper_subject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_newspaper_subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="来源："
+                android:textColor="#B3A7A7"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_newspaper_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B3A7A7"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间："
+                android:textColor="#B3A7A7"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_newspaper_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B3A7A7"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_text_size_inc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_btn_text_size_inc"
+                android:textStyle="bold" 
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/btn_text_size_dec1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/ic_btn_text_size_dec"
+                android:visibility="gone"
+                android:textStyle="bold" />
+            <!-- <LinearLayout -->
+            <!-- android:orientation="horizontal" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- > -->
+            <!-- <TextView -->
+            <!-- android:id="@+id/tv_bigger" -->
+            <!-- android:text="A+	" -->
+            <!-- android:textColor="#B3A7A7" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- /> -->
+            <!-- <TextView -->
+            <!-- android:id="@+id/tv_smaller" -->
+            <!-- android:text="A-	" -->
+            <!-- android:textColor="#B3A7A7" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- /> -->
+            <!-- </LinearLayout> -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#B3A7A7" />
+
+    <!-- <Gallery -->
+    <!-- android:id="@+id/gv_imgs" -->
+    <!-- android:layout_gravity="center_horizontal" -->
+    <!-- android:spacing="2px" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="2dp" -->
+    <!-- android:layout_marginBottom="2dp" -->
+    <!-- /> -->
+
+    <WebView
+        android:id="@+id/wv_detailcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- <RelativeLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:padding="10dp"> -->
+    <!-- <TextView -->
+    <!-- android:textSize="12.0sp" -->
+    <!-- android:id="@+id/message_view" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- /> -->
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:id="@+id/icon" /> -->
+    <!-- </RelativeLayout> -->
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:visibility="gone"
+         />
+
+</LinearLayout>

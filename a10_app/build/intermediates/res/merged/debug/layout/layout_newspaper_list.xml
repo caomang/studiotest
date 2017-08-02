@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" ><!-- android:background="@drawable/newspaper_top" -->
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            android:background="@drawable/top_title_back" />
+
+        <cn.sbx.deeper.moblie.util.MyHorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.0"
+            android:fadingEdge=""
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:scrollbars="none" >
+
+            <RadioGroup
+                android:id="@+id/rg_group_types"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </RadioGroup>
+        </cn.sbx.deeper.moblie.util.MyHorizontalScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_newspaperlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/horizontalScrollView"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/littleGray"
+            android:dividerHeight="1px"
+            android:fadingEdge="none" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

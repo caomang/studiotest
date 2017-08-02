@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mobile_title_height"
+    android:background="@drawable/top_bg_new"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dp" >
+
+    <Button
+        android:id="@+id/bt_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"
+        android:visibility="gone" >
+    </Button>
+
+        <Button
+        android:id="@+id/btn_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/top_title_back_white"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="会议资料"
+        android:textColor="#FFFFE0"
+        android:textSize="22sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/bt_right_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/btn_submit"
+        android:visibility="gone" >
+    </Button>
+
+    <Button
+        android:id="@+id/bt_right"
+        style="@style/style_approve_title_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/btn_next_new"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="7dp"
+        android:textColor="#FFFFEF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:paddingRight="3dp" >
+
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_refresh"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

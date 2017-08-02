@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_second"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="备注"
+            android:textColor="#3773c0"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <EditText
+            android:id="@+id/beizhu_edit"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="7.2"
+            android:hint="请输入备注..."
+            android:numeric="integer"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="实际处理日期"
+            android:textColor="#3773c0"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <TextView
+            android:id="@+id/sjcl_date"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="7.2"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="到达时间"
+            android:textColor="#3773c0"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <TextView
+            android:id="@+id/daoda_time"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="7.2"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/daoda_time1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="完成时间"
+            android:textColor="#3773c0"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <EditText
+            android:id="@+id/wanchengshijian_edit"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="7.2"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="拍照"
+            android:textColor="#3773c0"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.2" >
+
+            <cn.sbx.deeper.moblie.view.MyGridView
+                android:id="@+id/photo_GridView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="100dp"
+                android:drawSelectorOnTop="true"
+                android:gravity="center_horizontal"
+                android:horizontalSpacing="5dip"
+                android:listSelector="@drawable/gv_item_mo_forground"
+                android:numColumns="2"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:scrollbars="none"
+                android:verticalSpacing="10dip" >
+            </cn.sbx.deeper.moblie.view.MyGridView>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp" >
+
+                <Button
+                    android:id="@+id/btn_take_photo"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/polling_btn_style"
+                    android:text="拍照"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/polling_fontsize" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="录音"
+            android:textColor="#3773c0"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.2" >
+
+            <cn.sbx.deeper.moblie.view.MyGridView
+                android:id="@+id/audio_GridView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="100dp"
+                android:drawSelectorOnTop="true"
+                android:gravity="center_horizontal"
+                android:horizontalSpacing="5dip"
+                android:listSelector="@drawable/gv_item_mo_forground"
+                android:numColumns="2"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:scrollbars="none"
+                android:verticalSpacing="10dip" >
+            </cn.sbx.deeper.moblie.view.MyGridView>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp" >
+
+                <Button
+                    android:id="@+id/btn_take_audio"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/polling_btn_style"
+                    android:text="录音"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/polling_fontsize" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+</LinearLayout>

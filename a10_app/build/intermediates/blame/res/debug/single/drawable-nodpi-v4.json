@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\spinner_inner.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-nodpi\\spinner_inner.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\login_loginbtn.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-nodpi\\login_loginbtn.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\ic_snow_flake.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-nodpi\\ic_snow_flake.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\spinner_outer.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-nodpi\\spinner_outer.png"
+    }
+]

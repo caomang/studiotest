@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_user_phone_info_layout"
+            android:text="客户编号" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <TextView
+            android:id="@+id/tv_client_num_aj"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="aaaaaa"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_user_phone_info_layout"
+            android:text="客户名称" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <TextView
+            android:id="@+id/tv_client_name_aj"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="45dp" -->
+<!--         android:layout_weight="1" -->
+<!--         android:gravity="center" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <TextView -->
+<!--             style="@style/approve_detail_user_phone_info_layout" -->
+<!--             android:text="客户类型" /> -->
+
+<!--         <include layout="@layout/layout_approve_detail_vertial_line" /> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/tv_client_style_aj" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginLeft="10dp" -->
+<!--             android:text="010-61669197" -->
+<!--             android:textColor="@color/black" -->
+<!--             android:textSize="16sp" /> -->
+<!--     </LinearLayout> -->
+
+<!--     <include layout="@layout/layout_approve_detail_horizontal_line" /> -->
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="45dp" -->
+<!--         android:layout_weight="1" -->
+<!--         android:gravity="center" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <TextView -->
+<!--             style="@style/approve_detail_user_phone_info_layout" -->
+<!--             android:text="客户类型描述" /> -->
+
+<!--         <include layout="@layout/layout_approve_detail_vertial_line" /> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/tv_client_style_des_aj" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginLeft="10dp" -->
+<!--             android:text="323" -->
+<!--             android:textColor="@color/black" -->
+<!--             android:textSize="16sp" /> -->
+<!--     </LinearLayout> -->
+
+<!--     <include layout="@layout/layout_approve_detail_horizontal_line" /> -->
+
+
+    <!-- 存放电话布局 -->
+
+    <LinearLayout
+        android:id="@+id/ll_phoneContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+    </LinearLayout>
+
+    <!-- listView显示电话 -->
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" >
+
+    </ListView>
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <Button
+        android:id="@+id/bt_add_newphone_aj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="添加电话"
+        android:textSize="18sp" />
+
+</LinearLayout>

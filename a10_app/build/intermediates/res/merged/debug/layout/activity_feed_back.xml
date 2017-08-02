@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    /* tools:context=".TijiaoActivity"
+    xmlns:tools="http://schemas.android.com/tools"*/
+
+    <include layout="@layout/layout_bottom_menu_title" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="我的反馈: "
+        android:textColor="@color/Gray"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/fankui_text"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@color/b_gray"
+        android:gravity="top|left"
+        android:hint="请输入反馈内容(不超过200字)"
+        android:maxLength="200"
+        android:padding="3dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/fankui_tijiao"
+        style="@style/style_approve_title_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rt_text_nomarl"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text=" 提  交 "
+        android:textSize="16sp" />
+
+</LinearLayout>

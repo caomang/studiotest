@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bottom_title"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:background="@drawable/top_bg_new"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/bt_back"
+        style="@style/style_approve_title_next"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/caozuo1"
+        android:gravity="center"
+        android:text="返回" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/style_approve_tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="60dp"
+        android:ellipsize="end"
+        android:text="服务评价信息"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/style_approve_title_next"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/caozuo2"
+        android:gravity="center"
+        android:text="保存" />
+
+
+</RelativeLayout>

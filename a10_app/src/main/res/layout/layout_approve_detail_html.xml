@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mobile_title_height"
+        android:background="@color/b_gray"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!-- <ImageView -->
+            <!-- android:id="@+id/web_iv_back" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_marginBottom="10dp" -->
+            <!-- android:layout_marginLeft="10dp" -->
+            <!-- android:layout_marginTop="10dp" -->
+            <!-- android:layout_weight="0" -->
+            <!-- android:background="@drawable/doc_iv_back" /> -->
+
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/web_tv_back" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:text=" 返回" -->
+            <!-- android:textSize="18sp" -->
+            <!-- android:textColor="@color/schedules_operate_btn_textcolor" /> -->
+
+            <CheckBox
+                android:id="@+id/cb_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:drawableLeft="@drawable/approve_back"
+                android:text=" 返回"
+                android:textColor="#3773c0"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:max="100"
+        android:visibility="visible" />
+
+    <WebView
+        android:id="@+id/wv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

@@ -1,0 +1,1741 @@
+﻿{
+    "soapenv:Envelope": {
+        "@xmlns:soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+        "soapenv:Body": {
+            "CM_H_DataDic": {
+                "@faultStyle": "wsdl",
+                "output": [
+                    {
+                        "cmMrCommInfo": [
+                            {
+                                "cmMrComm": [
+                                    {
+                                        "cmMrCommCd": "10",
+                                        "cmMrCommDescr": "非常满意"
+                                    },
+                                    {
+                                        "cmMrCommCd": "20",
+                                        "cmMrCommDescr": "满意"
+                                    },
+                                    {
+                                        "cmMrCommCd": "30",
+                                        "cmMrCommDescr": "一般"
+                                    },
+                                    {
+                                        "cmMrCommCd": "40",
+                                        "cmMrCommDescr": "不满意"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScAjrhInfo": [
+                            {
+                                "cmScAjrh": [
+                                    {
+                                        "cmScAjrh": "DFBY",
+                                        "cmScAjrhDescr": "到访不遇"
+                                    },
+                                    {
+                                        "cmScAjrh": "JJRN",
+                                        "cmScAjrhDescr": "拒绝入内"
+                                    },
+                                    {
+                                        "cmScAjrh": "ZCRH",
+                                        "cmScAjrhDescr": "正常入户"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScBusiTypeInfo": [
+                            {
+                                "cmScBusiType": [
+                                    {
+                                        "cmScBusiType": "PIC",
+                                        "cmScBusiTypeDescr": "安检照片"
+                                    },
+                                    {
+                                        "cmScBusiType": "SIG",
+                                        "cmScBusiTypeDescr": "电子签名"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScCnlPffsInfo": [
+                            {
+                                "cmScCnlPffs": [
+                                    {
+                                        "cmScCnlPffs": "BALANCE",
+                                        "cmScCnlPffsDescr": "平衡式"
+                                    },
+                                    {
+                                        "cmScCnlPffs": "FLUE",
+                                        "cmScCnlPffsDescr": "烟道式"
+                                    },
+                                    {
+                                        "cmScCnlPffs": "SLET",
+                                        "cmScCnlPffsDescr": "强排式"
+                                    },
+                                    {
+                                        "cmScCnlPffs": "VLET",
+                                        "cmScCnlPffsDescr": "直排式"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScLgfmCzInfo": [
+                            {
+                                "cmScLgfmCz": [
+                                    {
+                                        "cmScLgfmCz": "BRASS",
+                                        "cmScLgfmCzDescr": "铜球阀"
+                                    },
+                                    {
+                                        "cmScLgfmCz": "STEEL",
+                                        "cmScLgfmCzDescr": "钢球阀"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScLgfmWzInfo": [
+                            {
+                                "cmScLgfmWz": [
+                                    {
+                                        "cmScLgfmWz": "IN",
+                                        "cmScLgfmWzDescr": "室内"
+                                    },
+                                    {
+                                        "cmScLgfmWz": "OUT",
+                                        "cmScLgfmWzDescr": "户外"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScLjgCzInfo": [
+                            {
+                                "mScLjgCz": [
+                                    {
+                                        "cmScLjgCz": "METAL",
+                                        "cmScLjgCzDescr": "金属管"
+                                    },
+                                    {
+                                        "cmScLjgCz": "OTHERS",
+                                        "cmScLjgCzDescr": "其他"
+                                    },
+                                    {
+                                        "cmScLjgCz": "PLASTIC",
+                                        "cmScLjgCzDescr": "塑料管"
+                                    },
+                                    {
+                                        "cmScLjgCz": "RUBBER",
+                                        "cmScLjgCzDescr": "橡胶耐油管"
+                                    },
+                                    {
+                                        "cmScLjgCz": "UNFIXED",
+                                        "cmScLjgCzDescr": "氧气管"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScResTypeInfo": [
+                            {
+                                "cmScResType": [
+                                    {
+                                        "cmScResType": "QZ",
+                                        "cmScResTypeDescr": "群租"
+                                    },
+                                    {
+                                        "cmScResType": "ZL",
+                                        "cmScResTypeDescr": "租赁"
+                                    },
+                                    {
+                                        "cmScResType": "ZZ",
+                                        "cmScResTypeDescr": "自住"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScRsqPffsInfo": [
+                            {
+                                "cmScRsqPffs": [
+                                    {
+                                        "cmScRsqPffs": "BALANCE",
+                                        "cmScRsqPffsDescr": "平衡式"
+                                    },
+                                    {
+                                        "cmScRsqPffs": "FLUE",
+                                        "cmScRsqPffsDescr": "烟道式"
+                                    },
+                                    {
+                                        "cmScRsqPffs": "SLET",
+                                        "cmScRsqPffsDescr": "强排式"
+                                    },
+                                    {
+                                        "cmScRsqPffs": "VLET",
+                                        "cmScRsqPffsDescr": "直排式"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScShTypeInfo": [
+                            {
+                                "cmScShType": [
+                                    {
+                                        "cmScShItemInfo": [
+                                            {
+                                                "cmScShItem": [
+                                                    {
+                                                        "cmScShItem": "BGFZ",
+                                                        "cmScShItemDescr": "包裹封装",
+                                                        "sequence": "1"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "LGSD",
+                                                        "cmScShItemDescr": "立管松动",
+                                                        "sequence": "10"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "YSTG",
+                                                        "cmScShItemDescr": "颜色涂改",
+                                                        "sequence": "11"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "TQ",
+                                                        "cmScShItemDescr": "脱漆",
+                                                        "sequence": "12"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CK",
+                                                        "cmScShItemDescr": "穿孔",
+                                                        "sequence": "13"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BDAQJJ",
+                                                        "cmScShItemDescr": "与电气设施达不到安全间距",
+                                                        "sequence": "14"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "WAQJJ",
+                                                        "cmScShItemDescr": "与火源无安全距离",
+                                                        "sequence": "15"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "AM",
+                                                        "cmScShItemDescr": "暗埋",
+                                                        "sequence": "2"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DGZW",
+                                                        "cmScShItemDescr": "搭挂重物",
+                                                        "sequence": "3"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "LGQWXS",
+                                                        "cmScShItemDescr": "立管轻微锈蚀",
+                                                        "sequence": "4"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "LGYZXS",
+                                                        "cmScShItemDescr": "立管严重锈蚀",
+                                                        "sequence": "5"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "LGLQ",
+                                                        "cmScShItemDescr": "立管漏气",
+                                                        "sequence": "6"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DXXL",
+                                                        "cmScShItemDescr": "与电器接地线相连",
+                                                        "sequence": "7"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "SG",
+                                                        "cmScShItemDescr": "私改",
+                                                        "sequence": "8"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CR",
+                                                        "cmScShItemDescr": "缠绕",
+                                                        "sequence": "9"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "cmScShType": "LG",
+                                        "cmScShTypeDescr": "立管",
+                                        "sequence": "1"
+                                    },
+                                    {
+                                        "cmScShItemInfo": [
+                                            {
+                                                "cmScShItem": [
+                                                    {
+                                                        "cmScShItem": "WZJ",
+                                                        "cmScShItemDescr": "无支架",
+                                                        "sequence": "1"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "JDXXL",
+                                                        "cmScShItemDescr": "与电器接地线相连",
+                                                        "sequence": "10"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "SG",
+                                                        "cmScShItemDescr": "私改",
+                                                        "sequence": "11"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZGSD",
+                                                        "cmScShItemDescr": "支管松动",
+                                                        "sequence": "12"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CK",
+                                                        "cmScShItemDescr": "穿孔",
+                                                        "sequence": "13"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "TQ",
+                                                        "cmScShItemDescr": "脱漆",
+                                                        "sequence": "14"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "YSTG",
+                                                        "cmScShItemDescr": "颜色涂改",
+                                                        "sequence": "15"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "WAQJL",
+                                                        "cmScShItemDescr": "与火源无安全距离",
+                                                        "sequence": "16"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZJSD",
+                                                        "cmScShItemDescr": "支架松动",
+                                                        "sequence": "2"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZGLQ",
+                                                        "cmScShItemDescr": "支管漏气",
+                                                        "sequence": "3"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BGFZ",
+                                                        "cmScShItemDescr": "包裹封装",
+                                                        "sequence": "4"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "AM",
+                                                        "cmScShItemDescr": "暗埋",
+                                                        "sequence": "5"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BDAQJJ",
+                                                        "cmScShItemDescr": "与电气设施达不到安全间距",
+                                                        "sequence": "6"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZGQWXS",
+                                                        "cmScShItemDescr": "支管轻微锈蚀",
+                                                        "sequence": "7"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZGYZXS",
+                                                        "cmScShItemDescr": "支管严重锈蚀",
+                                                        "sequence": "8"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CR",
+                                                        "cmScShItemDescr": "缠绕",
+                                                        "sequence": "9"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "cmScShType": "ZG",
+                                        "cmScShTypeDescr": "支管",
+                                        "sequence": "2"
+                                    },
+                                    {
+                                        "cmScShItemInfo": [
+                                            {
+                                                "cmScShItem": [
+                                                    {
+                                                        "cmScShItem": "CYSZF",
+                                                        "cmScShItemDescr": "灶前阀门采用双嘴阀",
+                                                        "sequence": "1"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZQFMNL",
+                                                        "cmScShItemDescr": "灶前阀门内漏",
+                                                        "sequence": "2"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZQBNQB",
+                                                        "cmScShItemDescr": "灶前阀门不能启闭",
+                                                        "sequence": "3"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "LGBNQB",
+                                                        "cmScShItemDescr": "立管阀门不能启闭",
+                                                        "sequence": "4"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "LGFMNL",
+                                                        "cmScShItemDescr": "立管阀门内漏",
+                                                        "sequence": "5"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BQFMNL",
+                                                        "cmScShItemDescr": "表前阀门内漏",
+                                                        "sequence": "6"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CR",
+                                                        "cmScShItemDescr": "缠绕",
+                                                        "sequence": "7"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "cmScShType": "FM",
+                                        "cmScShTypeDescr": "阀门",
+                                        "sequence": "3"
+                                    },
+                                    {
+                                        "cmScShItemInfo": [
+                                            {
+                                                "cmScShItem": [
+                                                    {
+                                                        "cmScShItem": "BZT",
+                                                        "cmScShItemDescr": "表直通",
+                                                        "sequence": "1"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BXYQBF",
+                                                        "cmScShItemDescr": "表显与实际用气不相符",
+                                                        "sequence": "10"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "GWBDWB",
+                                                        "cmScShItemDescr": "高位表改低位表",
+                                                        "sequence": "11"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "TSZR",
+                                                        "cmScShItemDescr": "同室住人",
+                                                        "sequence": "12"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DDBFNX",
+                                                        "cmScShItemDescr": "达到报废年限",
+                                                        "sequence": "13"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BJQX",
+                                                        "cmScShItemDescr": "表具倾斜",
+                                                        "sequence": "14"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BDBS",
+                                                        "cmScShItemDescr": "表底不实",
+                                                        "sequence": "15"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "WGSS",
+                                                        "cmScShItemDescr": "外观损伤",
+                                                        "sequence": "16"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BZWJL",
+                                                        "cmScShItemDescr": "表与灶具无安全距离",
+                                                        "sequence": "17"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BLWJL",
+                                                        "cmScShItemDescr": "表与采暖炉无安全距离",
+                                                        "sequence": "18"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BSQWJL",
+                                                        "cmScShItemDescr": "表与热水器无安全距离",
+                                                        "sequence": "19"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BLQ",
+                                                        "cmScShItemDescr": "表漏气",
+                                                        "sequence": "2"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DCFYC",
+                                                        "cmScShItemDescr": "电磁阀运行异常",
+                                                        "sequence": "20"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "TFBHYQ",
+                                                        "cmScShItemDescr": "通风条件不符合要求",
+                                                        "sequence": "21"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZLSH",
+                                                        "cmScShItemDescr": "字轮损坏",
+                                                        "sequence": "22"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "MPSH",
+                                                        "cmScShItemDescr": "铭牌损坏",
+                                                        "sequence": "23"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "QFSH",
+                                                        "cmScShItemDescr": "铅封损坏",
+                                                        "sequence": "24"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "WZXS",
+                                                        "cmScShItemDescr": "外罩锈蚀",
+                                                        "sequence": "25"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BJTLQ",
+                                                        "cmScShItemDescr": "表接头漏气",
+                                                        "sequence": "3"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "FZ",
+                                                        "cmScShItemDescr": "反装",
+                                                        "sequence": "4"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BDTHXS",
+                                                        "cmScShItemDescr": "表电池负极边弹簧锈蚀",
+                                                        "sequence": "5"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DQBDJJ",
+                                                        "cmScShItemDescr": "与电气设施达不到安全间距",
+                                                        "sequence": "6"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BQWJN",
+                                                        "cmScShItemDescr": "表所在位置其他气味较浓",
+                                                        "sequence": "7"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BGFZ",
+                                                        "cmScShItemDescr": "包裹封装",
+                                                        "sequence": "8"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CR",
+                                                        "cmScShItemDescr": "缠绕",
+                                                        "sequence": "9"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "cmScShType": "BJ",
+                                        "cmScShTypeDescr": "表具",
+                                        "sequence": "4"
+                                    },
+                                    {
+                                        "cmScShItemInfo": [
+                                            {
+                                                "cmScShItem": [
+                                                    {
+                                                        "cmScShItem": "RGLH",
+                                                        "cmScShItemDescr": "软管老化",
+                                                        "sequence": "1"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "AZ",
+                                                        "cmScShItemDescr": "暗装",
+                                                        "sequence": "10"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "RGCZJ",
+                                                        "cmScShItemDescr": "不锈钢波纹软管成直角",
+                                                        "sequence": "11"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "RGLCSD",
+                                                        "cmScShItemDescr": "软管连接处松动",
+                                                        "sequence": "12"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "FZYRG",
+                                                        "cmScShItemDescr": "非专用软管",
+                                                        "sequence": "13"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "RGCC",
+                                                        "cmScShItemDescr": "软管超长",
+                                                        "sequence": "2"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "RGBKG",
+                                                        "cmScShItemDescr": "软管无卡箍",
+                                                        "sequence": "3"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "RGCQ",
+                                                        "cmScShItemDescr": "软管穿墙",
+                                                        "sequence": "4"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "RGRFS",
+                                                        "cmScShItemDescr": "软管热辐射",
+                                                        "sequence": "5"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "RGJST",
+                                                        "cmScShItemDescr": "软管间有三通",
+                                                        "sequence": "6"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZJWAQJ",
+                                                        "cmScShItemDescr": "与周围燃具无安全距离",
+                                                        "sequence": "7"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "RGLQ",
+                                                        "cmScShItemDescr": "软管漏气",
+                                                        "sequence": "8"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CR",
+                                                        "cmScShItemDescr": "缠绕",
+                                                        "sequence": "9"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "cmScShType": "LJG",
+                                        "cmScShTypeDescr": "灶具连接管",
+                                        "sequence": "5"
+                                    },
+                                    {
+                                        "cmScShItemInfo": [
+                                            {
+                                                "cmScShItem": [
+                                                    {
+                                                        "cmScShItem": "SH",
+                                                        "cmScShItemDescr": "损坏",
+                                                        "sequence": "1"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "HYHS",
+                                                        "cmScShItemDescr": "火焰红色",
+                                                        "sequence": "10"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DYWJJ",
+                                                        "cmScShItemDescr": "与其他热源无安全距离",
+                                                        "sequence": "11"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "JJWJJ",
+                                                        "cmScShItemDescr": "与木质家具无安全距离",
+                                                        "sequence": "12"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "YWYZ",
+                                                        "cmScShItemDescr": "油污严重",
+                                                        "sequence": "2"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "WXHBH",
+                                                        "cmScShItemDescr": "无熄火保护",
+                                                        "sequence": "3"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DYWJL",
+                                                        "cmScShItemDescr": "与电源无安全距离",
+                                                        "sequence": "4"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZJLQ",
+                                                        "cmScShItemDescr": "灶具漏气",
+                                                        "sequence": "5"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DDBFNX",
+                                                        "cmScShItemDescr": "达到报废年限",
+                                                        "sequence": "6"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "TSZR",
+                                                        "cmScShItemDescr": "同室住人",
+                                                        "sequence": "7"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "TFBHYQ",
+                                                        "cmScShItemDescr": "通风条件不符合要求",
+                                                        "sequence": "8"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CR",
+                                                        "cmScShItemDescr": "缠绕",
+                                                        "sequence": "9"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "cmScShType": "ZJ",
+                                        "cmScShTypeDescr": "灶具",
+                                        "sequence": "6"
+                                    },
+                                    {
+                                        "cmScShItemInfo": [
+                                            {
+                                                "cmScShItem": [
+                                                    {
+                                                        "cmScShItem": "LJBHG",
+                                                        "cmScShItemDescr": "连接不合格",
+                                                        "sequence": "1"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZZWSJ",
+                                                        "cmScShItemDescr": "装在卫生间",
+                                                        "sequence": "10"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZZXYJ",
+                                                        "cmScShItemDescr": "装在洗浴间",
+                                                        "sequence": "11"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "YYDWJL",
+                                                        "cmScShItemDescr": "与烟道无安全距离",
+                                                        "sequence": "12"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "YJJWJL",
+                                                        "cmScShItemDescr": "与木质家具无安全距离",
+                                                        "sequence": "13"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "TFBHYQ",
+                                                        "cmScShItemDescr": "通风条件不符合要求",
+                                                        "sequence": "14"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "HSHY",
+                                                        "cmScShItemDescr": "火焰黄色",
+                                                        "sequence": "15"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "HYHS",
+                                                        "cmScShItemDescr": "火焰红色",
+                                                        "sequence": "16"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "LJJTLQ",
+                                                        "cmScShItemDescr": "连接接头漏气",
+                                                        "sequence": "2"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "YDWDSW",
+                                                        "cmScShItemDescr": "烟道未伸到室外",
+                                                        "sequence": "3"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DDBFNX",
+                                                        "cmScShItemDescr": "达到报废年限",
+                                                        "sequence": "4"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CCSYNX",
+                                                        "cmScShItemDescr": "超出使用年限",
+                                                        "sequence": "5"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BGFZ",
+                                                        "cmScShItemDescr": "包裹封装",
+                                                        "sequence": "6"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CNLLQ",
+                                                        "cmScShItemDescr": "采暖炉漏气",
+                                                        "sequence": "7"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "SH",
+                                                        "cmScShItemDescr": "损坏",
+                                                        "sequence": "8"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CR",
+                                                        "cmScShItemDescr": "缠绕",
+                                                        "sequence": "9"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "cmScShType": "CNL",
+                                        "cmScShTypeDescr": "采暖炉",
+                                        "sequence": "7"
+                                    },
+                                    {
+                                        "cmScShItemInfo": [
+                                            {
+                                                "cmScShItem": [
+                                                    {
+                                                        "cmScShItem": "LJBHG",
+                                                        "cmScShItemDescr": "连接不合格",
+                                                        "sequence": "1"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZZWSJ",
+                                                        "cmScShItemDescr": "装在卫生间",
+                                                        "sequence": "10"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZZXYJ",
+                                                        "cmScShItemDescr": "装在洗浴间",
+                                                        "sequence": "11"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "YYDWJL",
+                                                        "cmScShItemDescr": "与烟道无安全距离",
+                                                        "sequence": "12"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "YJJWJL",
+                                                        "cmScShItemDescr": "与木质家具无安全距离",
+                                                        "sequence": "13"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "TFBHYQ",
+                                                        "cmScShItemDescr": "通风条件不符合要求",
+                                                        "sequence": "14"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "HSHY",
+                                                        "cmScShItemDescr": "火焰黄色",
+                                                        "sequence": "15"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "HYHS",
+                                                        "cmScShItemDescr": "火焰红色",
+                                                        "sequence": "16"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "LJTLQ",
+                                                        "cmScShItemDescr": "连接接头漏气",
+                                                        "sequence": "17"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CCSYNX",
+                                                        "cmScShItemDescr": "超出使用年限",
+                                                        "sequence": "2"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "YDWSDW",
+                                                        "cmScShItemDescr": "烟道未伸到室外",
+                                                        "sequence": "3"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BGFZ",
+                                                        "cmScShItemDescr": "包裹封装",
+                                                        "sequence": "4"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DDBFNX",
+                                                        "cmScShItemDescr": "达到报废年限",
+                                                        "sequence": "5"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "ZPSRSQ",
+                                                        "cmScShItemDescr": "直排式热水器",
+                                                        "sequence": "6"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "RSQLQ",
+                                                        "cmScShItemDescr": "热水器漏气",
+                                                        "sequence": "7"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "SH",
+                                                        "cmScShItemDescr": "损坏",
+                                                        "sequence": "8"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CR",
+                                                        "cmScShItemDescr": "缠绕",
+                                                        "sequence": "9"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "cmScShType": "RSQ",
+                                        "cmScShTypeDescr": "热水器",
+                                        "sequence": "8"
+                                    },
+                                    {
+                                        "cmScShItemInfo": [
+                                            {
+                                                "cmScShItem": [
+                                                    {
+                                                        "cmScShItem": "CFTY",
+                                                        "cmScShItemDescr": "厨房他用",
+                                                        "sequence": "1"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "BG",
+                                                        "cmScShItemDescr": "包裹",
+                                                        "sequence": "10"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "SCSJSS",
+                                                        "cmScShItemDescr": "私拆、私接燃气设施",
+                                                        "sequence": "2"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "DRLGY",
+                                                        "cmScShItemDescr": "多种燃料共用",
+                                                        "sequence": "3"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "FJDZW",
+                                                        "cmScShItemDescr": "燃气设施房间堆放杂物",
+                                                        "sequence": "4"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "FJDYBW",
+                                                        "cmScShItemDescr": "燃气设施房间堆放易燃易爆物",
+                                                        "sequence": "5"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "FJDFSP",
+                                                        "cmScShItemDescr": "燃气设施房间堆放腐蚀性物品",
+                                                        "sequence": "6"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "WTJSBZ",
+                                                        "cmScShItemDescr": "未张贴警示标志",
+                                                        "sequence": "7"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "TQDQ",
+                                                        "cmScShItemDescr": "偷气盗气",
+                                                        "sequence": "8"
+                                                    },
+                                                    {
+                                                        "cmScShItem": "CR",
+                                                        "cmScShItemDescr": "缠绕",
+                                                        "sequence": "9"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "cmScShType": "QT",
+                                        "cmScShTypeDescr": "其它",
+                                        "sequence": "9"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScSpItemInfo": [
+                            {
+                                "cmScSpItem": [
+                                    {
+                                        "cmScSpItem": "10",
+                                        "cmScSpItemDescr": "燃气安全常识"
+                                    },
+                                    {
+                                        "cmScSpItem": "20",
+                                        "cmScSpItemDescr": "安全法规资料发放"
+                                    },
+                                    {
+                                        "cmScSpItem": "30",
+                                        "cmScSpItemDescr": "安全宣传资料发放"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScTypeInfo": [
+                            {
+                                "cmScheType": [
+                                    {
+                                        "cmScTypeCd": "RG",
+                                        "cmScTypeDescr": "常规计划安检"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScUserTypeInfo": [
+                            {
+                                "cmScUserType": [
+                                    {
+                                        "cmScUserType": "BXX",
+                                        "cmScUserTypeDescr": "半行为能力"
+                                    },
+                                    {
+                                        "cmScUserType": "CJ",
+                                        "cmScUserTypeDescr": "残疾"
+                                    },
+                                    {
+                                        "cmScUserType": "GG",
+                                        "cmScUserTypeDescr": "孤寡"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScYhzgInfo": [
+                            {
+                                "cmScYhzg": [
+                                    {
+                                        "cmScYhzg": "N",
+                                        "cmScYhzgDescr": "未整改"
+                                    },
+                                    {
+                                        "cmScYhzg": "Y",
+                                        "cmScYhzgDescr": "已整改"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScZjXhbhInfo": [
+                            {
+                                "cmScZjXhbh": [
+                                    {
+                                        "cmScZjXhbh": "N",
+                                        "cmScZjXhbhDescr": "无"
+                                    },
+                                    {
+                                        "cmScZjXhbh": "Y",
+                                        "cmScZjXhbhDescr": "有"
+                                    }
+                                ]
+                            }
+                        ],
+                        "cmScZjYsInfo": [
+                            {
+                                "cmScZjYs": [
+                                    {
+                                        "cmScZjYs": "INSET",
+                                        "cmScZjYsDescr": "嵌入"
+                                    },
+                                    {
+                                        "cmScZjYs": "TABLE",
+                                        "cmScZjYsDescr": "台式"
+                                    }
+                                ]
+                            }
+                        ],
+                        "manufacturerInfo": [
+                            {
+                                "manufacturerList": [
+                                    {
+                                        "manufacturer": "CQQW",
+                                        "manufacturerDescr": "重庆前卫克罗姆表业",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "QKG10",
+                                                        "modelDescr": "QKG10膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "QKG65",
+                                                        "modelDescr": "QKG65膜式燃气表"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "CQSC",
+                                        "manufacturerDescr": "重庆山城燃气设备有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "G25",
+                                                        "modelDescr": "G25膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "G40",
+                                                        "modelDescr": "G40膜式燃气表"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "DDRG",
+                                        "manufacturerDescr": "丹东热工仪表有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "丹东热工IC卡"
+                                                    },
+                                                    {
+                                                        "model": "LMN-6",
+                                                        "modelDescr": "LMN-6膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "LMN-10",
+                                                        "modelDescr": "LMN-10膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "LMN-16",
+                                                        "modelDescr": "LMN-16膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "LMN-25",
+                                                        "modelDescr": "LMN-25膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "LMN-40",
+                                                        "modelDescr": "LMN-40膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "LMN-65",
+                                                        "modelDescr": "LMN-65膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-25",
+                                                        "modelDescr": "LWQ-25气体智能涡轮流量计"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "HZXF",
+                                        "manufacturerDescr": "杭州先锋电子技术有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CGL-G2.5",
+                                                        "modelDescr": "CGL-G2.5膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "杭州先锋IC卡"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "JSZW",
+                                        "manufacturerDescr": "江苏中威智能设备有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CG-G2.5",
+                                                        "modelDescr": "CG-G2.5膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "GPM1",
+                                                        "modelDescr": "模块表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "江苏中威IC卡"
+                                                    },
+                                                    {
+                                                        "model": "JW-1.6",
+                                                        "modelDescr": "JW-1.6膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "JW-2.5",
+                                                        "modelDescr": "JW-2.5膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "JW-4",
+                                                        "modelDescr": "JW-4膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "JW-6",
+                                                        "modelDescr": "JW-6膜式燃气表"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "LFXO",
+                                        "manufacturerDescr": "廊坊新奥燃气设备有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CGL1.6",
+                                                        "modelDescr": "CGL1.6 IC卡家用膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "CGL2.5",
+                                                        "modelDescr": "CGL2.5 IC卡家用膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "CGL4.0",
+                                                        "modelDescr": "CGL4.0 IC卡家用膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "CGL6.0",
+                                                        "modelDescr": "CGL6.0 IC卡家用膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "G10",
+                                                        "modelDescr": "G10 工商业用IC卡膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "G16",
+                                                        "modelDescr": "G16 工商业用IC卡膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "G25",
+                                                        "modelDescr": "G25 工商业用IC卡膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "G40",
+                                                        "modelDescr": "G40 工商业用IC卡膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "G65",
+                                                        "modelDescr": "G65 工商业用IC卡膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "廊坊新奥IC卡"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "NBPS",
+                                        "manufacturerDescr": "宁波鹏盛科技发展有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CG",
+                                                        "modelDescr": "IC卡燃气表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "宁波鹏盛IC卡"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "NBTJ",
+                                        "manufacturerDescr": "宁波创盛、天津远泰联合制造",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CQ-100L",
+                                                        "modelDescr": "CQ-100L气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-100D",
+                                                        "modelDescr": "LLQ-100D气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-150D",
+                                                        "modelDescr": "LLQ-150D气体智能罗茨流量计"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "NBTX",
+                                        "manufacturerDescr": "宁波天鑫仪表有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CGL-G2.5",
+                                                        "modelDescr": "CGL-G2.5膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "CQ-50M",
+                                                        "modelDescr": "CQ-50M气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "CQ-80M",
+                                                        "modelDescr": "CQ-80M气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "宁波天鑫IC卡"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "NBTY",
+                                        "manufacturerDescr": "宁波市天源电子仪表有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CG",
+                                                        "modelDescr": "IC卡燃气表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "宁波天源IC卡"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "NJZY",
+                                        "manufacturerDescr": "南京中元燃气仪表厂",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CGL-G2.5",
+                                                        "modelDescr": "CGL-G2.5膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "CG-L-G6",
+                                                        "modelDescr": "CG-L-G6膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "CG-L-G10",
+                                                        "modelDescr": "CG-L-G10膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "CG-L-G40",
+                                                        "modelDescr": "CG-L-G40膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "南京中元IC卡"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "SHAE",
+                                        "manufacturerDescr": "上海埃尔斯特、爱默科",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "Q1000",
+                                                        "modelDescr": "Q1000气体涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "TRZ2",
+                                                        "modelDescr": "TRZ2气体涡轮流量计"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "SHLT",
+                                        "manufacturerDescr": "上海罗托克自动化仪表有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "LLQ-80A",
+                                                        "modelDescr": "LLQ-80A气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-100",
+                                                        "modelDescr": "LLQ-100气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "QWL-100",
+                                                        "modelDescr": "QWL-100气体涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "QWLJ-080",
+                                                        "modelDescr": "QWLJ-080气体智能涡轮流量计"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "SXHT",
+                                        "manufacturerDescr": "陕西航天动力高科技有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CGL-G2.5",
+                                                        "modelDescr": "QWLJ-080膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "陕西航天IC卡"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "TJXK",
+                                        "manufacturerDescr": "天津新科成套仪表有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "JLQ-65A",
+                                                        "modelDescr": "JLQ-65A智能气体腰轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "JLQ-100A",
+                                                        "modelDescr": "JLQ-100A智能气体腰轮流量计"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "TXYB",
+                                        "manufacturerDescr": "天信仪表",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "G100",
+                                                        "modelDescr": "G100气体罗茨流量计"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "ZJCN",
+                                        "manufacturerDescr": "浙江苍南仪表厂",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CNI-G100",
+                                                        "modelDescr": "CNI-G100气体罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "浙江苍南IC卡"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-40Z",
+                                                        "modelDescr": "LLQ-40Z气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-50A",
+                                                        "modelDescr": "LLQ-50A气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-50B",
+                                                        "modelDescr": "LLQ-50B气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-80A",
+                                                        "modelDescr": "LLQ-80A气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-80B",
+                                                        "modelDescr": "LLQ-80B气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-81A",
+                                                        "modelDescr": "LLQ-81A气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-100A",
+                                                        "modelDescr": "LLQ-100A气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-100B",
+                                                        "modelDescr": "LLQ-100B气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-402",
+                                                        "modelDescr": "LLQ-402气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQI-50B",
+                                                        "modelDescr": "LLQI-50B气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LLQI-80B",
+                                                        "modelDescr": "LLQI-80B气体智能罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-50A",
+                                                        "modelDescr": "LWQ-50A气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-50B",
+                                                        "modelDescr": "LWQ-50B气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-50C",
+                                                        "modelDescr": "LWQ-50C气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-80B",
+                                                        "modelDescr": "LWQ-80B气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-80C",
+                                                        "modelDescr": "LWQ-80C气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-100C",
+                                                        "modelDescr": "LWQ-100C气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-150",
+                                                        "modelDescr": "LWQ-150气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-150C",
+                                                        "modelDescr": "LWQ-150C气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-200C",
+                                                        "modelDescr": "LWQ-200C气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-250",
+                                                        "modelDescr": "LWQ-250气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQ-250C",
+                                                        "modelDescr": "LWQ-250C气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "LWQD-80L",
+                                                        "modelDescr": "LWQD-80L气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "RM-10-25",
+                                                        "modelDescr": "CNIM-RM-100-G250气体罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "RM-10-40",
+                                                        "modelDescr": "CNIM-RM-100-G400G气体罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "RM-50-65",
+                                                        "modelDescr": "CNiM-RM-50-G65气体罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "RM-100",
+                                                        "modelDescr": "CNIM-RM-80-G100气体罗茨流量计"
+                                                    },
+                                                    {
+                                                        "model": "RM-160",
+                                                        "modelDescr": "CNIM-RM-80-G160气体罗茨流量计"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "ZJCS",
+                                        "manufacturerDescr": "浙江宁波创盛仪表有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CQ-50",
+                                                        "modelDescr": "CQ-50气体智能涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "CQ-80",
+                                                        "modelDescr": "CQ-80气体涡轮流量计"
+                                                    },
+                                                    {
+                                                        "model": "CQ-100",
+                                                        "modelDescr": "CQ-100气体智能涡轮流量计"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "ZJJK",
+                                        "manufacturerDescr": "浙江金卡高科技有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CGL-G2.5",
+                                                        "modelDescr": "CGL-G2.5膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "GPM1",
+                                                        "modelDescr": "模块表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "浙江金卡IC卡"
+                                                    },
+                                                    {
+                                                        "model": "LLQ-80B",
+                                                        "modelDescr": "LLQ-80B气体智能涡轮流量计"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "ZJSC",
+                                        "manufacturerDescr": "浙江松川燃气表具有限公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CGL-G2.5",
+                                                        "modelDescr": "CGL-G2.5膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "浙江松川IC卡"
+                                                    },
+                                                    {
+                                                        "model": "JBD2.5",
+                                                        "modelDescr": "JBD2.5膜式燃气表"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "manufacturer": "ZYLC",
+                                        "manufacturerDescr": "中油龙昌燃气科技公司",
+                                        "modelInfo": [
+                                            {
+                                                "model": [
+                                                    {
+                                                        "model": "CGL-G1.6",
+                                                        "modelDescr": "CGL-G1.6膜式燃气表"
+                                                    },
+                                                    {
+                                                        "model": "IC",
+                                                        "modelDescr": "中油龙昌IC卡"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "meterTypeInfo": [
+                            {
+                                "meterType": [
+                                    {
+                                        "meterType": "MICB",
+                                        "meterTypeDescr": "IC卡表/卡式流量计"
+                                    },
+                                    {
+                                        "meterType": "MJXB",
+                                        "meterTypeDescr": "普表"
+                                    },
+                                    {
+                                        "meterType": "MLLJ",
+                                        "meterTypeDescr": "普通流量计"
+                                    }
+                                ]
+                            }
+                        ],
+                        "phoneTypeInfo": [
+                            {
+                                "phoneType": [
+                                    {
+                                        "phoneType": "BUSN",
+                                        "phoneTypeDescr": "工作电话(9999-99999999)"
+                                    },
+                                    {
+                                        "phoneType": "BUSNPHN",
+                                        "phoneTypeDescr": "工作电话(999-99999999)"
+                                    },
+                                    {
+                                        "phoneType": "CELL",
+                                        "phoneTypeDescr": "手机"
+                                    },
+                                    {
+                                        "phoneType": "HOME",
+                                        "phoneTypeDescr": "住宅电话(9999-99999999)"
+                                    },
+                                    {
+                                        "phoneType": "HOME1",
+                                        "phoneTypeDescr": "电话(9999-9999999)"
+                                    },
+                                    {
+                                        "phoneType": "HOMEPHN",
+                                        "phoneTypeDescr": "住宅电话(999-99999999)"
+                                    }
+                                ]
+                            }
+                        ],
+                        "readTypeInfo": [
+                            {
+                                "readType": [
+                                    {
+                                        "readType": "20",
+                                        "readTypeDescr": "无读数"
+                                    },
+                                    {
+                                        "readType": "30",
+                                        "readTypeDescr": "系统估计"
+                                    },
+                                    {
+                                        "readType": "35",
+                                        "readTypeDescr": "服务提供商估计"
+                                    },
+                                    {
+                                        "readType": "40",
+                                        "readTypeDescr": "人工估计"
+                                    },
+                                    {
+                                        "readType": "45",
+                                        "readTypeDescr": "系统按比例分摊"
+                                    },
+                                    {
+                                        "readType": "50",
+                                        "readTypeDescr": "客户读取"
+                                    },
+                                    {
+                                        "readType": "60",
+                                        "readTypeDescr": "普通"
+                                    },
+                                    {
+                                        "readType": "70",
+                                        "readTypeDescr": "已验证"
+                                    },
+                                    {
+                                        "readType": "80",
+                                        "readTypeDescr": "强制开单"
+                                    }
+                                ]
+                            }
+                        ],
+                        "respCode": "0000",
+                        "respDescr": "成功",
+                        "sysDttm": "2016-02-22-17.33.48"
+                    }
+                ]
+            }
+        }
+    }
+}

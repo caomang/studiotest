@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/approve_detail2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:text="服务点/计量表历史记录" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <TextView
+            android:id="@+id/tv_caobiao_detail_history"
+            style="@style/approve_detail_table"
+            android:layout_weight="2"
+            android:drawableRight="@drawable/arrow"
+            android:text="666"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="上次读数" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <TextView
+            android:id="@+id/tv_caobiao_detail_read_num"
+            style="@style/approve_detail_table"
+            android:layout_weight="2"
+            android:drawableRight="@drawable/arrow"
+            android:text="000"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:text="抄表时间" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <TextView
+            android:id="@+id/tv_caobiao_detail_readertime"
+            style="@style/approve_detail_table"
+            android:layout_weight="2"
+            android:text="000"
+            android:textColor="@color/black" />
+    </LinearLayout> -->
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:text="读数"
+            android:textColor="@color/red" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <EditText
+            android:id="@+id/et_readdata"
+            style="@style/approve_detail_table"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@null"
+            android:digits="0123456789"
+            android:hint="请输入读数"
+            android:inputType="numberDecimal|number"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+        <!-- android:numeric="integer" -->
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:text="读数类型"
+            android:textColor="@color/red" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <Spinner
+            android:id="@+id/spinner_type"
+            style="@style/approve_detail_table"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="2"
+            android:background="@drawable/approve_list_edittext2"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:text="气量" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <TextView
+            android:id="@+id/tv_caobiao_detail_air_measure"
+            style="@style/approve_detail_table"
+            android:layout_weight="2"
+            android:text="000"
+            android:textColor="@color/black" />
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/tv_caobiao_detail_air_measure" -->
+        <!-- style="@style/approve_detail_table" -->
+        <!-- android:layout_weight="2" -->
+        <!-- android:background="@null" -->
+        <!-- android:hint="请输入本月气量" -->
+        <!-- android:numeric="integer" -->
+        <!-- android:textColor="@color/black" /> -->
+    </LinearLayout>
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:text="本期气费" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_approve_detail_vertial_line" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_caobiao_detail_consume"
+                style="@style/approve_detail_table"
+                android:layout_width="wrap_content"
+                android:drawableRight="@drawable/arrow"
+                android:textColor="@color/a_gray" />
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/tv_caobiao_detail_standard" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_marginRight="5dp" -->
+<!--                 android:background="@null" -->
+<!--                 android:gravity="right" -->
+<!--                 android:src="@drawable/arrow" -->
+<!--                 /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+   <!--  <include layout="@layout/layout_approve_detail_horizontal_line" /> -->
+
+    <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:layout_height="50dp"
+            android:text="是否已打印单据" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <Spinner
+            android:id="@+id/spinner_isprint"
+            style="@style/approve_detail_table"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="2"
+            android:background="@drawable/approve_list_edittext2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </LinearLayout> -->
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:text="服务评价" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <Spinner
+            android:id="@+id/spinner_serve_isgood"
+            style="@style/approve_detail_table"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="2"
+            android:background="@drawable/approve_list_edittext2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+   <!--  <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:text="附件" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <TextView
+            android:id="@+id/tv_caobiao_detail_fujian"
+            style="@style/approve_detail_table"
+            android:layout_weight="2"
+            android:drawableRight="@drawable/arrow"
+            android:text="添加附件"
+            android:textColor="@color/black" />
+    </LinearLayout> -->
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/approve_detail_table"
+            android:text="备注"
+            android:textColor="#3D7DC4" />
+
+        <include layout="@layout/layout_approve_detail_vertial_line" />
+
+        <EditText
+            android:id="@+id/et_remark"
+            style="@style/approve_detail_table"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@null"
+            android:hint="请输入备注"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lly_print"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <Button
+            android:id="@+id/btn_print"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="打  印" 
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dip"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/mobile_title"
+            layout="@layout/mobile_title"
+            android:visibility="gone" >
+        </include>
+
+        <include
+            android:id="@+id/mobile_title_two"
+            layout="@layout/mobile_title_two" >
+        </include>
+
+        <cn.sbx.deeper.moblie.view.MyListView
+            android:id="@+id/lv_mail_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:cacheColorHint="#82806E"
+            android:divider="@color/list_item_line"
+            android:dividerHeight="1px"
+            android:fadingEdgeLength="5dp" >
+        </cn.sbx.deeper.moblie.view.MyListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingBottom="10dip"
+        android:paddingTop="5dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="10dip" >
+
+            <Button
+                android:id="@+id/btn_vote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/selector_vote"
+                android:padding="5dp"
+                android:text="投  票"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="10dip" >
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btn_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/selector_vote"
+                android:padding="5dp"
+                android:text="投票结果"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

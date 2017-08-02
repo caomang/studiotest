@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_detail_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/font_vote"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dip"
+                android:text="投票标题内容测试1"
+                android:textSize="15sp" />
+            
+            <CheckBox
+                android:id="@+id/rb_choose_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip"
+                android:gravity="center"
+                android:clickable="false"
+                android:button="@drawable/choose_single_selected"
+                />
+        </RelativeLayout>
+<!--                 android:textColor="#F30707" -->
+        
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/littleGray" />
+<!--         android:background="@drawable/line_02" -->
+
+</LinearLayout>

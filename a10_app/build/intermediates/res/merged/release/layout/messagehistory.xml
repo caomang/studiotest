@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/approve_divider_height"
+        android:background="@color/littleGray" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/approve_divider_height"
+        android:background="@color/littleGray" />
+
+    <LinearLayout
+        android:id="@+id/ll_approve_condition_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hs_approve_tab"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <HorizontalScrollView
+            android:id="@+id/hs_approve_condition"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mobile_title_height"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_condition"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/approve_list_search" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/approve_divider_height"
+        android:background="@color/littleGray" />
+
+    <cn.sbx.deeper.moblie.view.MyListView
+        android:id="@+id/ml_approve_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_approve_condition_container"
+        android:cacheColorHint="#82806E"
+        android:divider="@color/littleGray"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_dialog"
+        android:layout_width="65dip"
+        android:layout_height="65dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/spinner"
+            android:indeterminateDuration="2000"
+            android:indeterminateOnly="true" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#B2ABAB"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

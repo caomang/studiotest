@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="收费说明"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="阶梯档位"
+            android:textColor="#3D7DC4"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="单价"
+            android:textColor="#3D7DC4"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="气量"
+            android:textColor="#3D7DC4"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="气费"
+            android:textColor="#3D7DC4"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="(600,1200]"
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="2.56"
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_qiliang"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="5"
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_qifei"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="13.30"
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+    </LinearLayout>
+<!--     <View -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="1dp" -->
+<!--         android:background="@color/Gray" /> -->
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <TextView -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:layout_width="0dp" -->
+<!--             android:gravity="center_horizontal" -->
+<!--             android:text="(1200,99999999]" -->
+<!--             android:textColor="@color/gray" -->
+<!--             android:textSize="16dp" /> -->
+
+<!--         <TextView -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_width="0dp" -->
+<!--             android:layout_weight="1" -->
+<!--             android:gravity="center_horizontal" -->
+<!--             android:text="2.90" -->
+<!--             android:textColor="@color/gray" -->
+<!--             android:textSize="16dp" /> -->
+
+<!--         <TextView -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:gravity="center_horizontal" -->
+<!--             android:layout_width="0dp" -->
+<!--             android:text="10" -->
+<!--             android:textColor="@color/gray" -->
+<!--             android:textSize="16dp" /> -->
+
+<!--         <TextView -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:gravity="center_horizontal" -->
+<!--             android:layout_width="0dp" -->
+<!--             android:text="29.00" -->
+<!--             android:textColor="@color/gray" -->
+<!--             android:textSize="16dp" /> -->
+<!--     </LinearLayout> -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:text="小计"
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_qiliang_heji"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:text="15"
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_qifei_heji"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:text="42.3"
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

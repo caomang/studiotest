@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f6f6f6"
+    android:orientation="vertical" >
+
+    <!-- <RelativeLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/bt_login_cancel" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentLeft="true" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:layout_marginLeft="3dp" -->
+    <!-- android:gravity="center" -->
+    <!-- android:visibility="gone" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tv_something_account_config" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerInParent="true" -->
+    <!-- android:text="设 置" -->
+    <!-- android:textColor="#FDF200" -->
+    <!-- android:textSize="22sp" -->
+    <!-- android:textStyle="bold" > -->
+    <!-- </TextView> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btn_logout" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_marginBottom="5dp" -->
+    <!-- android:layout_marginRight="10dp" -->
+    <!-- android:layout_marginTop="5dp" /> -->
+    <!-- </RelativeLayout> -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/alert_top_bg"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp"
+                        android:text="预警类别"
+                        android:textColor="#0a5574"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/cb_alert_checked_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="25dp"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/rb_alert_checkall"
+                        android:textColor="#000000" 
+                        android:visibility="gone"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#e0e0e0"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_select_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="5dp" >
+
+                        <!-- <CheckBox -->
+                        <!-- android:id="@+id/cb_alert_checked_all" -->
+                        <!-- android:layout_width="wrap_content" -->
+                        <!-- android:text="全选" -->
+                        <!-- android:textColor="#000000" -->
+                        <!-- android:button="@drawable/radio_iscare_selector" -->
+                        <!-- android:layout_height="wrap_content" /> -->
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <cn.sbx.deeper.moblie.view.ExpandableHeightGridView
+                    android:id="@+id/gv_units_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="2" >
+                </cn.sbx.deeper.moblie.view.ExpandableHeightGridView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/alert_top_bg"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp"
+                        android:text="二级单位"
+                        android:textColor="#0a5574"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/cb_alert_checked_all_org"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="25dp"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/rb_alert_checkall"
+                        android:textColor="#000000" 
+                        android:visibility="gone"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#e0e0e0"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_select_all_org"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="5dp" >
+
+                        <!-- <CheckBox -->
+                        <!-- android:id="@+id/cb_alert_checked_all_org" -->
+                        <!-- android:layout_width="wrap_content" -->
+                        <!-- android:layout_height="wrap_content" -->
+                        <!-- android:button="@drawable/radio_iscare_selector" -->
+                        <!-- android:text="全选" -->
+                        <!-- android:textColor="#000000" /> -->
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <cn.sbx.deeper.moblie.view.ExpandableHeightGridView
+                    android:id="@+id/gv_units_list_org"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="2" >
+                </cn.sbx.deeper.moblie.view.ExpandableHeightGridView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/bt_cancel" -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:background="@drawable/radio_back_selector" > -->
+    <!-- </Button> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/bt_ok" -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:background="@drawable/radio_ok_selector" > -->
+    <!-- </Button> -->
+    <!-- </LinearLayout> -->
+
+</LinearLayout>

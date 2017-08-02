@@ -1,0 +1,115 @@
+﻿{
+    "?xml": {
+        "@version": "1.0"
+    },
+    "soapenv:Envelope": {
+        "@xmlns:soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+        "soapenv:Body": {
+            "CM_H_DataDic": {
+                "@faultStyle": "wsd",
+                "@xmlns": "http://oracle.com/CM_H_DataDic.xsd",
+                "output": [
+                    {
+                        "cmMrCommInfo": [
+                            {
+                                "cmMrComm": [
+                                    {
+                                        "cmMrCommCd": "10",
+                                        "cmMrCommDescr": "非常满意"
+                                    },
+                                    {
+                                        "cmMrCommCd": "20",
+                                        "cmMrCommDescr": "满意"
+                                    },
+                                    {
+                                        "cmMrCommCd": "30",
+                                        "cmMrCommDescr": "一般"
+                                    },
+                                    {
+                                        "cmMrCommCd": "40",
+                                        "cmMrCommDescr": "不满意"
+                                    }
+                                ]
+                            }
+                        ],
+                        "phoneTypeInfo": [
+                            {
+                                "phoneType": [
+                                    {
+                                        "phoneType": "BUSN",
+                                        "phoneTypeDescr": "工作电话(9999-99999999)"
+                                    },
+                                    {
+                                        "phoneType": "BUSNPHN",
+                                        "phoneTypeDescr": "工作电话(999-99999999)"
+                                    },
+                                    {
+                                        "phoneType": "CELL",
+                                        "phoneTypeDescr": "手机"
+                                    },
+                                    {
+                                        "phoneType": "HOME",
+                                        "phoneTypeDescr": "住宅电话(9999-99999999)"
+                                    },
+                                    {
+                                        "phoneType": "HOME1",
+                                        "phoneTypeDescr": "电话(9999-9999999)"
+                                    },
+                                    {
+                                        "phoneType": "HOMEPHN",
+                                        "phoneTypeDescr": "住宅电话(999-99999999)"
+                                    }
+                                ]
+                            }
+                        ],
+                        "readTypeInfo": [
+                            {
+                                "readType": [
+                                    {
+                                        "readType": "20",
+                                        "readTypeDescr": "无读数"
+                                    },
+                                    {
+                                        "readType": "30",
+                                        "readTypeDescr": "系统估计"
+                                    },
+                                    {
+                                        "readType": "35",
+                                        "readTypeDescr": "服务提供商估计"
+                                    },
+                                    {
+                                        "readType": "40",
+                                        "readTypeDescr": "人工估计"
+                                    },
+                                    {
+                                        "readType": "45",
+                                        "readTypeDescr": "系统按比例分摊"
+                                    },
+                                    {
+                                        "readType": "50",
+                                        "readTypeDescr": "客户读取"
+                                    },
+                                    {
+                                        "readType": "60",
+                                        "readTypeDescr": "普通"
+                                    },
+                                    {
+                                        "readType": "70",
+                                        "readTypeDescr": "已验证"
+                                    },
+                                    {
+                                        "readType": "80",
+                                        "readTypeDescr": "强制开单"
+                                    }
+                                ]
+                            }
+                        ],
+                        "respCode": "0000",
+                        "respDescr": "成功",
+                        "sysDttm": "2015-11-17-14.11.06"
+                    }
+                ]
+            }
+        }
+    }
+}

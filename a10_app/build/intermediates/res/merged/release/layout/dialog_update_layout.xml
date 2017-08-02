@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="提示更新"
+            android:textColor="#717171"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/line_blue" />
+
+    <LinearLayout
+        android:id="@+id/ll_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/updatecontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="修改了bug修改了bug修改了bug修改了bug修改了bug修改了bug"
+            android:textColor="#717171"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/line_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_dialog_ok"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#01A5E4"
+            android:gravity="center"
+            android:padding="5dip"
+            android:text="开始升级"
+            android:textColor="@color/white"
+            android:textSize="@dimen/content_large_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_dialog_cancel"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="#e6e6e6"
+            android:gravity="center"
+            android:padding="5dip"
+            android:text="稍后提醒"
+            android:textColor="#717171"
+            android:textSize="@dimen/content_large_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

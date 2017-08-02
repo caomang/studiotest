@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="名称：001信号灯"
+            android:textColor="@color/polling_operation"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp" 
+        android:layout_marginBottom="15dp" 
+        android:layout_marginTop="15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/device_navigation"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="16dp"
+                android:background="@drawable/polling_btn_style"
+                android:text="导航" />
+
+            <Button
+                android:id="@+id/device_homework"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:background="@drawable/polling_btn_style"
+                android:text="作业" />
+
+            <ImageView
+                android:id="@+id/device_state"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/daijian" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/device_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="待检"
+            android:textColor="#ee7801"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+</LinearLayout>

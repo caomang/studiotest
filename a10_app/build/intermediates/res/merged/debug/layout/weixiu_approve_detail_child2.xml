@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="计量表类型"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <Spinner
+            android:id="@+id/spinner_jlb_type"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="7.2"
+            android:background="@drawable/approve_list_edittext2"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_second1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="制造商"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <Spinner
+            android:id="@+id/spinner_zzs"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="7.2"
+            android:background="@drawable/approve_list_edittext2"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_second3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="型号"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <Spinner
+            android:id="@+id/spinner_xh"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="7.2"
+            android:background="@drawable/approve_list_edittext2"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_second4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="铭牌编号"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <EditText
+            android:id="@+id/new_mingpai_no"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="7.2"
+            android:gravity="center_vertical"
+            android:hint="请输入铭牌编号..."
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_second5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="计量表条码值"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <EditText
+            android:id="@+id/new_jlb_tmz"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="7.2"
+            android:gravity="center_vertical"
+            android:hint="请输入计量表条码值..."
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_second2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="进气方向"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <Spinner
+            android:id="@+id/spinner_jqfx"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="7.2"
+            android:background="@drawable/approve_list_edittext2"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#f5f5f5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_second"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2.8"
+            android:background="#f5f5f5"
+            android:padding="5dp"
+            android:text="表底数"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <EditText
+            android:id="@+id/new_biao_ds"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="7.2"
+            android:gravity="center_vertical"
+            android:hint="请输入表底数..."
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">   
+    <item android:state_pressed="true"
+           android:drawable="@drawable/ic_dept_has_emps" /> <!-- pressed -->
+     <item android:state_focused="true"
+           android:drawable="@drawable/ic_dept_has_emps_selected" /> <!-- focused -->
+     <item android:drawable="@drawable/ic_dept_has_emps_selected" /> <!-- default bt_depart_add-->
+</selector>
+

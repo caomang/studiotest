@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mobile_title_height"
+    android:gravity="center_vertical"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp" >
+
+    <TextView
+        android:id="@+id/tv_title_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="投票列表"
+        android:textColor="#45464a"
+        android:textSize="18sp"
+        android:textStyle="bold" >
+    </TextView>
+    <TextView
+        android:id="@+id/tv_title_two_mul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="7dp"
+        android:visibility="gone"
+        android:textColor="@color/font_vote"
+        android:textSize="20sp">
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BEGIN_INCLUDE(complete) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <cn.sbx.deeper.moblie.util.MyHorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#ffffff"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/rg_group_types"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:orientation="horizontal" >
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/iv_portrait"
+                android:layout_width="56dp"
+                android:layout_height="55dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/btn_submit2"
+                android:text="横 屏"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </cn.sbx.deeper.moblie.util.MyHorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/progress_horizontal"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="4dp"
+                android:max="100" />
+
+            <WebView
+                android:id="@+id/wv_web"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/iv_landscape"
+            android:layout_width="56dp"
+            android:layout_height="55dp"
+            android:background="@drawable/btn_submit2"
+            android:text="竖 屏"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_metting_selected"
+    android:clickable="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp" >
+
+    <TextView
+        android:id="@+id/tv_con_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:text="类别"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/bt_mail_conn_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bt_mail_conn_add_selected"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/bt_mail_conn_people"
+        android:layout_width="@dimen/dimen_choose_people_width"
+        android:layout_height="@dimen/dimen_choose_people_width"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bt_mail_conn_group_selected" />
+
+</LinearLayout>

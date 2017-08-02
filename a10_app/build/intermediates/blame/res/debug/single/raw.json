@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\raw\\init_db",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\raw\\init_db"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\raw\\a10_database.db",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\raw\\a10_database.db"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\raw\\a10_db.db",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\raw\\a10_db.db"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\raw\\cb_db.db",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\raw\\cb_db.db"
+    }
+]

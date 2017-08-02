@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- android:background="@color/albumback" -->
+
+    <RelativeLayout
+        android:id="@+id/headview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top_bg_new"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/gallery_back"
+            style="@style/style_approve_title_next"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/caozuo1"
+            android:text="返回" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="图片预览"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/gallery_del"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" 
+            android:background="@drawable/plugin_camera_del_state"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <cn.sbx.deeper.moblie.view.ViewPagerFixed
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/headview"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:unselectedAlpha="1" >
+    </cn.sbx.deeper.moblie.view.ViewPagerFixed>
+
+</RelativeLayout>

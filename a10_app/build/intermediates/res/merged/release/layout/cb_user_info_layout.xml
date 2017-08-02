@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="客户编号"
+            android:textColor="#3D7DC4"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <TextView
+            android:id="@+id/user_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="客户名称"
+            android:textColor="#3D7DC4"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <!--  <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="45dp"
+         android:layout_weight="1"
+         android:gravity="center_vertical"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/now_date"
+             android:layout_width="90dp"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:text="客户类型编码"
+             android:textColor="@color/black"
+             android:textSize="16sp" />
+
+         <View
+             android:layout_width="1dp"
+             android:layout_height="fill_parent"
+             android:background="@drawable/shape_matters_router_child_divider" />
+
+         <TextView
+             android:id="@+id/user_type_code"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:textColor="@color/black"
+             android:textSize="16sp" />
+     </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="客户类型"
+            android:textColor="#3D7DC4"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <TextView
+            android:id="@+id/user_type"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="住宿类型"
+            android:textColor="#3D7DC4"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <Spinner
+            android:id="@+id/user_zhusuleixing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/approve_list_edittext2"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="特殊用户"
+            android:textColor="#3D7DC4"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <Spinner
+            android:id="@+id/user_teshuyonghu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/approve_list_edittext2"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="完整地址"
+            android:textColor="#3D7DC4"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <TextView
+            android:id="@+id/user_detail_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:text="完整地址 完整地址完整地址完整地址完整地址"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:id="@+id/view_gon_linearlayout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="客户电话"
+            android:textColor="#3D7DC4"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <RelativeLayout
+            android:id="@+id/relativelayout_for_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/user_phone1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical"
+                android:text="尚无电话 点击添加"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/call_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/image_for_next"
+                android:layout_marginRight="10dp"
+                android:text="电话" />
+
+            <ImageView
+                android:id="@+id/image_for_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/arrow" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <ListView
+        android:id="@+id/listview_for_callph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

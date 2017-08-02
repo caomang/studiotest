@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_anjian_qianming_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_contener"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#E1E6F6"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="服务评价  :"
+            android:textColor="#3773c0"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal" >
+        </RadioGroup>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/a_gray" />
+
+    <FrameLayout
+        android:id="@+id/tablet_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:background="@android:drawable/bottom_bar" -->
+<!--         android:paddingTop="4dp" > -->
+
+<!--         <Button -->
+<!--             android:id="@+id/tablet_ok" -->
+<!--             android:layout_width="0dp" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:text="确定" /> -->
+
+<!--         <Button -->
+<!--             android:id="@+id/tablet_clear" -->
+<!--             android:layout_width="0dp" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:text="清除" /> -->
+<!--     </LinearLayout> -->
+
+</LinearLayout>

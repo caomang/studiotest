@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/ll_dialog"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ProgressBar
+                android:id="@+id/pb_loading"
+                android:layout_width="65dip"
+                android:layout_height="65dip"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/spinner"
+                android:indeterminateDuration="2000"
+                android:indeterminateOnly="true" />
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textColor="#B2ABAB"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_approve_condition_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_top_bar02"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <HorizontalScrollView
+                android:id="@+id/hs_approve_condition"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/mobile_title_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_condition"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    >
+<!--                     android:paddingRight="3dp"  -->
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/approve_list_search" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dip" >
+
+            <LinearLayout
+                android:id="@+id/all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="10dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_pagelabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自10658456发送信息至"
+                    android:textColor="@color/label_task"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/b_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <cn.sbx.deeper.moblie.view.FixGridLayout
+                            android:id="@+id/receipients"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible" >
+                        </cn.sbx.deeper.moblie.view.FixGridLayout>
+
+                        <EditText
+                            android:id="@+id/et_receipients"
+                            android:layout_width="match_parent"
+                            android:layout_height="96px"
+                            android:background="@color/b_gray"
+                            android:inputType="number"
+                            android:paddingLeft="5dp"
+                            android:textSize="15sp" >
+                        </EditText>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_recipient_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:background="@drawable/mail_add_people" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="正文"
+                    android:textColor="@color/label_task"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_message_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:background="@color/b_gray"
+                    android:gravity="top|left"
+                    android:minLines="9"
+                    android:padding="10dip"
+                    android:textSize="15sp" >
+                </EditText>
+
+                <LinearLayout
+                    android:id="@+id/ll_buttons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp" >
+
+                    <!-- <Button -->
+                    <!-- android:id="@+id/btn_send_text_message" -->
+                    <!-- android:layout_width="wrap_content" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:layout_weight="1" -->
+                    <!-- android:background="@drawable/rt_text_nomarl" -->
+                    <!-- android:padding="10dp" -->
+                    <!-- android:text="发彩信" -->
+                    <!-- android:textColor="@color/white" -->
+                    <!-- android:textSize="15sp" -->
+                    <!-- android:textStyle="bold" -->
+                    <!-- android:visibility="gone" /> -->
+
+
+                    <!-- <Button -->
+                    <!-- android:id="@+id/btn_send_multimedia_message" -->
+                    <!-- android:layout_width="wrap_content" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:layout_marginLeft="10dip" -->
+                    <!-- android:layout_weight="1" -->
+                    <!-- android:background="@drawable/rt_text_nomarl" -->
+                    <!-- android:padding="10dp" -->
+                    <!-- android:text="发短信" -->
+                    <!-- android:textColor="@color/white" -->
+                    <!-- android:textSize="15sp" -->
+                    <!-- android:textStyle="bold" -->
+                    <!-- android:visibility="gone" /> -->
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <!--
+        <LinearLayout
+            android:id="@+id/ll_sel_recipient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <include layout="@layout/layout_partial_contact_search" />
+
+            <ListView
+                android:id="@+id/lv_sel_recipients_top_dept"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:cacheColorHint="@color/transparent"
+                android:headerDividersEnabled="true" >
+            </ListView>
+        </LinearLayout>
+        -->
+    </RelativeLayout>
+
+</LinearLayout>

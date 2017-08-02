@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="touchview">Touch View</string>
+	<string name="url_list_name">Camera List</string>
+	<string name="logout">Logout</string>
+	<!-- <string name="about">About</string> -->
+	<string name="user_name">Username：</string>
+	<string name="password">Password：</string>
+	<string name="server">Server：</string>
+	<string name="port">Port：</string>
+	<string name="login">Login</string>
+	<string name="login_param_error">Login Param Error</string>
+	<string name="demo">Demo</string>
+	<string name="login_load">It\'s logging on, please wait.</string>
+	<string name="confirm">Ok</string>
+	<string name="username_null_title">Please input username</string>
+	<string name="username_null_info">Username is empty.</string>
+	<string name="password_null_title">Please input password</string>
+	<string name="password_null_info">Password is empty.</string>
+	<string name="network_error">Network error</string>
+	<string name="error_info">Error reason： \n</string>
+	<string name="server_error">Server error.</string>
+	<string name="login_sucess">Logon successful</string>
+	<string name="server_null_title">Please input server IP</string>
+	<string name="server_null_info">Server is empty.</string>
+	<string name="port_null_title">Please input port</string>
+	<string name="port_null_info">Port is empty.</string>
+	<string name="get_list_title">Getting list</string>
+	<string name="get_list_info">Getting list, please wait.</string>
+	<string name="camera_not_connected_title">Camera disable</string>
+	<string name="camera_not_connected_info">Camera can\'t be connected.</string>
+	<string name="video_stopped">Video is stopped.</string>
+	<string name="video_stopping">Video is stopping...</string>
+	<string name="video_loading">Video is loading...</string>
+	<string name="video_playing">Video is playing</string>
+	<string name="video_loading_title">Video loading</string>
+	<string name="video_loading_info">Video is loading, please wait.</string>
+	<string name="setting_title">Setting</string>
+	<string name="snap_title">Saving screen shoot</string>
+	<string name="snap_save">Save</string>
+	<string name="snap_cancel">cancel</string>
+	<string name="hud_len">HUD Len：</string>
+	<string name="back">Back</string>
+	<string name="copy_right">Avonaco Communication Systems(Suzhou) Co., Ltd</string>
+	<string name="preset_title">PreSet（1-60）</string>
+	<string name="previous_page">previous</string>
+	<string name="next_page">next</string>
+	<string name="first_page">This is first page!</string>
+	<string name="last_page">This is last page!</string>
+	<string name="about_text1">TouchView(Android)\nVersion	</string>
+	<string name="about_text2">\n\nCopyright©2010-2011 Avonaco\nAll Rights
+		Reserved.\nhttp://www.avonaco.com\n\n 本计算机软件程序受《中华人民共和国著作权法》以及中华人民共和国最高人民法院相关司法解释、国际公约的保护。\n
+		艾诺通信(Avonaco)对本计算机软件程序的版本依上述法律及国际公约合法所有，任何未经授权许可而擅自复制、散布、反向编译或反向工程本软件程序的全部或部分，均被视为对艾诺通信(Avonaco)的侵权，必将受到严厉的民事追诉，甚至刑事起诉。\n
+		此版本适用于Android 1.5及1.5以上操作系统系列手机，对于在其他操作系统平台的手机上使用本软件，出现任何问题，艾诺通信(Avonaco)不承担责任。</string>
+
+</resources>

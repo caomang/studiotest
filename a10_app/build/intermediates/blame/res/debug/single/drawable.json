@@ -1,0 +1,834 @@
+[
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\hebei_login_yanz_btn.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\hebei_login_yanz_btn.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\lv_item_emp_name_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\lv_item_emp_name_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\schedule_selector_radiobtn_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\schedule_selector_radiobtn_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_11.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_11.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\hudback.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\hudback.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_up_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_up_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_up_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_up_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\up1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\up1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_normal.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\dot_normal.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoomin2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\zoomin2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\action_item_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\action_item_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_down_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_down_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_8.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_8.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\right.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\right.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_approve_route.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_approve_route.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\stepbackground.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\stepbackground.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_hud_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\progress_hud_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_search_people_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_search_people_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_approval_search_edittext.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shap_approval_search_edittext.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\preset1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\preset1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_item_check.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\selector_item_check.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_up_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_up_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_up_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_up_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_logout_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_logout_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_up_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_up_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_child_accounts_time.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_child_accounts_time.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_up_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_up_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_vote.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\selector_vote.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\tab_indicator_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_wireless_radio_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_wireless_radio_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_approve_list_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\item_approve_list_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_new_mail_reply.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_new_mail_reply.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_width.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_width.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\rt_wireless_scroll_year_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\rt_wireless_scroll_year_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_up_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_up_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_warning_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_warning_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_up_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_up_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_left_menu_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_left_menu_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_6.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_6.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_up.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_up.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_width_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_width_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\rt_wireless_scroll_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\rt_wireless_scroll_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_width_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_width_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\document_search.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\document_search.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_down.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\arrow_down.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\right1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\right1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\tab_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\choose_single_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\choose_single_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\schedule_selector_operate_edit.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\schedule_selector_operate_edit.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_polling_3_0.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_polling_3_0.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_down.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_down.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_red_btn_zoom_up_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_red_btn_zoom_up_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\rt_approve_tab_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\rt_approve_tab_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_new3.9.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\popup_new3.9.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_new1.9.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\popup_new1.9.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\voteresult.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\voteresult.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_login_setting.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_login_setting.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoomout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\zoomout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_main_tab_all_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_main_tab_all_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_red_btn_zoom_up_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_red_btn_zoom_up_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\rt_scroll_selected_newspaper.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\rt_scroll_selected_newspaper.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_document_query_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_document_query_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_remeber.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\selector_remeber.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_cb_auto_logon.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\selector_cb_auto_logon.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_layout_send_msg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_layout_send_msg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_ebook_item_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_ebook_item_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\cb_remind_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\cb_remind_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_new_mail_send_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_new_mail_send_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_width_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_width_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_focused.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\dot_focused.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_pending_complete_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_pending_complete_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\schedule_selector_operate_resend.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\schedule_selector_operate_resend.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_metting_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_metting_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_down_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_down_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\up.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\up.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_matters_router_edi_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_matters_router_edi_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_item_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_item_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\frame_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_vedio_ok.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_vedio_ok.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_search_depart_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_search_depart_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_document_add_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_document_add_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_ebook_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_ebook_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_wireless_radio_month_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_wireless_radio_month_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\gv_item_mo_forground.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\gv_item_mo_forground.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\action_item_btn.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\action_item_btn.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\left1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\left1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\cb_approval_router_check_select.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\cb_approval_router_check_select.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_up_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_up_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\choose_mul_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\choose_mul_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\down.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\down.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_mail_choose_people_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_mail_choose_people_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rounder_content.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_rounder_content.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radio_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_radio_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_login_et_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_login_et_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\left.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\left.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_main_tab_default_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_main_tab_default_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\gd_quick_action_grid_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\gd_quick_action_grid_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_up.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_up.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_iscare_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\radio_iscare_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_down_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_down_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_more_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_more_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_up_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_up_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_up.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_up.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_approve_tab_pressed.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_approve_tab_pressed.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_grouped_operate_result_icon.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\list_item_grouped_operate_result_icon.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoomin.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\zoomin.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\vote.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\vote.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_color_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_color_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_down_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_down_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_charge_confirm_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_charge_confirm_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\preset2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\preset2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_polling_3_bt.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_polling_3_bt.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_warning_tab_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\rb_warning_tab_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_progress_indeterminate.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\my_progress_indeterminate.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\schedule_selector_operate_change.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\schedule_selector_operate_change.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_10.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_10.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_7.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_7.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_union_office_checkbox_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_union_office_checkbox_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\url_back.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\url_back.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_list_item_first.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_list_item_first.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\left2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\left2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\up2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\up2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_approval_router_child_line.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shap_approval_router_child_line.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_width.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_width.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_back_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\radio_back_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\pause.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\pause.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_down_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_down_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_polling_3_3.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_polling_3_3.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\vedio_check_right.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\vedio_check_right.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_document_search_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_document_search_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_new_mail_save_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_new_mail_save_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_width_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_width_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_new_mail_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_new_mail_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_list_item_second.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_list_item_second.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_dbyb_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_dbyb_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_union_office_msg_save.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_union_office_msg_save.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\down2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\down2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_down.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_down.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_down_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_down_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pulltorefresh_arrow_up.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\ic_pulltorefresh_arrow_up.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_mail_conn_add_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_mail_conn_add_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_9.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_9.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoomin1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\zoomin1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_0.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_0.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup.9.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\popup.9.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_up_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_up_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\right2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\right2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_down_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_down_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_3.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_3.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_new2.9.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\popup_new2.9.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_agenda.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\ic_menu_agenda.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\preset.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\preset.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_corner2.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_corner2.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_menu_shadow.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\left_menu_shadow.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_approve_tab_nomal.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_approve_tab_nomal.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\gd_quick_action_bar_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\gd_quick_action_bar_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\polling_btn_style.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\polling_btn_style.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_vote.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_vote.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_polling_3_1.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_polling_3_1.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\single2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\single2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_down_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_down_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_del_state.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\plugin_camera_del_state.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\hebei_login_setting_btn.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\hebei_login_setting_btn.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_home_menu_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_home_menu_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_child_accounts.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_child_accounts.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_metting_selected_all.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_metting_selected_all.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\schedule_selector_operate_cancel.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\schedule_selector_operate_cancel.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_down_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_down_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_4.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_4.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\hebei_login_btn.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\hebei_login_btn.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\playbackground.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\playbackground.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoomout2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\zoomout2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_down.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_down.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_zoom_up_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\green_btn_zoom_up_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\mul_2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\mul_2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_down_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_down_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\schedule_selector_operate_delete.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\schedule_selector_operate_delete.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_5.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner_5.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_zoom_width.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\btn_zoom_width.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\down1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\down1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_ok_selector.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\radio_ok_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_mail_conn_group_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_mail_conn_group_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_up.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\arrow_up.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_sel_recipient_action_bar.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bg_sel_recipient_action_bar.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoomout1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\zoomout1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_matters_router_child_divider.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_matters_router_child_divider.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\rt_scroll_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\rt_scroll_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_alert_checkall.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\rb_alert_checkall.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_detail_title.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_detail_title.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\mul_1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\mul_1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_zoom_down_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\red_btn_zoom_down_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\spinner.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pulltorefresh_arrow.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\ic_pulltorefresh_arrow.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_wireless_radio_month_nomal_bg.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_wireless_radio_month_nomal_bg.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\single1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\single1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_up_new1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\arrow_up_new1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_vedio_collection.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\bt_vedio_collection.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_approval_router_full_line.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shap_approval_router_full_line.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_polling_3_2.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\shape_polling_3_2.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\rt_list_tab_selected.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\rt_list_tab_selected.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_metting_selected_reply.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable\\layout_metting_selected_reply.xml"
+    }
+]

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_item"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6F6F6" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/list_top"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/device_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="设备名称："
+                    android:textColor="@color/polling_operation"
+                    android:textSize="@dimen/polling_fontsize"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/device_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:text="剩余时间：133分钟"
+                    android:textColor="@color/polling_operation"
+                    android:textSize="@dimen/polling_fontsize" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:id="@+id/scan_deviceid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/shape_polling_3_0"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/shape_polling_3_1" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:text="设备编码"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/polling_fontsize" />
+
+                        <Button
+                            android:id="@+id/btn_take_scanning"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/polling_btn_style"
+                            android:text="扫描"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/polling_fontsize" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/shape_polling_3_2"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/polling_edt_ma"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@null"
+                            android:hint="请输入设备码"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/polling_fontsize" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/complete_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_polling_3_0"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/shape_polling_3_1" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:text="完成情况及缺陷记录"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/polling_fontsize" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/shape_polling_3_2"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/approve_list_edittext2"
+                            android:textColor="@color/black"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/polling_fontsize" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_polling_3_0"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/shape_polling_3_1" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:text="拍照/录音"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/polling_fontsize" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/btn_take_photo"
+                                android:layout_width="80dp"
+                                android:layout_height="40dp"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/polling_btn_style"
+                                android:text="拍照"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/polling_fontsize" />
+
+                            <Button
+                                android:id="@+id/btn_take_audio"
+                                android:layout_width="80dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/polling_btn_style"
+                                android:text="录音"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/polling_fontsize" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical" >
+
+                        <cn.sbx.deeper.moblie.view.MyGridView
+                            android:id="@+id/GridView01"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:drawSelectorOnTop="true"
+                            android:gravity="center_horizontal"
+                            android:horizontalSpacing="5dip"
+                            android:listSelector="@drawable/gv_item_mo_forground"
+                            android:numColumns="4"
+                            android:paddingLeft="7dp"
+                            android:paddingRight="7dp"
+                            android:scrollbars="none"
+                            android:verticalSpacing="10dip" >
+                        </cn.sbx.deeper.moblie.view.MyGridView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/note_bz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_polling_3_0"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/shape_polling_3_1" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:text="备注"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/polling_fontsize" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/polling_edt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@null"
+                            android:hint="请输入备注"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/polling_fontsize" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_polling_3_bt2"
+                        android:text="离线保存"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn_submit"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_polling_3_bt2"
+                        android:text="提交"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/rcChat_popup"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            layout="@layout/voice_rcd_hint_window" />
+    </LinearLayout>
+
+</RelativeLayout>

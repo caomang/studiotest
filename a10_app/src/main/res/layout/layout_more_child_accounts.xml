@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_bottom_menu_title" />
+
+    <!--     <RelativeLayout -->
+    <!--         android:id="@+id/rl_bottom_title" -->
+    <!--         android:layout_width="match_parent" -->
+    <!--         android:layout_height="@dimen/mobile_title_height" -->
+    <!--         android:background="@drawable/top_bg" -->
+    <!--         android:paddingLeft="8dp" -->
+    <!--         android:paddingRight="8dp" > -->
+
+    <!--         <TextView -->
+    <!--             android:id="@+id/bt_left" -->
+    <!--             style="@style/style_approve_tab_title" -->
+    <!--             android:layout_width="wrap_content" -->
+    <!--             android:layout_height="wrap_content" -->
+    <!--             android:layout_centerHorizontal="true" -->
+    <!--             android:layout_centerVertical="true" -->
+    <!--             android:text="设置" /> -->
+    <!--     </RelativeLayout> -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/b_gray"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/bt_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/rt_scroll_selected"
+            android:text="删除"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/iv_break"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bt_connmit"
+            android:layout_alignBottom="@+id/bt_connmit"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/top_title_back"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_connmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="108dp"
+            android:background="@drawable/rt_scroll_selected"
+            android:text="提交"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="15dip"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/bt_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="系统名称"
+                    android:textColor="#515457"
+                    android:textSize="17dip" />
+
+                <EditText
+                    android:id="@+id/et_xitong"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/layout_child_accounts_time"
+                    android:hint="默认:"
+                    android:paddingLeft="10dip"
+                    android:textColor="#515457"
+                    android:textColorHint="#c3c3c3"
+                    android:textSize="17dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:text="子帐号设置"
+                    android:textColor="#515457"
+                    android:textSize="17dip" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#BEBEBE" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+                    /* android:background="@drawable/ziliao_time"*/
+
+                    <EditText
+                        android:id="@+id/et_loginNmae"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:background="@null"
+                        android:hint="登录名:"
+                        android:paddingLeft="10dip"
+                        android:textColor="#515457"
+                        android:textColorHint="#c3c3c3"
+                        android:textSize="17dip"></EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dip"
+                    android:background="#BEBEBE" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+                    // android:background="@drawable/ziliao_time"
+
+                    <EditText
+                        android:id="@+id/et_loginpadss"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:background="@null"
+                        android:hint="登录密码:"
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dip"
+                        android:textColor="#515457"
+                        android:textSize="17dip"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/et_loginpad"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:background="@null"
+                        android:hint="登录密码:"
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dip"
+                        android:textColor="#515457"
+                        android:textColorHint="#c3c3c3"
+                        android:textSize="17dip" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dip"
+                    android:background="#BEBEBE" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\btn_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\btn_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bottom.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\bottom.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\mask.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\mask.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\e.jpg",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\e.jpg"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\frame.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\frame.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\b.jpg",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\b.jpg"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\icon_addpic_unfocused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\icon_addpic_unfocused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\plubin_camera_del_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\plubin_camera_del_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\btn_next2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\btn_next2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\approval_completed_right.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\approval_completed_right.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\d.jpg",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\d.jpg"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\approval_router_check_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\approval_router_check_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\btn_unpressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\btn_unpressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\a.jpg",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\a.jpg"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\sinopecapprove_route_off.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\sinopecapprove_route_off.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\call_phone_image.jpg",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\call_phone_image.jpg"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\btn_submit2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\btn_submit2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\approval_router_check_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\approval_router_check_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\new_oa_right_delete_icon.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\new_oa_right_delete_icon.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\c.jpg",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\c.jpg"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\approval_search_spinner_picture.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\approval_search_spinner_picture.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\login_loginbtn.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\login_loginbtn.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\sinopecapprove_route_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\sinopecapprove_route_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\plugin_camera_del_unfocused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\plugin_camera_del_unfocused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\icon_addpic_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\icon_addpic_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\splash_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-hdpi\\splash_bg.png"
+    }
+]

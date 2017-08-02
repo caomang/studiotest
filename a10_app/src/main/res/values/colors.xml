@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font_vote">#727272</color>
+    <color name="c_item_left_menu_nomal">#2F5172</color>
+    <color name="c_item_left_menu_pressed">#2C4560</color>
+    <color name="c_type_squared_userinfo">#5E5E5E</color>
+    <color name="task_title_blue">#387DBE</color>
+    <color name="lv_item_on">#DCE3EF</color>
+    <color name="black">#000000</color>
+    <color name="red">#C32020</color>
+    <color name="green">#47C55A</color>
+    <color name="littleGray">#CCCCCC</color>
+    <color name="gray_text">#e6e6e6</color>
+    <color name="approve_condition_bg">#9A9C9B</color>
+
+    <!-- Action Bar -->
+    <color name="actionbar_separator">#3A5FCD</color>
+    <color name="actionbar_background_start">#529BF7</color>
+    <color name="actionbar_background_end">#1657A8</color>
+    <color name="translucent_black">#80000000</color>
+    <color name="translucent_light_black">#60000000</color>
+    <color name="actionbar_title">#FFFFFF</color>
+    <!-- contacts -->
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+    <color name="actionbar_text">#FFFFFF</color>
+    <color name="default_page_bg">#ffffff</color>
+    <color name="bg_seperator">#D2D6D8</color>
+    <color name="translucent_orange">#80FFA500</color>
+    <color name="dark_page_bg">#D3D3D5</color>
+    <color name="darker_page_bg">#BDBDBF</color>
+    <color name="pic_news_title_blue">#347BD0</color>
+    <color name="task_seg_bg">#DFE3E6</color>
+    <color name="lv_item_task_info">#AAAAAA</color>
+    <color name="bottom_bar_bg">#181B20</color>
+    <color name="btn_task_start_color">#A8CC03</color>
+    <color name="btn_task_end_color">#058F3E</color>
+    <color name="task_detaiL_label">#D22F35</color>
+    <color name="task_detaiL_div">#F3A8AC</color>
+    <color name="contact_lighter_yellow_page_bg">#ffffff</color>
+    <color name="contact_light_yellow_page_bg">#DCE3EF</color>
+    <color name="darker_label">#777777</color>
+    <color name="label_task">#4C566C</color>
+    <color name="rounded_container_border">#ffb7babb</color>
+    <color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+    <color name="base_start_color_pressed">#ff3590c4</color>
+    <color name="base_end_color_pressed">#ff2570ba</color>
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+    <color name="btn_bg_sel_on">#CECECE</color>
+    <color name="btn_bg_sel">#E5E5E5</color>
+    <color name="btn_sel_color">#888888</color>
+    <color name="list_itme_color">#0055af</color>
+
+    <!-- document manager -->
+    <color name="c_document_background">#ffffff</color>
+    <color name="c_document_press_item_bg">#F8F9F9</color>
+
+    <!-- schedules manager -->
+    <color name="schedules_operate_background">#F5F5F5</color>
+    <color name="schedules_operate_btn_selected">#EFEFEF</color>
+    <color name="schedules_operate_btn_textcolor">#3775C5</color>
+    <color name="schedules_operate_radio_btn_textcolor">#727071</color>
+    <color name="Gray">#ff666666</color>
+
+    <!-- 审批样式 -->
+    <color name="approval_contacts_search_textcolor">#808080</color>
+    <color name="list_item_line">#c9cacc</color>
+    <!-- 文档已读和未读 -->
+    <color name="read_yes">#000000</color>
+    <color name="read_no">#000000</color>
+</resources>

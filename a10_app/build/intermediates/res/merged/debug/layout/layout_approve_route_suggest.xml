@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="true"  
+    android:focusableInTouchMode="true"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_vertical"
+         >
+
+        <TextView
+            android:id="@+id/tv_suggest_title"
+            android:text="@string/tv_approve_route_suggest_title"
+            style="@style/style_approve_detail_group_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dp"
+             >
+            <TextView
+                android:text="@string/tv_approve_route_suggest"
+                style="@style/style_approve_detail_group_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" 
+                android:layout_marginRight="5dp"
+                />
+            <ImageView 
+                android:id="@+id/iv_search_suggest"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:background="@drawable/ic_matters_router_option"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    
+	<EditText 
+	    android:id="@+id/et_suggest"
+	    android:hint="@string/tv_approve_route_suggest_hint"
+	    android:gravity="top"
+	    android:padding="5dp"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="6"
+	    />
+</LinearLayout>

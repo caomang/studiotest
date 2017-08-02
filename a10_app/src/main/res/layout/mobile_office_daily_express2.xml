@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_bg_new"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mobile_title_height"
+        android:background="@drawable/top_bg_new"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/bt_left1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/top_title_back_white" />
+
+        <TextView
+            style="@style/style_approve_tab_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="选择常用语" />
+
+        <Button
+            android:id="@+id/bt_next"
+            style="@style/style_approve_title_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rt_scroll_selected"
+            android:text="@string/tv_approve_detail_title_next"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/add_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/b_gray"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp" >
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:hint="添加常用审批意见" />
+
+        <Button
+            android:id="@+id/bt_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_next_new"
+            android:paddingTop="2dp"
+            android:text="添 加"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/bt_right"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_submit2"
+            android:paddingTop="2dp"
+            android:text="刷 新"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/b_gray" />
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/b_gray"
+        android:cacheColorHint="#82806E"
+        android:divider="@color/littleGray"
+        android:dividerHeight="1px"
+        android:fadingEdgeLength="5dp"
+        android:paddingTop="5dp" >
+    </ListView>
+
+</LinearLayout>

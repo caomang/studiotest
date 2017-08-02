@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/contact_lighter_yellow_page_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_sel_recipient_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_sel_recipient_action_bar" >
+
+        <Button
+            android:id="@+id/btn_sel_recipient_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_item_selected"
+            android:padding="5dip"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+<!--     <include layout="@layout/layout_partial_contact_search" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+
+        <ListView
+            android:id="@+id/lv_emp_names"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:cacheColorHint="@color/transparent"
+            android:listSelector="@color/transparent" >
+        </ListView>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="@color/contact_light_yellow_page_bg" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dip"
+            android:background="@color/contact_light_yellow_page_bg" />
+
+        <ScrollView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5" >
+
+            <LinearLayout
+                android:id="@+id/ll_emp_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_emp_company"
+                    style="@style/style_contact_list_item_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dip" />
+
+                <include layout="@layout/layout_partial_seperator" />
+
+                <TextView
+                    android:id="@+id/tv_emp_dept"
+                    style="@style/style_contact_list_item_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dip" />
+
+                <include layout="@layout/layout_partial_seperator" />
+
+                <TextView
+                    android:id="@+id/tv_emp_pos"
+                    style="@style/style_contact_list_item_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dip" />
+
+                <include layout="@layout/layout_partial_seperator" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_emp_mobile_no"
+                        style="@style/style_contact_list_item_detail"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="8dip" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_send_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:padding="5dip"
+                        android:src="@drawable/ic_send_message"
+                        android:visibility="gone" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:padding="5dip"
+                        android:src="@drawable/ic_call"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_partial_seperator" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_emp_office_no"
+                        style="@style/style_contact_list_item_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dip" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_office_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:padding="5dip"
+                        android:src="@drawable/ic_call"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <include layout="@layout/layout_partial_seperator" />
+
+                <TextView
+                    android:id="@+id/tv_emp_fax_no"
+                    style="@style/style_contact_list_item_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dip" />
+
+                <include layout="@layout/layout_partial_seperator" />
+
+                <TextView
+                    android:id="@+id/tv_emp_email_addr"
+                    style="@style/style_contact_list_item_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dip" />
+
+                <include layout="@layout/layout_partial_seperator" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.sbx.deeper.moblie.view.LoginContainerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:login="https://schemas.android.com/apk/res/GuiHuaZongYuan.guandaoA10Ukey.app"
+
+    android:id="@+id/rl_login"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    login:marginBottom="0dip"
+    login:rootBackground="@drawable/ic_login_bg1" />
+    <!--xmlns:login="https://schemas.android.com/apk/res/com.sunboxsoft.deeper.moblie.app.chaobiao"-->

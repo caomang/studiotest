@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoginContainer">
+        <attr name="marginBottom" format="dimension" />
+        <attr name="rootBackground" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <tabs>
+        <tab title="待抄" id="1">
+<!--             <date title="日期" name="dateControl" required="true" value="" type="Date" current="true" message="" timespan="false" submitflag="" regex="false"></date> -->
+ 			<select title="" name="spinner" value="" required="true" alt="">
+            </select>
+            <input title="客户名称" name="username" value="" required="false" alt="" checked="false" type="text" maxlength="0" minlength="0" regex="false" message="" submitflag="" />
+           
+        </tab>
+        <tab title="已上传" id="2"></tab>
+        <tab title="已保存" id="3"></tab>
+    </tabs>
+</root>

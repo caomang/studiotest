@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\call_phone_image.jpg",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-ldpi\\call_phone_image.jpg"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\login_loginbtn.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-ldpi\\login_loginbtn.png"
+    }
+]

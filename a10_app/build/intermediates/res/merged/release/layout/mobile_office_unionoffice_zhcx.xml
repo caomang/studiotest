@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- <include layout="@layout/mobile_title" /> -->
+
+<!--     <TextView -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="5dp" -->
+<!--         android:text="请选择范围" -->
+<!--         android:textSize="15sp" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_unionoffice_msg_input_box"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/et_to_user"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="7"
+            android:background="@color/b_gray"
+            android:editable="false"
+            android:hint="请选择人员" />
+
+        <Button
+            android:id="@+id/btn_clean_touser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_refresh" />
+
+        <Button
+            android:id="@+id/btn_add_touser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+             android:layout_marginRight="5dp"
+            android:background="@drawable/ic_matters_router_option" />
+
+        <Button
+            android:id="@+id/btn_msg_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_msg_query" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/b_gray"
+        android:padding="5dp"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_msg_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_union_office_msg_save"
+            android:text="查    询"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_pending_matters"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:cacheColorHint="#82806E"
+        android:divider="@color/littleGray"
+        android:dividerHeight="1dp"
+        android:fadingEdgeLength="5dp" />
+
+</LinearLayout>

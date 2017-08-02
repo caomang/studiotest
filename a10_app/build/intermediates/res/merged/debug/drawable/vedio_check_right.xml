@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/vedio_check_g" android:state_pressed="true"/>
+ <!-- pressed -->
+    <item android:drawable="@drawable/vedio_check_g" android:state_checked="true"/>
+ <!-- pressed -->
+    <item android:drawable="@drawable/vedio_check_g" android:state_selected="true"/>
+ <!-- pressed -->
+    <item android:drawable="@drawable/vedio_check_gg" android:state_focused="true"/>
+ <!-- focused -->
+    <item android:drawable="@drawable/vedio_check_gg"/>
+ <!-- default bt_depart_add -->
+
+</selector>

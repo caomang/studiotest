@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- <include layout="@layout/mobile_title" /> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <!-- cc -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:text="收件人"
+            android:textColor="@color/union_label"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_unionoffice_msg_input_box"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <EditText
+                android:id="@+id/et_cc_user"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="8"
+                android:background="@color/b_gray" />
+
+            <Button
+                android:id="@+id/btn_clean_touser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_refresh" />
+
+            <Button
+                android:id="@+id/btn_add_ccuser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_matters_router_option" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:text="信息回复内容"
+            android:textColor="@color/union_label"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_unionoffice_msg_input_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="top|left"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@color/b_gray" />
+        </LinearLayout>
+
+        <!-- 发送方式 Lync 和 SMS -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="3dp"
+                android:text="请选择发送方式"
+                android:textColor="@color/union_label"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cb_islync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Lync方式"
+                android:textColor="@color/union_label"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/cb_issms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="短信方式"
+                android:textColor="@color/union_label"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/ic_msg_buttom" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btn_msg_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_union_office_msg_save"
+                android:text="保    存"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c_document_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg"
+        android:orientation="vertical" 
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/top_title_back" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <ListView
+            android:id="@+id/vedio_search_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:divider="@color/littleGray"
+            android:dividerHeight="1px"
+            android:fadingEdge="none"
+            android:listSelector="@null" >
+        </ListView>
+
+        <View
+            android:id="@+id/vv_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp"
+            android:text="没有获取到数据"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

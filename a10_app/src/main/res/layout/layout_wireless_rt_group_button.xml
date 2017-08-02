@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rt_wireless_scroll_year_selected"
+    android:button="@null"
+    android:gravity="center"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:textSize="16sp" >
+</RadioButton>

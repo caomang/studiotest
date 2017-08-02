@@ -1,0 +1,1546 @@
+[
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bubble_command_info.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_bubble_command_info.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_union_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_union_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_dictext.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_dictext.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_remote_view.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\notification_remote_view.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\weixiu_approve_detail_child3.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\weixiu_approve_detail_child3.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_vedio_collection.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_vedio_collection.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_anjian_qianming.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_anjian_qianming.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\warningcomponent_fragment.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\warningcomponent_fragment.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_vedio_first.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_vedio_first.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_more.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_more.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_operate_result_thumbnail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_operate_result_thumbnail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_text_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\spinner_text_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_batch_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_batch_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\vedio_title_result.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\vedio_title_result.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_route_choose_user.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_route_choose_user.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\chart_web_item_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\chart_web_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_intranet_list_item_trans2p0.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_intranet_list_item_trans2p0.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\refresh_footer.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_date_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_date_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_vote_detail_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_vote_detail_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_group.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedule_group.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_anjian_picture.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_anjian_picture.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_unionoffice_yyxx.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_unionoffice_yyxx.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_contract_search_edittext.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_contract_search_edittext.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_manager_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_manager_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_quick_access_emps.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\fragment_quick_access_emps.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_detail_child_tab.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_detail_child_tab.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_child_intranet_news_info.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_child_intranet_news_info.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_polling_3.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_polling_3.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_unionoffice_zhcx.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_unionoffice_zhcx.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_userphone_addphone.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_userphone_addphone.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_anjian_qianming_title.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_anjian_qianming_title.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_oa_group_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_oa_group_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_operate_result.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_operate_result.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_command_bubble_webview.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_command_bubble_webview.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_splash_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_splash_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\wx_date_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\wx_date_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item_grid_op_result_chart_thumbnail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_item_grid_op_result_chart_thumbnail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\pagesetting_child_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\pagesetting_child_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_syn_nav_squared_contact.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_syn_nav_squared_contact.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_newspaper_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_newspaper_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_meeting_list_detail_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_meeting_list_detail_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_mail_new.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_mail_new.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_list_footer.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_list_footer.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_pedding_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_pedding_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_device.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_device.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_command_bubble_date_group.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_command_bubble_date_group.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_group_route.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_group_route.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_date_wheel.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_date_wheel.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\imageshow_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\imageshow_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_anjiandeceive.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_anjiandeceive.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_command_send.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_command_send.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_mail_contact.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_mail_contact.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_route_table_user.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_route_table_user.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_quick_message.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\fragment_quick_message.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_user_work.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_user_work.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_peoples_selected_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_peoples_selected_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\shape_logon_border.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\shape_logon_border.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_meeting_list_sub_detail_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_meeting_list_sub_detail_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_list_detail_new_fragment.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_list_detail_new_fragment.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\show_handwriting_image_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\show_handwriting_image_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_counterpart_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_counterpart_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_horizontal_line.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_horizontal_line.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bottom_menu_title.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_bottom_menu_title.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\handwriting_dialog_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\handwriting_dialog_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_userphone.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_userphone.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_intranet_attachement.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_intranet_attachement.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_manage_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_manage_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_partial_seperator.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_partial_seperator.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_schedinfo_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_schedinfo_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_mail_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_mail_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\warningcomponent_detail_fragment.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\warningcomponent_detail_fragment.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_left_menu.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_left_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_mine_new.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_mine_new.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_units_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_units_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_anjain_uploaddate_anjian.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_anjain_uploaddate_anjian.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_user_phone_info_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_user_phone_info_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_html.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_html.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login_logo.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_login_logo.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_user_phone_detail_info_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_user_phone_detail_info_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\gd_quick_action_bar.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\gd_quick_action_bar.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_mail_connect_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_mail_connect_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_chart_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_chart_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_vertical.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\popup_vertical.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_vertial_line.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_vertial_line.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wireless_metting_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_wireless_metting_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_openfolder_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_openfolder_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\operation_dialog_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\operation_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_application_set_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_application_set_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_head.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\listview_head.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login_content.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_login_content.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_user_info_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_user_info_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_intranet_rt_group_button.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_intranet_rt_group_button.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedules_new.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedules_new.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_videoview.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_videoview.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_schedinfo_item_nodata.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_schedinfo_item_nodata.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_device_reshuiqi.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_device_reshuiqi.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_mail_group_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_mail_group_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\unionoffice_pending_completed_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\unionoffice_pending_completed_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_dropdown_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_leader_command_info.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_leader_command_info.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_working_condition_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_working_condition_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_manage.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_manage.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\fujian_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\fujian_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_switch_menu.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_switch_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_updatsched.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_updatsched.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\weixiu_approve_detail_child2.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\weixiu_approve_detail_child2.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_monitor_vedio_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_monitor_vedio_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_command_bubble_message.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_command_bubble_message.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_application_dictionaries_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_application_dictionaries_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_biaozi_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_biaozi_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_obtain_child_accounts.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_obtain_child_accounts.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_manual.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_manual.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_web_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_web_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\polling_photo_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\polling_photo_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\pagesetting_group_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\pagesetting_group_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_union_office_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_union_office_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item_chart_filter_custom.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_item_chart_filter_custom.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_doc_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedule_doc_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_vedio_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_vedio_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_alert_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_alert_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_list_fragment.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_list_fragment.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_vote_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_vote_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_device_baojingqi.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_device_baojingqi.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item_emp_name_trans2p0.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_item_emp_name_trans2p0.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_in_left.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\activity_in_left.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_foot.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\listview_foot.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_anjian_yinhuan_history.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_anjian_yinhuan_history.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_synchdata_ui.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\fragment_synchdata_ui.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\document_child.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\document_child.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\more_child_accounts.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\more_child_accounts.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedules_director.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedules_director.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_phone_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_phone_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_detail_table_mine2.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_detail_table_mine2.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_detail_group.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_detail_group.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\weixiu_edit_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\weixiu_edit_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_vido_item_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_vido_item_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_history_record_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_history_record_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_style.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_common_style.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_unionoffice_wcxx.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_unionoffice_wcxx.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_seperator_footview.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_seperator_footview.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_updatschedinfos_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_updatschedinfos_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_newspaper_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_newspaper_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_pedding_detail_item_child.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_pedding_detail_item_child.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_manager_item_trans2p0.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_manager_item_trans2p0.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_schedule_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_schedule_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\action_item_vertical.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\action_item_vertical.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_oa_group_custom.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_oa_group_custom.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_union_command_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_union_command_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_video_html.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_video_html.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_user_phone_info_layout_mine.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_user_phone_info_layout_mine.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_searchresult.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_searchresult.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_user_info.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_user_info.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_more_setup_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_more_setup_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\gd_quick_action_grid.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\gd_quick_action_grid.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_pedding_detail_item_group.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_pedding_detail_item_group.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_gallery.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\plugin_camera_gallery.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\doc_type_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\doc_type_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_detail_dictext.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_detail_dictext.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\lesson_view_pager.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\lesson_view_pager.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_mobile_title.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_mobile_title.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\chartweb.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\chartweb.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_wireless_meeting.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_wireless_meeting.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_detail_child2.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_detail_child2.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_warning_monitor_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_warning_monitor_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_documents_office.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_documents_office.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_route_table_option.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_route_table_option.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_device_zaoju.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_device_zaoju.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_setup_modify_password.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_setup_modify_password.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_user_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_user_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_send_message.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_send_message.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_left_menu_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_left_menu_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_bz_type_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_bz_type_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_group_intranet_news_info.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_group_intranet_news_info.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pageshow2.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_pageshow2.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\wx_spinner_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\wx_spinner_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_form_expand.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_form_expand.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_mail_attachement_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_mail_attachement_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_daily_express2.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_daily_express2.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\jlb_history_mark_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\jlb_history_mark_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_detail_child.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_detail_child.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_partial_contact_search.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_partial_contact_search.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_choose_peoples_group_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_choose_peoples_group_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_updatelist.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_updatelist.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\simple_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_list_fragment_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_list_fragment_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_spinner_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_mail_no_department_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_mail_no_department_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_metting_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_metting_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_mail_group_list_item_union.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_mail_group_list_item_union.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_anjain_uploaddate_chaobiao.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_anjain_uploaddate_chaobiao.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_newspaper_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_newspaper_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_approve_detail_child_jibenxinxi.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_approve_detail_child_jibenxinxi.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\monitor_vedio_collection_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\monitor_vedio_collection_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_more_setup.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_more_setup.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\documents_type_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\documents_type_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_manager_items.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_manager_items.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_intranet_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_intranet_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_connect_people.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_connect_people.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\horiz_separator.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\horiz_separator.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wireless_metting_detail_subscription.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_wireless_metting_detail_subscription.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\pending_completed_item_yssh.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\pending_completed_item_yssh.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\database_set_psw_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\database_set_psw_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_head.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\list_head.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_square_menu_title.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_square_menu_title.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item_gv_union_office_w.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_item_gv_union_office_w.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\changepsw.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\changepsw.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_newspaper_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_newspaper_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_contract_search.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_contract_search.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_contract_search_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_contract_search_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_oa.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_oa.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_vote.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_vote.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_route_child.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_route_child.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\weixiu_approve_detail_child5.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\weixiu_approve_detail_child5.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\view_manual_lv.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\view_manual_lv.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\gd_quick_action_bar_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\gd_quick_action_bar_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_foot.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\list_foot.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\flowlayout_container.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\flowlayout_container.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedules_personal.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedules_personal.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_vedio_searchitem.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_vedio_searchitem.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_title_bi.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_title_bi.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\gd_quick_action_grid_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\gd_quick_action_grid_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_unionoffice_gdxx.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_unionoffice_gdxx.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\warningcomponent_list_fragment.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\warningcomponent_list_fragment.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\messagehistory.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\messagehistory.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_route_choose_user_dep.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_route_choose_user_dep.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_union_office_new.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_union_office_new.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_warning_monitor_organization.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_warning_monitor_organization.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_mail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_mail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedules.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedules.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_manager_list_user.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_manager_list_user.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_oa_group.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_oa_group.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\main_all.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\main_all.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_view_date_picker.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_view_date_picker.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_router.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_router.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_unionoffice_dyxx.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_unionoffice_dyxx.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_enterprise_contact_group_trans2p0.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_enterprise_contact_group_trans2p0.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\unionoffice_reply_message_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\unionoffice_reply_message_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_photo_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_photo_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_spinner.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_spinner.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_detail_clientphone.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_detail_clientphone.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_manager_item_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_manager_item_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\up_date_read_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\up_date_read_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_device_liguanfamen.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_device_liguanfamen.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_detail_child_content.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_detail_child_content.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feed_back.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\activity_feed_back.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_manager_list_trans2p0.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_manager_list_trans2p0.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_filter_spinner.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_filter_spinner.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_beizhu_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_beizhu_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_in_bottom.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\activity_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_union_office_message_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_union_office_message_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_matters_oa_route.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_matters_oa_route.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_squared_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_squared_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_command_bubble_reply.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_command_bubble_reply.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_approve_detail_cild_qitaxinxi.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_approve_detail_cild_qitaxinxi.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\polling_device_item_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\polling_device_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\action_item_horizontal.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\action_item_horizontal.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_metting_subsc_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_metting_subsc_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_application_dictionaries_detail_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_application_dictionaries_detail_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\openpdf.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\openpdf.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_quick_access_emps_trans2p0.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\fragment_quick_access_emps_trans2p0.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item_emp_name.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_item_emp_name.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_unionoffice_xxfb.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_unionoffice_xxfb.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_details.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedule_details.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_single_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_single_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_left_menu_title.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_left_menu_title.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_syn_nav_left_menu.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_syn_nav_left_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_date_filter_spinner.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_date_filter_spinner.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_horizontal.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\popup_horizontal.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_oa_route_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_oa_route_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\weixiu_approve_detail_child4.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\weixiu_approve_detail_child4.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\progress_hud.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\progress_hud.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_wireless_meeting_subscription.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_wireless_meeting_subscription.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item_grid_bi_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_item_grid_bi_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_approve_detail_child2.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_approve_detail_child2.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\document.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\document.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_vido_item_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_vido_item_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login_setting.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_login_setting.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\call_phone.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\call_phone.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_mine.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_mine.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item_news_panel.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_item_news_panel.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\vedio_title.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\vedio_title.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_header.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\refresh_header.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\login_staly_spinner_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\login_staly_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\time_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\time_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_login_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_title.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_title.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_choose_peoples.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_choose_peoples.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_schedule.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_schedule.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_manager_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_document_manager_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_more_child_accounts.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_more_child_accounts.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\doc_list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\doc_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_form.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_form.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_completed_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_completed_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_syn_nav_left_menu.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\tab_syn_nav_left_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\document_type.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\document_type.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_enterprise_contact_group.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_enterprise_contact_group.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_choose_peoples_child_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_choose_peoples_child_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_device_lianjieguan.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_device_lianjieguan.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\map_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\map_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_schedule_child.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_schedule_child.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\webcomponent_fragment.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\webcomponent_fragment.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_intranet_list_item_all.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_intranet_list_item_all.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_mail_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_mail_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\left_menu_frame.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\left_menu_frame.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_command_info.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_command_info.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_in_tab.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\activity_in_tab.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_quick_access_empss.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\fragment_quick_access_empss.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\editbox_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\editbox_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_matters_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_matters_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\time_year_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\time_year_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_type_squared.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_type_squared.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_route_suggest.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_route_suggest.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_openfolder_item_bar.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_openfolder_item_bar.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_child.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedule_child.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\vedio_title_right.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\vedio_title_right.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_user_history.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_user_history.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedules_company.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedules_company.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login_mode.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_login_mode.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_application_not_internet_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_application_not_internet_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\cb_user_chaobiao_info_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\cb_user_chaobiao_info_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_left_menu_content.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_left_menu_content.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_synchdata_ui_new.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\fragment_synchdata_ui_new.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_menu_top.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\popupwindow_menu_top.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_intranet_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_intranet_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_list_next.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_list_next.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_schedinfo_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_schedinfo_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_overlay_progress.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\fragment_overlay_progress.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\video_view_activity.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\video_view_activity.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\voice_rcd_hint_window.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\voice_rcd_hint_window.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_syn_nav_squared_menu.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_syn_nav_squared_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login_content_hb.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_login_content_hb.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_personal_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedule_personal_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_detail_table_mine1.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_detail_table_mine1.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wireless_rt_group_button.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_wireless_rt_group_button.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedules_create.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedules_create.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_router_child_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_router_child_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_mail_contact_item.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_mail_contact_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_route.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_route.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_union_office_send_message.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_union_office_send_message.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wireless_month_group_radio.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_wireless_month_group_radio.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_main_nav_indicate.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\tab_main_nav_indicate.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_approval_oa_locution.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_approval_oa_locution.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_newspaper_shelf_main.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_newspaper_shelf_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_title_two.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_title_two.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_list.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_intranet.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_intranet.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\chaobiao_jt_jiage_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\chaobiao_jt_jiage_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\document_doc.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\document_doc.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\childview.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\childview.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_update_layout.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\dialog_update_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_aprove_detail_child_shebeixinxi.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_aprove_detail_child_shebeixinxi.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_monitor_player.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\activity_monitor_player.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_intranet_trans2p0.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_intranet_trans2p0.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_route_table_treeuser.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\item_approve_route_table_treeuser.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_webview.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_webview.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\monitor_vedio_collection.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\monitor_vedio_collection.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_approve_detail_device_cainuanlu.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_approve_detail_device_cainuanlu.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_user_phone.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_user_phone.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_daily_express.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_daily_express.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_vote_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_vote_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\anjian_approve_detail_child_new.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\anjian_approve_detail_child_new.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_schedule_group.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_schedule_group.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_union_office_reply_message.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_union_office_reply_message.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\mobile_office_pagesetting.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\mobile_office_pagesetting.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_documents_office_detail.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_documents_office_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\schedules_department.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\schedules_department.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_office_result.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_office_result.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_oplling_moneystandard.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\layout_oplling_moneystandard.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\layout\\weixiu_approve_detail_child.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\layout\\weixiu_approve_detail_child.xml"
+    }
+]

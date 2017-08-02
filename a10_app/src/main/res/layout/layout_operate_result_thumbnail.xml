@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+<!--     <include layout="@layout/layout_partial_title_bar" /> -->
+       <!--  <include layout="@layout/mobile_title_bi" 
+            android:visibility="gone"/> -->
+
+<!--     <RelativeLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:background="@drawable/top_bg" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <Button -->
+<!--             android:id="@+id/btn_return" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentLeft="true" -->
+<!--             android:layout_marginLeft="5dp" -->
+<!--             android:background="@drawable/top_title_back"/> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/tv_title_bar_title" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_centerInParent="true" -->
+<!--             android:textColor="#FFFFE0" -->
+<!--             android:textSize="22sp" -->
+<!--             android:textStyle="bold" -->
+<!--             android:visibility="gone" /> -->
+
+<!--         <Button -->
+<!--             android:id="@+id/btn_edit" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:layout_marginLeft="15dp" -->
+<!--             android:background="@drawable/btn_edit"  -->
+<!--             android:visibility="gone"/> -->
+
+<!--         <Button -->
+<!--             android:id="@+id/btn_mail" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_toLeftOf="@id/btn_edit" -->
+<!--             android:background="@drawable/btn_mail"  -->
+<!--             android:visibility="gone"/> -->
+<!--     </RelativeLayout> -->
+
+    <GridView
+        android:id="@+id/gv_op_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:horizontalSpacing="5dip"
+        android:numColumns="2"
+        android:verticalSpacing="5dip" >
+    </GridView>
+   <LinearLayout
+        android:id="@+id/ll_dialog"
+        android:layout_width="65dip"
+        android:layout_height="65dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/spinner"
+            android:indeterminateDuration="2000"
+            android:indeterminateOnly="true" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#B2ABAB"
+            android:textSize="14sp" />
+    </LinearLayout>
+</RelativeLayout>

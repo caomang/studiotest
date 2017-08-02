@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="无法连接到网络,\n请在线登陆后进行操作"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/ic_error_page"
+            android:textSize="18sp" />
+</LinearLayout>

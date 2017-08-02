@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="style_approve_list_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="style_approve_list_sub_title">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/a_gray</item>
+    </style>
+
+    <style name="style_approve_list_time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/a_gray</item>
+    </style>
+
+    <style name="style_approve_tab_title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="dot_style">
+        <item name="android:layout_width">5dip</item>
+        <item name="android:layout_height">5dip</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+
+    <style name="style_activity_in_tab_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="style_approve_tab_text_number">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="style_intranet_tab_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="style_approve_tab_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/a_gray</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="style_approve_tab_text_all">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="style_approve_detail_attachement">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#2A69B3</item>
+    </style>
+
+    <style name="style_approve_detail_input">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ec8319</item>
+    </style>
+
+    <style name="style_approve_route_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#2A69B3</item>
+    </style>
+
+    <style name="anjian_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="anjian_style_qianming">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="style_approve_detail_group_item">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#5E5E5E</item>
+    </style>
+
+    <style name="style_approve_detail_group_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#2A69B3</item>
+    </style>
+
+    <style name="style_approve_title_next">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="style_left_menu_activity" parent="@android:style/Theme.Light">
+        <item name="android:windowTitleSize">@dimen/mobile_title_height</item>
+    </style>
+
+    <style name="style_left_menu_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#EFEFEC</item>
+    </style>
+
+    <style name="style_left_menu_item">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#D5D5D5</item>
+    </style>
+
+    <!-- More style -->
+    <style name="style_more_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <!-- Wireliess style -->
+    <style name="style_wireliess_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <style name="mail_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#989697</item>
+    </style>
+
+    <style name="mail_text_content">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Vedio style -->
+    <style name="style_vedio_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <!-- Document style -->
+    <style name="style_document_list_tree">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <!-- Document style -->
+    <style name="style_document_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <!-- Contact style -->
+    <style name="style_contact_list_item_detail">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ff00ff</item>
+    </style>
+
+    <!-- Contact style -->
+    <style name="style_contact_list_item">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <!-- Contact style -->
+    <style name="style_contact_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <!-- Bi style -->
+    <style name="style_bi_list">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <!-- Bi style -->
+    <style name="style_bi_list_item">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <!-- metting style -->
+    <style name="style_metting_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <!-- metting style -->
+    <style name="intranet_item_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="intranet_item_date">
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="dialog_overlay" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="tab_nav">
+        <item name="android:layout_width">121px</item>
+        <item name="android:layout_height">134px</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="week_text">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_selector</item>
+    </style>
+
+    <style name="item_detail_title_intranet">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7B7B7B</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="item_detail_content_intranet">
+        <item name="android:layout_column">1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7B7B7B</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="item_detail_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7B7B7B</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="item_detail_content">
+        <item name="android:layout_column">1</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7B7B7B</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="schedule_row_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="meeting_row_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="more_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="more_text_content">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+
+    <!-- android:textSize="18sp" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:button="@null" -->
+    <!-- android:textColor="#000000" -->
+    <!-- android:gravity="center" -->
+    <!-- android:background="@drawable/rt_scroll_selected" -->
+
+    <style name="Animations" />
+
+    <style name="style_search_radio_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rt_scroll_selected_newspaper</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu" />
+
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+    <!-- PopUpMenu -->
+    <style name="Animations.PopUpMenu" />
+
+    <style name="Animations.PopUpMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+    <style name="schedule_tab">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/schedule_selector_radiobtn_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/schedules_operate_radio_btn_textcolor</item>
+    </style>
+
+    <style name="alarm_text_label">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="alarm_text_num">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="alarm_detail_text">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="alarm_detail_text_rb">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <!-- Dialog -->
+    <style name="ProgressHUD" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/rt_scroll_selected</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!-- GreenDroid UI Tool -->
+    <style name="GreenDroid" />
+
+    <style name="GreenDroid.Widget" />
+
+    <style name="GreenDroid.Widget.QuickAction" />
+
+    <style name="GreenDroid.Widget.QuickAction.Bar" />
+
+    <style name="GreenDroid.Widget.QuickAction.Grid">
+        <item name="android:padding">1dp</item>
+        <item name="android:listSelector">@drawable/gd_quick_action_grid_selector</item>
+        <item name="android:background">@drawable/ic_openfolder_bg_all</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fadingEdgeLength">0dp</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">10dp</item>
+        <item name="android:numColumns">3</item>
+    </style>
+
+    <style name="GreenDroid.Widget.QuickAction.Item">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#333</item>
+    </style>
+
+    <style name="GreenDroid.Widget.QuickAction.Bar.Item" parent="@style/GreenDroid.Widget.QuickAction.Item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:background">@drawable/gd_quick_action_bar_item</item>
+    </style>
+
+    <style name="GreenDroid.Widget.QuickAction.Grid.Item" parent="@style/GreenDroid.Widget.QuickAction.Item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">65dp</item>
+    </style>
+
+    <!-- GreenDroid PopDownMenu -->
+    <style name="GreenDroid.Animation" />
+
+    <style name="GreenDroid.Animation.PopDown" />
+
+    <style name="GreenDroid.Animation.PopDown.Left">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="GreenDroid.Animation.PopDown.Right">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="GreenDroid.Animation.PopDown.Center">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_bottom</item>
+    </style>
+
+    <style name="GreenDroid.Animation.PopUp" />
+
+    <style name="GreenDroid.Animation.PopUp.Left">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="GreenDroid.Animation.PopUp.Right">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="GreenDroid.Animation.PopUp.Center">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_top</item>
+    </style>
+
+    <style name="approve_detail_table">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#3D7DC4</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    
+    <style name="approve_detail_user_phone_info_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">#3D7DC4</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    
+    
+    
+    
+
+</resources>

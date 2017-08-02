@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <cn.sbx.deeper.moblie.view.MyGridView
+            android:id="@+id/GridView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="100dp"
+            android:drawSelectorOnTop="true"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:horizontalSpacing="5dip"
+            android:listSelector="@drawable/gv_item_mo_forground"
+            android:numColumns="2"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:scrollbars="none"
+            android:verticalSpacing="10dip" >
+        </cn.sbx.deeper.moblie.view.MyGridView>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" >
+
+            <Button
+                android:id="@+id/btn_take_photo"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/polling_btn_style"
+                android:textColor="@color/black"
+                android:textSize="@dimen/polling_fontsize" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

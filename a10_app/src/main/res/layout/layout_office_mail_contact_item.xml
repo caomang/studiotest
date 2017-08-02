@@ -1,0 +1,33 @@
+<LinearLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/littleWhile"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_route_child_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="接收着名字"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_route_child_department"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cb_route_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+             />
+    </LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_metting_selected"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <Button
+        android:id="@+id/bt_department"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/bt_search_people_selected"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/tv_department"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:text="类别"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iv_department"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/bt_search_depart_selected"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+	<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+ 			 android:gravity="center_vertical"
+ 			 android:paddingTop="1dp"
+ 			 android:paddingBottom="3dp"
+ 			 android:background="@color/white"
+			><!-- @drawable/layout_pending_complete_selected -->
+			<TextView 
+			    android:layout_alignParentLeft="true"
+				android:text="发起人" android:layout_height="wrap_content"
+				android:textColor="#0000FF"
+				android:textSize="15sp"
+				android:id="@+id/tv_attachement_name" android:layout_width="wrap_content"></TextView>	
+			<ImageView  
+			    android:layout_toRightOf="@id/tv_attachement_name"
+			    android:layout_marginLeft="20dp"
+				android:id="@+id/iv_attachement_arrow"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				></ImageView>
+		</RelativeLayout>
+</LinearLayout>

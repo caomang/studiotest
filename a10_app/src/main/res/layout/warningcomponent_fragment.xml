@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <!-- <GridView -->
+    <!-- android:id="@+id/gv_alarm_home" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:numColumns="2" -->
+    <!-- android:padding="5dp" -->
+    <!-- android:scrollbars="none" -->
+    <!-- android:listSelector="@null" -->
+    <!-- android:horizontalSpacing="5dp" -->
+    <!-- android:verticalSpacing="5dp" -->
+    <!-- > -->
+    <!-- </GridView> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_time_star_end_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/alarm_text_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="预警时段" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_star_end"
+                style="@style/alarm_text_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="#898989" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_controlpoint_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/alarm_text_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="控制点" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_control_point"
+                style="@style/alarm_text_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="#00A5D5" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_alarmsum"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/alarm_text_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="预警总数" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_alarm_total"
+                style="@style/alarm_text_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="#709BB0" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_alarm_resolved"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/alarm_text_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="已解决" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_alarm_solved"
+                style="@style/alarm_text_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="#00AC97" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_alarm_processing"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/alarm_text_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="正在处理" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_alarm_handling"
+                style="@style/alarm_text_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="#E88238" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_alarm_undisposed"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/alarm_text_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="未解决" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_alarm_undisposed"
+                style="@style/alarm_text_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="#E94746" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="horizontal"
+        android:layout_weight="1" />
+
+</LinearLayout>

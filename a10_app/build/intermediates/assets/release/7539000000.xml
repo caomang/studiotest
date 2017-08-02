@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <form>
+    <table id="1" title="基本信息" expand="true" editfield="true" columns="2">
+      <tr parent="">
+        <td>账户编号</td>
+        <td>7539000000</td>
+      </tr>
+      <tr parent="">
+        <td>客户名称</td>
+        <td>刘建</td>
+      </tr>
+      <tr parent="">
+        <td>手机号码</td>
+        <td>15952523315</td>
+      </tr>
+      <tr parent="">
+        <td>住宅电话</td>
+        <td></td>
+      </tr>
+      <tr parent="">
+        <td>工作电话</td>
+        <td></td>
+      </tr>
+      <tr parent="">
+        <td>本期气量</td>
+        <td></td>
+      </tr>
+      <tr parent="">
+        <td>月均气量</td>
+        <td></td>
+      </tr>
+      <tr parent="">
+        <td>本期气费</td>
+        <td></td>
+      </tr>
+      <tr parent="">
+        <td>累计欠费</td>
+        <td>1</td>
+      </tr>
+     </table>
+   </form>
+</root>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/uw_content_block_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_uo_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+            android:text="移动办公"
+            android:textColor="#5A9228"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/pb_uo_web_content_loading"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="7dip"
+             android:layout_marginRight="7dip"
+            android:layout_marginTop="3dip"
+            android:max="100" />
+
+        <WebView
+            android:id="@+id/wv_uo_content"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+             android:layout_marginLeft="9dip"
+             android:layout_marginRight="7dip"
+            android:layout_gravity="center_horizontal|bottom"
+            android:scrollbars="none" />
+
+        <!--
+             <TextView
+            android:id="@+id/tv_uo_content"
+            android:layout_width="172dip"
+            android:layout_height="130dip"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginLeft="2dip"
+            android:layout_marginTop="5dip"
+            android:padding="10dip"
+            android:textColor="#000"
+            android:background="#FFF"
+            android:text="正在加载，请稍候..."
+            android:scrollbars="none" />
+        -->
+    </LinearLayout>
+
+</FrameLayout>

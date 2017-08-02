@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/contact_lighter_yellow_page_bg"
+    android:orientation="vertical" >
+
+    <!--
+    <RelativeLayout
+        android:id="@+id/rl_sel_recipient_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_sel_recipient_action_bar" >
+
+        <Button
+            android:id="@+id/btn_sel_recipient_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_item_selected"
+            android:padding="5dip"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    -->
+
+<!--     <include layout="@layout/layout_partial_contact_search" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+
+        <ListView
+            android:id="@+id/lv_emp_names"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:cacheColorHint="@color/transparent"
+            android:listSelector="@color/transparent" >
+        </ListView>
+
+        <View
+            android:layout_width="20dip"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dip"
+            android:background="@color/contact_light_yellow_page_bg" />
+
+        <ScrollView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="5" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_emp_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_emp_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dip"
+                        android:text="陈阿妮"
+                        android:textColor="@color/list_itme_color"
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="电话:"
+                        android:textColor="@color/list_itme_color"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/thephone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="13366520503"
+                        android:textColor="@color/list_itme_color"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="10dip"
+                    android:background="#D2D6D8" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="移动电话:"
+                        android:textColor="@color/list_itme_color"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip" >
+
+                        <TextView
+                            android:id="@+id/phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13366520503"
+                            android:textColor="@color/list_itme_color"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/bt_sensms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dip"
+                            android:layout_alignBottom="@id/phone"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="22dp"
+                            android:background="@drawable/sms" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="8dip"
+                    android:background="#D2D6D8" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="电子邮件:"
+                         android:textColor="@color/list_itme_color"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/mail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="haowen.ma@pcitc.com"
+                         android:textColor="@color/list_itme_color"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="10dip"
+                    android:background="#D2D6D8" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="传真:"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/fax"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="13366520503"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="10dip"
+                    android:background="#D2D6D8" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="公司:"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/company"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="13366520503"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="10dip"
+                    android:background="#D2D6D8" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="部门:"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/department"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="13366520503"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="10dip"
+                    android:background="#D2D6D8" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

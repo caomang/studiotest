@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/littleWhile"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbars="none" >
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <cn.sbx.deeper.moblie.view.TagDigitalButton
+                    android:id="@+id/rb_inbox_mail"
+                    android:layout_width="@dimen/inbox_tabs_width"
+                    android:layout_height="@dimen/inbox_mail_height"
+                    android:background="@drawable/rt_scroll_selected"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="14sp" />
+					
+                <RadioButton
+                    android:id="@+id/rb_outbox_mail"
+                    android:layout_width="@dimen/inbox_tabs_width"
+                    android:layout_height="@dimen/inbox_mail_height"
+                    android:background="@drawable/rt_scroll_selected"
+                    android:button="@null"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_save_mail"
+                    android:layout_width="@dimen/inbox_tabs_width"
+                    android:layout_height="@dimen/inbox_mail_height"
+                    android:background="@drawable/rt_scroll_selected"
+                    android:button="@null"
+                    android:gravity="bottom|center_horizontal"
+                    android:layout_marginRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:visibility="gone"
+                    android:textSize="14sp" />
+            </RadioGroup>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/bt_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_submit" ><!-- @drawable/btn_submit -->
+        </Button>
+    </LinearLayout>
+
+    <cn.sbx.deeper.moblie.view.MailScrollListView
+        android:id="@+id/lv_mail_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/littleWhile"
+        android:cacheColorHint="#82806E"
+        android:divider="@color/littleGray"
+        android:dividerHeight="1px"
+        android:fadingEdgeLength="5dp"
+        android:scrollbars="vertical" />
+    
+
+</LinearLayout>

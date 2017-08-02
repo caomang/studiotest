@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg" >
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/top_title_back" >
+        </Button>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.0" >
+
+        <ListView
+            android:id="@+id/lv_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:cacheColorHint="#82806E"
+            android:divider="@color/littleGray"
+            android:dividerHeight="1px"
+            android:fadingEdgeLength="5dp" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="8.0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_marginLeft="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="添加常用语"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/bt_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_submit2"
+            android:paddingTop="2dp"
+            android:text="确 定"
+            android:textColor="@color/littleBlack"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

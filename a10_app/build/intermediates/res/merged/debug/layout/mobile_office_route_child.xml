@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingLeft="25dp" >
+
+    <LinearLayout
+         android:id="@+id/ll_child_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_route_child_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="接收着名字"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_route_child_department"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cb_route_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ifVisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_apply_matters"
+            android:layout_width="wrap_content"
+            android:layout_height="83dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="请填写办理意见" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bt_chooseDailyExpression"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/rectange_button"
+                android:text="常用语" />
+
+            <Button
+                android:id="@+id/bt_right"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/rectange_button"
+                android:text="   提  交   " >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_home_bg_all"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+            </FrameLayout>
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="300dp" -->
+<!--                 android:background="#e6e6e6" -->
+<!--                 android:orientation="vertical" > -->
+<!--             </LinearLayout> -->
+
+            <!-- <FrameLayout -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="@dimen/main_bar_item_height" > -->
+
+            <LinearLayout
+                android:id="@+id/ll_tabhost_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_bar_item_height"
+                android:background="@drawable/shape_radio_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="visible" > <!-- android:background="@drawable/shape_radio_bg" -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:id="@+id/ll_left_container" -->
+                <!-- android:layout_width="@dimen/main_left_bar_width" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:background="@drawable/ic_tab_menu_bg" -->
+                <!-- android:orientation="vertical" > -->
+
+
+                <!-- <ImageButton -->
+                <!-- android:id="@+id/bt_menu_left" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:background="@drawable/scroll_left" -->
+                <!-- android:focusable="true" -->
+                <!-- android:src="@drawable/bt_home_menu_selected" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:layout_marginTop="5dp" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="center_horizontal|bottom" -->
+                <!-- android:drawablePadding="2dp" -->
+                <!-- android:layout_marginBottom="4dp" -->
+                <!-- android:drawableTop="@drawable/bt_home_menu_selected" -->
+                <!-- android:text=" 首页" -->
+                <!-- android:textColor="#FFFFFF" -->
+                <!-- android:textSize="12sp" /> -->
+                <!-- </LinearLayout> -->
+
+                <LinearLayout
+                    android:id="@+id/fl_left_container"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/scroll_left2"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/bt_menu_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/scroll_left2"
+                        android:focusable="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/bt_home_menu_selected" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="9dp"
+                        android:text="首页"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#4d87c7" >
+
+                    <cn.sbx.deeper.moblie.view.SyncHorizontalScrollView
+                        android:id="@+id/hl_scroll_main"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/main_bar_item_height"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="10dp"
+                        android:scrollbars="none" >
+
+                        <TabWidget
+                            android:id="@android:id/tabs"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center_horizontal" >
+                        </TabWidget>
+                    </cn.sbx.deeper.moblie.view.SyncHorizontalScrollView>
+
+                    <ImageView
+                        android:id="@+id/lv_left_scroll_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|fill_vertical"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/scroll_left1"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/lv_right_scroll_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/menu_bottom_right" />
+                </FrameLayout>
+            </LinearLayout>
+            <!-- </FrameLayout> -->
+
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

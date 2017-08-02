@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/p_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/schedules_operate_background"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fadingEdge=""
+            android:gravity="center"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/search_schedule_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/new_schedules_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/schedules_list_btn_add_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/d_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p_layout"
+        android:background="@color/schedules_operate_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/check_date"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_weight="0"
+            android:background="@drawable/schedules_list_btn_date_choose_bg" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="2013-4-23 XXX"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/new_schedules_d"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_weight="0"
+            android:background="@drawable/schedules_list_btn_add_bg" />
+    </LinearLayout>
+
+    <com.sinopec.plugin.MyListView
+        android:id="@+id/scheduleList_p"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/d_layout"
+        android:background="@color/white"
+        android:visibility="gone" >
+    </com.sinopec.plugin.MyListView>
+
+    <com.sinopec.plugin.MyListView
+        android:id="@+id/scheduleList_d"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/d_layout"
+        android:background="@color/white"
+        android:visibility="gone" >
+    </com.sinopec.plugin.MyListView>
+
+</RelativeLayout>

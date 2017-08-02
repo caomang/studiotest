@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/littleWhile"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg"
+        android:gravity="center_vertical" 
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/bt_back_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/top_title_back" >
+        </Button>
+
+        <Button
+            android:id="@+id/bt_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/songshen_tijiao"
+            android:visibility="gone" >
+        </Button>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_plan_schedule_detail"
+        style="@style/item_detail_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="公司搬迁" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/littleGray" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/littleWhile"
+                android:stretchColumns="2" >
+
+                <TableRow style="@style/schedule_row_padding" >
+
+                    <TextView
+                        style="@style/item_detail_title"
+                        android:text="主持人" >
+                    </TextView>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="@color/littleGray" />
+
+                    <TextView
+                        android:id="@+id/tv_promoters_schedule_detail"
+                        style="@style/item_detail_content"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/littleGray" />
+
+                <TableRow style="@style/schedule_row_padding" >
+
+                    <TextView
+                        style="@style/item_detail_title"
+                        android:text="时间" >
+                    </TextView>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="@color/littleGray" />
+
+                    <TextView
+                        android:id="@+id/tv_date_schedule_detail"
+                        style="@style/item_detail_content"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/littleGray" />
+
+                <TableRow style="@style/schedule_row_padding" >
+
+                    <TextView
+                        style="@style/item_detail_title"
+                        android:text="地点" >
+                    </TextView>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="@color/littleGray" />
+
+                    <TextView
+                        android:id="@+id/tv_local_schedule_detail"
+                        style="@style/item_detail_content" >
+                    </TextView>
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/littleGray" />
+
+                <TableRow style="@style/schedule_row_padding" >
+
+                    <TextView
+                        style="@style/item_detail_title"
+                        android:text="参加人" >
+                    </TextView>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="@color/littleGray" />
+
+                    <TextView
+                        android:id="@+id/tv_participants_schedule_detail"
+                        style="@style/item_detail_content"
+                        android:layout_column="1" >
+                    </TextView>
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/littleGray" />
+
+                <TableRow style="@style/schedule_row_padding" >
+
+                    <TextView
+                        style="@style/item_detail_title"
+                        android:text="详细内容" >
+                    </TextView>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="@color/littleGray" />
+
+                    <TextView
+                        android:id="@+id/tv_content_schedule_detail"
+                        style="@style/item_detail_content"
+                        android:layout_column="1" 
+                        android:singleLine="false"
+            			android:maxEms="10"
+                        >
+                    </TextView>
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/littleGray" />
+
+                <TableRow style="@style/schedule_row_padding" >
+
+                    <TextView
+                        style="@style/item_detail_title"
+                        android:text="附件" >
+                    </TextView>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="fill_parent"
+                        android:background="@color/littleGray" />
+
+                    <ListView
+                        android:id="@+id/ll_notice_detail_attachements"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="#00000000"
+                        android:divider="@color/littleGray"
+                        android:dividerHeight="1px"
+                        android:fadingEdge="none" >
+                    </ListView>
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/littleGray" />
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/shape_detail_title"
+                android:gravity="center_vertical"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/bt_left_scheduledetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/left_button" >
+                </Button>
+
+                <Button
+                    android:id="@+id/bt_right_scheduledetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/right_button" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

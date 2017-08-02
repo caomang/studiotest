@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/littleWhile"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/top_title_back"
+            android:gravity="center"
+            android:paddingRight="17dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/bt_finish_meet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_metting_finish"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/bt_preside_meet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_metting_preside"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/bt_dis_preside_meet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_metting_dispreside"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/bt_join_meet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_metting_join"
+                android:visibility="visible" />
+            <ImageView
+                android:id="@+id/bt_disconnect_meet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_metting_disconnect"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3e3a39"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv_topic_metting_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" >
+        </TextView>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/littleWhile" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/littleWhile"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/littleWhile"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    style="@style/item_detail_title"
+                    android:text="会议资料    " >
+                </TextView>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/meeting_verticalspliter" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/bt_batch_download"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|left"
+                        android:layout_marginRight="3dp"
+                        android:background="@null"
+                        android:paddingTop="8dp"
+                        android:text="批量下载附件"
+                        android:textColor="@color/red"
+                        android:textSize="16sp" />
+					
+                    <ImageView
+                        android:id="@+id/iv_attache_div"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/meeting_horizentalspliter" />
+                    <ListView
+                        android:id="@+id/lv_attachements_metting_detail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="#00000000"
+                        android:divider="@null"
+                        android:dividerHeight="0px"
+                        android:fadingEdgeLength="0dp"
+                        android:scrollbars="none" >
+                    </ListView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/schedule_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:background="@drawable/schedules_list_layout_date_location_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/schedule_personal_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始时间 -- 结束时间"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/schedule_personal_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="地点:000"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/schedule_personal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="会议标题"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/schedule_personal_limits_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/schedule_personal_title"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="参会范围："
+                android:textColor="@color/a_orange" />
+
+            <TextView
+                android:id="@+id/schedule_personal_limits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="部内参加人 + 部外参加人"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule_personal_constitutor_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/schedule_personal_limits_layout"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建人："
+                android:textColor="@color/a_orange" />
+
+            <TextView
+                android:id="@+id/schedule_personal_constitutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:text="主办处室："
+                android:textColor="@color/a_orange" />
+
+            <TextView
+                android:id="@+id/schedule_personal_publishMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="名称"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/schedule_personal_constitutor_layout"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="会议状态："
+                android:textColor="@color/a_orange" />
+
+            <TextView
+                android:id="@+id/schedule_personal_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="状态"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule_personal_operate"
+            android:layout_width="fill_parent"
+            android:layout_height="82dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/schedules_list_layout_operation_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="-23dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <LinearLayout
+                    android:id="@+id/cancel_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_schedule_operate_line" />
+
+                    <Button
+                        android:id="@+id/cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableTop="@drawable/schedule_selector_operate_cancel"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:text="取消"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/edit_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_schedule_operate_line" />
+
+                    <Button
+                        android:id="@+id/edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableTop="@drawable/schedule_selector_operate_edit"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:text="编辑"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/delete_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_schedule_operate_line" />
+
+                    <Button
+                        android:id="@+id/delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableTop="@drawable/schedule_selector_operate_delete"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:text="删除"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/change_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_schedule_operate_line" />
+
+                    <Button
+                        android:id="@+id/change"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableTop="@drawable/schedule_selector_operate_change"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:text="变更"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/resendMessage_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_schedule_operate_line" />
+
+                    <Button
+                        android:id="@+id/resendMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableTop="@drawable/schedule_selector_operate_resend"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:text="重发短信"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/schedule_personal_expend"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/schedules_list_btn_operation_normal_bg"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="visible" >
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

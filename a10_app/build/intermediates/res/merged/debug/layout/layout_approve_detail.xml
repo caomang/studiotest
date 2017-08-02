@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_polling_3_2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mobile_title_height"
+        android:background="@color/b_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@+id/cb_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:button="@null"
+            android:drawableLeft="@drawable/approve_back"
+            android:padding="5dp"
+            android:text=" 返回"
+            android:textColor="#3773c0"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_next"
+            style="@style/style_approve_title_next"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/approve_btn_normal"
+            android:text="@string/tv_approve_detail_title_next"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/approve_divider_height"
+        android:background="#d3e0ea" /> <!-- #d3e0ea -->
+
+    <ExpandableListView
+        android:id="@+id/elv_details"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btn_layout"
+        android:background="#ffffff"
+        android:cacheColorHint="#ffffff"
+        android:childDivider="@null"
+        android:divider="@null"
+        android:fadeScrollbars="false"
+        android:fadingEdgeLength="1px"
+        android:groupIndicator="@null"
+        android:scrollbars="none" >
+    </ExpandableListView>
+
+    <LinearLayout
+        android:id="@+id/ll_dialog"
+        android:layout_width="65dip"
+        android:layout_height="65dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/spinner"
+            android:indeterminateDuration="2000"
+            android:indeterminateOnly="true" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#B2ABAB"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/b_gray"
+        android:visibility="gone"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/update_btn"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/polling_btn_style"
+            android:text="确认修改"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/up_down_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/up_user"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/polling_btn_style"
+                android:text="上一户"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/next_user"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/polling_btn_style"
+                android:text="下一户"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/anjian"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/polling_btn_style"
+                android:text="安检"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rcChat_popup"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            layout="@layout/voice_rcd_hint_window" />
+    </LinearLayout>
+
+</RelativeLayout>

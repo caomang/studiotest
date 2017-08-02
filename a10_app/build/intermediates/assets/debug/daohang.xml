@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <menu layout="all" notification="1" itemTemplate="picture" version="0.1" columns="2">
+        <module id="10194" notification="1" class="Inspection" caption="抄表" itemImg1="a.png" itemImg2="a1.png" itemTemplate="word" bottomShow="1">
+            <page id="9768da43-1fda-44e5-ae42-c3ec76d848a2@10194@Inspection" code="list" caption="列表" type="1" />
+            <page id="ba017912-e068-4777-b7bd-bbbd64fdf2a6@10194@Inspection" code="notification" caption="待办数" type="1" />
+            <page id="ce284f92-5346-4f08-b039-939e953ba739@10194@Inspection" code="tab" caption="选项卡" type="1" />
+            <page id="7c905e21-9c84-43eb-bdde-abaa3dbee416@10194@Inspection" code="detail" caption="明细" type="1" />
+            <page id="8b97010a-b36a-41d8-800a-4c90a3d85031@10194@Inspection" code="deviceDetail" caption="设备详情" type="1" />
+        </module>
+<!--         <module id="10201" notification="1" class="AnJian" caption="安检" itemImg1="b.png" itemImg2="b1.png" itemTemplate="picture" bottomShow="1"> -->
+<!--             <page id="041c771b-f8f1-4ae8-a249-d6d7bc321d8a@10201@Inspection" code="list" caption="列表" type="1" /> -->
+<!--             <page id="05620645-c009-4121-9824-62bbd49600b1@10201@Inspection" code="notification" caption="待办数" type="1" /> -->
+<!--             <page id="0f9570ac-5202-4a5c-b9dc-5e6d36fdd2a7@10201@Inspection" code="tab" caption="选项卡" type="1" /> -->
+<!--             <page id="c18f2a2c-7264-4322-a9c2-79e74281969b@10201@Inspection" code="detail" caption="明细" type="1" /> -->
+<!--             <page id="88f2f5ac-edd9-4cd1-aa45-f92a9e3a7308@10201@Inspection" code="deviceDetail" caption="设备详情" type="1" /> -->
+<!--         </module> -->
+<!--         <module id="10197" notification="0" class="WeiXiu" caption="维修" itemImg1="c.png" itemImg2="c1.png" itemTemplate="word" bottomShow="1" /> -->
+<!--         <module id="10198" notification="0" class="Map" caption="作业导航" itemImg1="d.png" itemImg2="d1.png" itemTemplate="word" bottomShow="1"> -->
+<!--             <page id="cb05a3ed-b52e-40ed-8561-3ff27e057808@10198@AddressBook" code="departmentList" caption="部门" type="1" /> -->
+<!--             <page id="8db3e732-37c7-4bd5-9876-621a0b613a2f@10198@AddressBook" code="userList" caption="人员" type="1" /> -->
+<!--         </module> -->
+    </menu>
+</root>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<!--     <RelativeLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="50dp" -->
+<!--         android:background="@drawable/top_bg_new" -->
+<!--         android:gravity="center_vertical" > -->
+
+<!--         <Button -->
+<!--             android:id="@+id/bt_left1" -->
+<!--             style="@style/style_approve_title_next" -->
+<!--             android:layout_width="65dp" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentLeft="true" -->
+<!--             android:layout_centerInParent="true" -->
+<!--             android:background="@drawable/caozuo1" -->
+<!--             android:text="返回" /> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/tv_title" -->
+<!--             style="@style/style_approve_tab_title" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_centerInParent="true" -->
+<!--             android:layout_marginLeft="45dp" -->
+<!--             android:layout_marginRight="60dp" -->
+<!--             android:ellipsize="end" -->
+<!--             android:singleLine="true" -->
+<!--             android:text="上传任务列表" /> -->
+
+<!--         <Button -->
+<!--             android:id="@+id/btn_selectall" -->
+<!--             style="@style/style_approve_title_next" -->
+<!--             android:layout_width="65dp" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:layout_centerInParent="true" -->
+<!--             android:layout_gravity="right|center_vertical" -->
+<!--             android:background="@drawable/caozuo2" -->
+<!--             android:text="全选" /> -->
+<!--     </RelativeLayout> -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E8F2FE"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ListView
+                android:id="@+id/list_schedInfos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="暂无上传任务"
+                android:textColor="@color/a_gray"
+                android:textSize="25sp"
+                android:visibility="gone" />
+
+            <!-- <Button -->
+            <!-- android:id="@+id/button_update" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:text="上传所选任务" -->
+            <!-- android:textColor="@color/black" -->
+            <!-- android:textSize="18sp" /> -->
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="上传所选任务"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</LinearLayout>

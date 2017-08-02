@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/top_title_back"
+            android:gravity="center"
+            android:paddingRight="17dp" />
+
+    </LinearLayout>
+
+<!--     <com.sunboxsoft.office.utils.MyHorizontalScrollView -->
+<!--         android:id="@+id/horizontalScrollView" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="center_vertical" -->
+<!--         android:background="#4E4C4D" -->
+<!--         android:fadingEdge="@null" -->
+<!--         android:scrollbars="none" > -->
+
+<!--         <LinearLayout -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:orientation="horizontal" -->
+<!--             android:paddingLeft="3dp" -->
+<!--             android:paddingRight="3dp" > -->
+
+<!--             <RadioGroup -->
+<!--                 android:id="@+id/rg_group_types" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_gravity="center_vertical" -->
+<!--                 android:orientation="horizontal" -->
+<!--                 android:padding="5dp" > -->
+<!--             </RadioGroup> -->
+<!--         </LinearLayout> -->
+<!--     </com.sunboxsoft.office.utils.MyHorizontalScrollView> -->
+
+<!--     <HorizontalScrollView -->
+<!--         android:id="@+id/hv_month_horizontalScrollView" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="center_vertical" -->
+<!--         android:background="#FFFF02" -->
+<!--         android:fadingEdge="@null" -->
+<!--         android:scrollbars="none" > -->
+
+<!--         <LinearLayout -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:orientation="horizontal" -->
+<!--              > -->
+
+<!--             <RadioGroup -->
+<!--                 android:id="@+id/rg_group_months" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_gravity="center_vertical" -->
+<!--                 android:orientation="horizontal" -->
+<!--                > -->
+<!--             </RadioGroup> -->
+<!--         </LinearLayout> -->
+<!--     </HorizontalScrollView> -->
+
+    <ListView
+        android:id="@+id/lv_mobile_metting"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/littleWhile"
+        android:cacheColorHint="#00000000"
+         android:divider="@color/littleGray"
+        android:dividerHeight="1px">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/littleWhile"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_mobile_title"/>
+
+    <TextView
+        android:background="#f7f8f8"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="应用帐号设置" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/littleGray" />
+    <ListView
+        android:id="@+id/lv_more_setup"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/littleWhile"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:scrollbars="none" >
+    </ListView>
+</LinearLayout>

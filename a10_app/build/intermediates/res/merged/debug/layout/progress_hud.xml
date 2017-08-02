@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="20dp" ><!-- android:background="@drawable/progress_hud_bg" -->
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/spinnerImageView"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:src="@drawable/spinner_outer" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_sp_logo" />
+    </FrameLayout>
+    <!-- <ProgressBar -->
+
+
+    <!-- android:id="@+id/spinnerImageView" -->
+    <!-- android:layout_width="65dip" -->
+    <!-- android:layout_height="65dip" -->
+    <!-- android:layout_gravity="center_horizontal|center_vertical" -->
+    <!-- android:background="@drawable/spinner" -->
+    <!-- android:indeterminateDuration="2000" -->
+    <!-- android:indeterminate="true" -->
+    <!-- android:indeterminateOnly="true" -->
+    <!-- /> -->
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Message"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

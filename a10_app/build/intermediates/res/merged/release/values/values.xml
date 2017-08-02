@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="action_pair_labels">
+        <item>none</item>
+        <item>screen up/down</item>
+        <item>page up/down</item>
+        <item>page prev/next</item>
+        <item>zoom 1.02X</item>
+        <item>zoom 1.05X</item>
+        <item>zoom 1.1X</item>
+        <item>zoom 1.2X</item>
+        <item>zoom 1.414X</item>
+        <item>zoom 2X</item>
+        <item>screen up/down reversed</item>
+        <item>page up/down reversed</item>
+        <item>page prev/next reversed</item>
+    </string-array>
+    <string-array name="action_pairs">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>9</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="box_labels">
+        <item>ArtBox</item>
+        <item>BleedBox</item>
+        <item>CropBox</item>
+        <item>MediaBox</item>
+        <item>TrimBox</item>
+    </string-array>
+    <string-array name="boxes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="color_mode_labels">
+        <item>Normal color</item>
+        <item>Inverted color</item>
+        <item>Normal black and white</item>
+        <item>Inverted black and white</item>
+        <item>Black on yellowish</item>
+        <item>Green on black</item>
+        <item>Red on black</item>
+    </string-array>
+    <string-array name="color_modes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="date">
+    <item>年</item>
+      <item>月</item>
+      <item>日</item>
+ </string-array>
+    <string-array name="double_tap_action_labels">
+        <item>none</item>
+        <item>zoom in</item>
+        <item>zoom in or back out</item>
+    </string-array>
+    <string-array name="double_tap_actions">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="extra_cache_labels">
+        <item>none</item>
+        <item>1 MB</item>
+        <item>2 MB</item>
+        <item>4 MB</item>
+        <item>6 MB</item>
+        <item>8 MB</item>
+        <item>10 MB</item>
+    </string-array>
+    <string-array name="extra_caches">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="fade_speed_labels">
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+        <item>6 seconds</item>
+        <item>7 seconds</item>
+    </string-array>
+    <string-array name="fade_speeds">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="margin_labels">
+        <item>none</item>
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+    <string-array name="margins">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>automatic</item>
+        <item>harder to change</item>
+        <item>lock to portrait</item>
+        <item>lock to landscape</item>
+    </string-array>
+    <string-array name="orientations">
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="page_animation_labels">
+        <item>disabled</item>
+        <item>disappear</item>
+        <item>almost disappear</item>
+        <item>fade</item>
+        <item>show always</item>
+    </string-array>
+    <string-array name="page_animations">
+        <item>100</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="zoom_animation_labels">
+        <item>disabled</item>
+        <item>disappear</item>
+        <item>almost disappear</item>
+        <item>fade</item>
+    </string-array>
+    <string-array name="zoom_animations">
+        <item>100</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <color name="Gray">#ff666666</color>
+    <color name="LightGray">#ffcccccc</color>
+    <color name="a_gray">#5E5E5E</color>
+    <color name="a_littleWhile">#F4F4F4</color>
+    <color name="a_orange">#EC8319</color>
+    <color name="actionbar_background_end">#1657A8</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_start">#529BF7</color>
+    <color name="actionbar_separator">#3A5FCD</color>
+    <color name="actionbar_text">#FFFFFF</color>
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="approval_contacts_search_textcolor">#808080</color>
+    <color name="approve_condition_bg">#9A9C9B</color>
+    <color name="b_gray">#EBEBEB</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+    <color name="base_end_color_pressed">#ff2570ba</color>
+    <color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_start_color_pressed">#ff3590c4</color>
+    <color name="bg_seperator">#D2D6D8</color>
+    <color name="black">#000000</color>
+    <color name="blue">#3335CC</color>
+    <color name="bottom_bar_bg">#181B20</color>
+    <color name="btn_bg_sel">#E5E5E5</color>
+    <color name="btn_bg_sel_on">#CECECE</color>
+    <color name="btn_sel_color">#888888</color>
+    <color name="btn_task_end_color">#058F3E</color>
+    <color name="btn_task_start_color">#A8CC03</color>
+    <color name="c_document_background">#ffffff</color>
+    <color name="c_document_press_item_bg">#F8F9F9</color>
+    <color name="c_item_left_menu_nomal">#2F5172</color>
+    <color name="c_item_left_menu_pressed">#2C4560</color>
+    <color name="c_type_squared_userinfo">#5E5E5E</color>
+    <color name="contact_light_yellow_page_bg">#DCE3EF</color>
+    <color name="contact_lighter_yellow_page_bg">#ffffff</color>
+    <color name="dark_page_bg">#D3D3D5</color>
+    <color name="darker_30_percent">#30000000</color>
+    <color name="darker_label">#777777</color>
+    <color name="darker_page_bg">#BDBDBF</color>
+    <color name="default_page_bg">#ffffff</color>
+    <color name="document_query">#5E9BD2</color>
+    <color name="document_query_on">#0061D1</color>
+    <color name="et_hint_color">#BDBEBE</color>
+    <color name="font_vote">#727272</color>
+    <color name="gold">#b89766</color>
+    <color name="gray">#535252</color>
+    <color name="gray_text">#e6e6e6</color>
+    <color name="green">#47C55A</color>
+    <color name="item_end_color">#FFF798</color>
+    <color name="item_start_color">#FFFFFF</color>
+    <color name="label_task">#4C566C</color>
+    <color name="list_item">#f6f6f6</color>
+    <color name="list_item_line">#c9cacc</color>
+    <color name="list_itme_color">#0055af</color>
+    <color name="list_top">#e6e6e6</color>
+    <color name="littleBlack">#5A5E62</color>
+    <color name="littleBlue">#F7F7F7</color>
+    <color name="littleGray">#CCCCCC</color>
+    <color name="littleWhile">#DBDBDB</color>
+    <color name="lv_item_on">#DCE3EF</color>
+    <color name="lv_item_task_info">#AAAAAA</color>
+    <color name="noise">#555555</color>
+    <color name="pic_news_title_blue">#347BD0</color>
+    <color name="polling_operation">#000000</color>
+    <color name="read_no">#000000</color>
+    <color name="read_yes">#000000</color>
+    <color name="red">#C32020</color>
+    <color name="rounded_container_border">#ffb7babb</color>
+    <color name="schedules_operate_background">#F5F5F5</color>
+    <color name="schedules_operate_btn_selected">#EFEFEF</color>
+    <color name="schedules_operate_btn_textcolor">#3775C5</color>
+    <color name="schedules_operate_radio_btn_textcolor">#727071</color>
+    <color name="task_detaiL_div">#F3A8AC</color>
+    <color name="task_detaiL_label">#D22F35</color>
+    <color name="task_seg_bg">#DFE3E6</color>
+    <color name="task_title_blue">#387DBE</color>
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+    <color name="translucent_black">#80000000</color>
+    <color name="translucent_light_black">#60000000</color>
+    <color name="translucent_orange">#80FFA500</color>
+    <color name="transparent">#00000000</color>
+    <color name="union_label">#909090</color>
+    <color name="union_reply">#F2F2F4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <declare-styleable name="LoginContainer"><attr format="dimension" name="marginBottom"/><attr format="reference" name="rootBackground"/></declare-styleable>
+    <dimen name="ap_detail_view_basic_height">40dp</dimen>
+    <dimen name="ap_detail_view_basic_height_padding">10dp</dimen>
+    <dimen name="approve_choose_user_bt_height">22dp</dimen>
+    <dimen name="approve_choose_user_bt_width">22dp</dimen>
+    <dimen name="approve_divider_height">1px</dimen>
+    <dimen name="approve_list_footer_height">45dp</dimen>
+    <dimen name="approve_route_rect_width">3px</dimen>
+    <dimen name="button_height">35dp</dimen>
+    <dimen name="content_large_size">20sp</dimen>
+    <dimen name="dimen_choose_people_width">28dp</dimen>
+    <dimen name="dimen_net_set_tv1">14sp</dimen>
+    <dimen name="gd_arrow_offset">5dp</dimen>
+    <dimen name="inbox_mail_height">45dp</dimen>
+    <dimen name="inbox_mail_width">150dp</dimen>
+    <dimen name="inbox_tabs_width">110.5dp</dimen>
+    <dimen name="inbox_tabs_width_A10">106.5dp</dimen>
+    <dimen name="layout_login_content">272dp</dimen>
+    <dimen name="layout_login_logo">270dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="list_refresh_height">65dip</dimen>
+    <dimen name="login_bt_login_confirm_height">30.75dp</dimen>
+    <dimen name="login_bt_login_confirm_width">59.25dp</dimen>
+    <dimen name="login_cb_remind_password_height">30.75dp</dimen>
+    <dimen name="login_cb_remind_password_width">59.25dp</dimen>
+    <dimen name="login_content_margin_bottom">50dp</dimen>
+    <dimen name="main_bar_height">50dp</dimen>
+    <dimen name="main_bar_item_height">48.75dp</dimen>
+    <dimen name="main_bar_item_width">64.5dp</dimen>
+    <dimen name="main_bar_scroll_bitmap_height">48.75dp</dimen>
+    <dimen name="main_bar_width">75dp</dimen>
+    <dimen name="main_left_bar_width">80dp</dimen>
+    <dimen name="main_meni_grid_padding_left">15dp</dimen>
+    <dimen name="main_meni_grid_padding_right">15dp</dimen>
+    <dimen name="main_menu_grid_padding_top">20dp</dimen>
+    <dimen name="main_menu_item_height">89.5dp</dimen>
+    <dimen name="main_menu_item_text_marginleft">4dp</dimen>
+    <dimen name="main_menu_item_width">89.5dp</dimen>
+    <dimen name="menu_slide_left_img_height">42dp</dimen>
+    <dimen name="menu_slide_left_img_width">42dp</dimen>
+    <dimen name="menu_squared_img_height">42dp</dimen>
+    <dimen name="menu_squared_img_width">42dp</dimen>
+    <dimen name="mobile_title_height">45dp</dimen>
+    <dimen name="polling_fontsize">18dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="tab_bar_img_height">26dp</dimen>
+    <dimen name="tab_bar_img_width">29dp</dimen>
+    <dimen name="tab_frame_width">25dp</dimen>
+    <dimen name="tab_radio_number_rect">14sp</dimen>
+    <dimen name="tab_radio_rect_x">85dp</dimen>
+    <dimen name="tab_radio_rect_y">1dp</dimen>
+    <dimen name="tab_radio_x">70dp</dimen>
+    <dimen name="tab_radio_y">20dp</dimen>
+    <dimen name="text_height">29px</dimen>
+    <dimen name="text_height_padding">30dp</dimen>
+    <dimen name="ui_10_dip">10dip</dimen>
+    <drawable name="gray">#6B6657</drawable>
+    <drawable name="green">#DCE3EF</drawable>
+    <drawable name="red">#C32020</drawable>
+    <string name="about_text1">TouchView(Android)\nVersion	</string>
+    <string name="about_text2">\n\nCopyright©2010-2011 Avonaco\nAll Rights
+		Reserved.\nhttp://www.avonaco.com\n\n 本计算机软件程序受《中华人民共和国著作权法》以及中华人民共和国最高人民法院相关司法解释、国际公约的保护。\n
+		艾诺通信(Avonaco)对本计算机软件程序的版本依上述法律及国际公约合法所有，任何未经授权许可而擅自复制、散布、反向编译或反向工程本软件程序的全部或部分，均被视为对艾诺通信(Avonaco)的侵权，必将受到严厉的民事追诉，甚至刑事起诉。\n
+		此版本适用于Android 1.5及1.5以上操作系统系列手机，对于在其他操作系统平台的手机上使用本软件，出现任何问题，艾诺通信(Avonaco)不承担责任。</string>
+    <string name="alertTitle">警告!</string>
+    <string name="alertmessage">重新下载将清空该任务所有相关数据,请谨慎操作.</string>
+    <string name="app_name">现场工作</string>
+    <string name="attachment_not_support">暂时不支持此格式附件下载</string>
+    <string name="back">Back</string>
+    <string name="box">PDF page box type</string>
+    <string name="camera_not_connected_info">Camera can\'t be connected.</string>
+    <string name="camera_not_connected_title">Camera disable</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_file">Open…</string>
+    <string name="clear_find_text">Clear find</string>
+    <string name="close">Close</string>
+    <string name="co_conduct_approval_opinion">请%1$s协办，</string>
+    <string name="color_mode">Color mode</string>
+    <string name="confirm">Ok</string>
+    <string name="contact_not_selected">您尚未选择接收人，人与人以";"隔开</string>
+    <string name="copy_right">Avonaco Communication Systems(Suzhou) Co., Ltd</string>
+    <string name="county_branches_approval_opinion">请%1$s办理，</string>
+    <string name="date_lastweek">上一周</string>
+    <string name="date_nextweek">下一周</string>
+    <string name="date_thisweek">本周</string>
+    <string name="default_box">2</string>
+    <string name="default_color_mode">0</string>
+    <string name="default_double_tap_action">2</string>
+    <string name="default_extra_cache">0</string>
+    <string name="default_fade_speed">7</string>
+    <string name="default_left_right_pair">2</string>
+    <string name="default_long_zoom_pair">8</string>
+    <string name="default_orientation">0</string>
+    <string name="default_page_animation">2</string>
+    <string name="default_right_up_down_pair">1</string>
+    <string name="default_side_margin">0</string>
+    <string name="default_top_bottom_tap_pair">0</string>
+    <string name="default_top_margin">10</string>
+    <string name="default_up_down_pair">1</string>
+    <string name="default_volume_pair">1</string>
+    <string name="default_zoom_animation">2</string>
+    <string name="default_zoom_pair">7</string>
+    <string name="delete">Delete file</string>
+    <string name="demo">Demo</string>
+    <string name="dialog_button_cancel">取消</string>
+    <string name="dialog_button_confirm">确定</string>
+    <string name="dialog_message_val_code">您确认要获取短信验证码吗？</string>
+    <string name="dialog_title_val_code">短信验证码</string>
+    <string name="dirs_first">List directories first</string>
+    <string name="disabled">Disabled</string>
+    <string name="double_tap_action">Double tap action</string>
+    <string name="eink">E-ink optimizations</string>
+    <string name="emp_company">所在公司： %1$s</string>
+    <string name="emp_department">所在部门： %1$s</string>
+    <string name="emp_email_addr">邮箱地址： %1$s</string>
+    <string name="emp_fax_no">传真号码： %1$s</string>
+    <string name="emp_mobile_no">手机号码： %1$s</string>
+    <string name="emp_office_no">办公号码： %1$s</string>
+    <string name="emp_position">职　　务： %1$s</string>
+    <string name="error_info">Error reason： \n</string>
+    <string name="extra_cache">Extra cache memory</string>
+    <string name="extra_cache_sub">Using extra cache memory can improve scrolling smoothness at the expense of stability.</string>
+    <string name="fade_speed">Zoom and page fade wait</string>
+    <string name="find_cancel_button">Cancel</string>
+    <string name="find_dialog_title">Find text</string>
+    <string name="find_go_button">Find</string>
+    <string name="find_text">Find…</string>
+    <string name="first_page">This is first page!</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="get_list_info">Getting list, please wait.</string>
+    <string name="get_list_title">Getting list</string>
+    <string name="go_home">Home</string>
+    <string name="goto_page">Go to page…</string>
+    <string name="goto_page_dialog_title">Go to page</string>
+    <string name="goto_page_go_button">Go</string>
+    <string name="gray">Grayscale</string>
+    <string name="gray_sub">No colors, slightly slower, but uses less memory.</string>
+    <string name="hello">Hello World, MobileOfficeStandardEditionActivity!</string>
+    <string name="history">Show recent files</string>
+    <string name="hud_len">HUD Len：</string>
+    <string name="hw">Hardware Specific Settings</string>
+    <string name="invert">Invert colors</string>
+    <string name="keep_on">Keep screen on while reading</string>
+    <string name="known_leaders_approval_opinion">请%1$s阅知，</string>
+    <string name="last_page">This is last page!</string>
+    <string name="left_right_pair">Left/Right key actions</string>
+    <string name="login">Login</string>
+    <string name="login_load">It\'s logging on, please wait.</string>
+    <string name="login_param_error">Login Param Error</string>
+    <string name="login_sucess">Logon successful</string>
+    <string name="logout">Logout</string>
+    <string name="long_zoom_pair">Long press zoom button actions</string>
+    <string name="main_conduct_approval_opinion">请%1$s主办，</string>
+    <string name="meeting_all">全部会议</string>
+    <string name="meeting_apply">我申请的</string>
+    <string name="meeting_attend">我参加的</string>
+    <string name="menu_settings">hehe</string>
+    <string name="ms_login_notice">正在登录...</string>
+    <string name="msg_approve_choose_route">请正确选择审批路由！</string>
+    <string name="msg_approve_choose_route_error">审批路由为必选！</string>
+    <string name="msg_data_not_found">很抱歉，没有获取到数据</string>
+    <string name="msg_dis_preside_meet_faild">取消主持失败</string>
+    <string name="msg_dis_preside_meet_success">取消主持成功</string>
+    <string name="msg_init_decoders">正在加载，请稍后…</string>
+    <string name="msg_join_meet_faild">加入会议失败</string>
+    <string name="msg_join_meet_success">加入会议成功</string>
+    <string name="msg_login_net_error">加密机未连接,进入离线模式</string>
+    <string name="msg_login_net_or_server_error">网络或服务器异常</string>
+    <string name="msg_login_result_device_disable">设备被禁用</string>
+    <string name="msg_login_result_device_exception">登录异常</string>
+    <string name="msg_login_result_device_un_activitied">设备未激活</string>
+    <string name="msg_login_result_user_disable">用户被禁用</string>
+    <string name="msg_login_result_user_existed">验证模式为一对一验证，但已存在该设备或用户信息</string>
+    <string name="msg_login_result_user_notice">提示</string>
+    <string name="msg_login_result_username_password_error">用户名或密码错误</string>
+    <string name="msg_login_vpn_error">VPN连接失败，请重试</string>
+    <string name="msg_meet_over">会议结束</string>
+    <string name="msg_metting_error">会议异常</string>
+    <string name="msg_metting_has_finish">会议已结束</string>
+    <string name="msg_metting_has_proside">当前会议有主持人，可加入此会议</string>
+    <string name="msg_metting_is_progress">会议没有主持人，正在进行中</string>
+    <string name="msg_metting_not_participant">很抱歉，没有权限参加此会议</string>
+    <string name="msg_net_choose_error">没有可用的网络地址，请检查网络连接</string>
+    <string name="msg_net_choose_router">请选择一条网络路由</string>
+    <string name="msg_net_choose_success">自动选择地址成功</string>
+    <string name="msg_net_save_success">保存成功</string>
+    <string name="msg_net_scan_nets">正在检测可用的路由地址</string>
+    <string name="msg_preside_meet_faild">主持失败</string>
+    <string name="msg_preside_meet_success">主持成功</string>
+    <string name="msg_send_fail">对不起，信息发送失败！</string>
+    <string name="msg_send_succ">发送成功！</string>
+    <string name="msg_switch_loading">正在获取菜单数据...</string>
+    <string name="msg_wait">请稍后...</string>
+    <string name="msg_warning">很抱歉，没有获取到数据</string>
+    <string name="network_error">Network error</string>
+    <string name="next_page">next</string>
+    <string name="no_available_net">网络不给力，请稍后重试…</string>
+    <string name="no_recipient_or_content">请填写必要内容！</string>
+    <string name="nook2">Nook2 fast e-ink refresh</string>
+    <string name="omit_images">Skip images</string>
+    <string name="options">Settings</string>
+    <string name="orientation">Orientation</string>
+    <string name="page">Page</string>
+    <string name="page_animation">Page number/count</string>
+    <string name="page_of">Page %1$d of %2$d</string>
+    <string name="password">Password：</string>
+    <string name="password_null_info">Password is empty.</string>
+    <string name="password_null_title">Please input password</string>
+    <string name="port">Port：</string>
+    <string name="port_null_info">Port is empty.</string>
+    <string name="port_null_title">Please input port</string>
+    <string name="preset_title">PreSet（1-60）</string>
+    <string name="previous_page">previous</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="qa_branches_title">测试</string>
+    <string name="remove_from_recent">Remove from recent</string>
+    <string name="render_ahead">Render ahead</string>
+    <string name="render_ahead_sub">Uses more memory but faster forward scrolling.</string>
+    <string name="right_up_down_pair">Nook Touch right up/down key actions</string>
+    <string name="rotate_page_left">Rotate left</string>
+    <string name="rotate_page_right">Rotate right</string>
+    <string name="s_add">新 增</string>
+    <string name="s_query">查 询</string>
+    <string name="searching_for">Searching for "%1$s"</string>
+    <string name="selector">File Chooser</string>
+    <string name="server">Server：</string>
+    <string name="server_error">Server error.</string>
+    <string name="server_null_info">Server is empty.</string>
+    <string name="server_null_title">Please input server IP</string>
+    <string name="set_as_home">Set current folder as home</string>
+    <string name="setting_title">Setting</string>
+    <string name="show_extension">Show .pdf extension</string>
+    <string name="show_zoom_on_scroll">Show zoom when scrolling</string>
+    <string name="side_margin">Extra side margins</string>
+    <string name="snap_cancel">cancel</string>
+    <string name="snap_save">Save</string>
+    <string name="snap_title">Saving screen shoot</string>
+    <string name="table_of_contents">Table of Contents</string>
+    <string name="text_reflow">Text Reflow</string>
+    <string name="toc_dialog_title">Table of Contents</string>
+    <string name="toggle_fine_zoom">Toggle fine zoom</string>
+    <string name="toggle_invert">Invert</string>
+    <string name="top_bottom_tap_pair">Action for top/bottom tap</string>
+    <string name="top_margin">Space between pages</string>
+    <string name="touchview">Touch View</string>
+    <string name="tv_approve_detail_form_close">关闭</string>
+    <string name="tv_approve_detail_title_next">操作</string>
+    <string name="tv_approve_detail_title_submit">提交</string>
+    <string name="tv_approve_list_load_more">正在加载更多数据</string>
+    <string name="tv_approve_route_choose_user">选择</string>
+    <string name="tv_approve_route_error_et">请填写%1$s</string>
+    <string name="tv_approve_route_error_rb">请选择%1$s</string>
+    <string name="tv_approve_route_error_user">%1$s</string>
+    <string name="tv_approve_route_suggest">常用语</string>
+    <string name="tv_approve_route_suggest_hint">请输入常用语</string>
+    <string name="tv_approve_route_suggest_title">审批意见</string>
+    <string name="tv_approve_search_condition_et">查询关键字</string>
+    <string name="tv_left_menu_title">中国石化移动办公系统</string>
+    <string name="tv_list_footer_load_more">点击加载更多</string>
+    <string name="tv_list_info">共%1$s条信息</string>
+    <string name="tv_main_more">设置</string>
+    <string name="tv_matters_router_common">常用语</string>
+    <string name="tv_matters_router_next">下一步</string>
+    <string name="tv_matters_router_option">办理意见</string>
+    <string name="tv_metting_all">全部</string>
+    <string name="tv_metting_radio_month">%1$s 月</string>
+    <string name="tv_metting_radio_year">%1$s 年</string>
+    <string name="tv_metting_subscription">取消订阅</string>
+    <string name="tv_metting_subscription_list">订阅列表</string>
+    <string name="tv_metting_unsubscription">订阅</string>
+    <string name="tv_net_set_apn">APN:</string>
+    <string name="tv_net_set_auto">自动:</string>
+    <string name="tv_net_set_auto_detect">自动检测以上地址。</string>
+    <string name="tv_net_set_internet">外网地址:</string>
+    <string name="tv_net_set_intranet">内网地址:</string>
+    <string name="tv_page_show">页面展示</string>
+    <string name="tv_pagesgow_title">实时展示</string>
+    <string name="tv_splash_scan_netword">正在自动选择网络</string>
+    <string name="tv_squared_title_userinfo">%1$s,欢迎您!</string>
+    <string name="tv_task_pending">待办</string>
+    <string name="tv_third_video_connect">连接工业视频</string>
+    <string name="up_down_pair">Up/Down key actions</string>
+    <string name="url_list_name">Camera List</string>
+    <string name="user_name">Username：</string>
+    <string name="username_null_info">Username is empty.</string>
+    <string name="username_null_title">Please input username</string>
+    <string name="val_code_fetch_fail">短信验证码获取失败，请重新获取。</string>
+    <string name="val_code_fetching">正在获取短信验证码，请稍后…</string>
+    <string name="val_code_send_info">短信验证码已发送至%1$s，请注意查收</string>
+    <string name="vertical_scroll_lock">Vertical scroll lock</string>
+    <string name="vertical_scroll_lock_sub">To scroll horizontally, you must first move horizontally 1/5 of the screen width.</string>
+    <string name="video_loading">Video is loading...</string>
+    <string name="video_loading_info">Video is loading, please wait.</string>
+    <string name="video_loading_title">Video loading</string>
+    <string name="video_playing">Video is playing</string>
+    <string name="video_stopped">Video is stopped.</string>
+    <string name="video_stopping">Video is stopping...</string>
+    <string name="view_leaders_approval_opinion">请%1$s阅示，</string>
+    <string name="viewer">PDF Viewer</string>
+    <string name="volume_pair">Volume -/+ key actions</string>
+    <string name="vote_count">投票人数：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="zoom_animation">Zoom buttons</string>
+    <string name="zoom_pair">Zoom button actions</string>
+    <style name="Animations"/>
+    <style name="Animations.PopDownMenu"/>
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="Animations.PopDownMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="Animations.PopUpMenu"/>
+    <style name="Animations.PopUpMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+    <style name="Animations.PopUpMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+    <style name="Animations.PopUpMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="Animations.PopUpMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+    <style name="GreenDroid"/>
+    <style name="GreenDroid.Animation"/>
+    <style name="GreenDroid.Animation.PopDown"/>
+    <style name="GreenDroid.Animation.PopDown.Center">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_bottom</item>
+    </style>
+    <style name="GreenDroid.Animation.PopDown.Left">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="GreenDroid.Animation.PopDown.Right">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="GreenDroid.Animation.PopUp"/>
+    <style name="GreenDroid.Animation.PopUp.Center">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_top</item>
+    </style>
+    <style name="GreenDroid.Animation.PopUp.Left">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_topright_to_bottomleft</item>
+    </style>
+    <style name="GreenDroid.Animation.PopUp.Right">
+        <item name="@android:windowEnterAnimation">@anim/gd_grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/gd_shrink_from_topleft_to_bottomright</item>
+    </style>
+    <style name="GreenDroid.Widget"/>
+    <style name="GreenDroid.Widget.QuickAction"/>
+    <style name="GreenDroid.Widget.QuickAction.Bar"/>
+    <style name="GreenDroid.Widget.QuickAction.Bar.Item" parent="@style/GreenDroid.Widget.QuickAction.Item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:background">@drawable/gd_quick_action_bar_item</item>
+    </style>
+    <style name="GreenDroid.Widget.QuickAction.Grid">
+        <item name="android:padding">1dp</item>
+        <item name="android:listSelector">@drawable/gd_quick_action_grid_selector</item>
+        <item name="android:background">@drawable/ic_openfolder_bg_all</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fadingEdgeLength">0dp</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">10dp</item>
+        <item name="android:numColumns">3</item>
+    </style>
+    <style name="GreenDroid.Widget.QuickAction.Grid.Item" parent="@style/GreenDroid.Widget.QuickAction.Item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">65dp</item>
+    </style>
+    <style name="GreenDroid.Widget.QuickAction.Item">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#333</item>
+    </style>
+    <style name="ProgressHUD" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="alarm_detail_text">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="alarm_detail_text_rb">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="alarm_text_label">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="alarm_text_num">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="anjian_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="anjian_style_qianming">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="approve_detail_table">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#3D7DC4</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="approve_detail_user_phone_info_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">#3D7DC4</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/rt_scroll_selected</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="dialog_overlay" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="dot_style">
+        <item name="android:layout_width">5dip</item>
+        <item name="android:layout_height">5dip</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+    <style name="intranet_item_date">
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="intranet_item_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="item_detail_content">
+        <item name="android:layout_column">1</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7B7B7B</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="item_detail_content_intranet">
+        <item name="android:layout_column">1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7B7B7B</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="item_detail_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7B7B7B</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="item_detail_title_intranet">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#7B7B7B</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="mail_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#989697</item>
+    </style>
+    <style name="mail_text_content">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="meeting_row_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="more_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="more_text_content">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="schedule_row_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="schedule_tab">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/schedule_selector_radiobtn_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/schedules_operate_radio_btn_textcolor</item>
+    </style>
+    <style name="style_activity_in_tab_title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="style_approve_detail_attachement">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#2A69B3</item>
+    </style>
+    <style name="style_approve_detail_group_item">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#5E5E5E</item>
+    </style>
+    <style name="style_approve_detail_group_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#2A69B3</item>
+    </style>
+    <style name="style_approve_detail_input">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ec8319</item>
+    </style>
+    <style name="style_approve_list_sub_title">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/a_gray</item>
+    </style>
+    <style name="style_approve_list_time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/a_gray</item>
+    </style>
+    <style name="style_approve_list_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="style_approve_route_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#2A69B3</item>
+    </style>
+    <style name="style_approve_tab_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/a_gray</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="style_approve_tab_text_all">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="style_approve_tab_text_number">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="style_approve_tab_title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="style_approve_title_next">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="style_bi_list">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="style_bi_list_item">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="style_contact_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="style_contact_list_item">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="style_contact_list_item_detail">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ff00ff</item>
+    </style>
+    <style name="style_document_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="style_document_list_tree">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="style_intranet_tab_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="style_left_menu_activity" parent="@android:style/Theme.Light">
+        <item name="android:windowTitleSize">@dimen/mobile_title_height</item>
+    </style>
+    <style name="style_left_menu_item">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#D5D5D5</item>
+    </style>
+    <style name="style_left_menu_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#EFEFEC</item>
+    </style>
+    <style name="style_metting_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="style_more_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="style_search_radio_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rt_scroll_selected_newspaper</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">7dp</item>
+    </style>
+    <style name="style_vedio_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="style_wireliess_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7B7B7B</item>
+    </style>
+    <style name="tab_nav">
+        <item name="android:layout_width">121px</item>
+        <item name="android:layout_height">134px</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="week_text">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_selector</item>
+    </style>
+</resources>

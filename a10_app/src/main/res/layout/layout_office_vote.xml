@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <include layout="@layout/mobile_title"
+        android:visibility="gone"></include>
+ 	<include layout="@layout/mobile_title_two"
+        android:id="@+id/mobile_title_two"></include>
+<com.sunboxsoft.office.view.refreshlistview.PullToRefreshView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_pull_refresh_view"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <ListView
+        android:id="@+id/lv_mail_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:dividerHeight="1px"
+        android:divider="@color/list_item_line"
+        android:cacheColorHint="#82806E"
+        android:fadingEdgeLength="5dp"  />
+
+</com.sunboxsoft.office.view.refreshlistview.PullToRefreshView>
+</LinearLayout>

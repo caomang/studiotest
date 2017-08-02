@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <currUser>
+        <phone>1126</phone>
+    </currUser>
+  <item>
+    <name>客服中心主任</name>
+    <phone>13815785566</phone>
+    <member></member>
+    <status>1</status>
+  </item>
+  <item>
+    <name>维修班长</name>
+    <phone>13815785583</phone>
+    <member></member>
+    <status>1</status>
+  </item>
+ <item>
+    <name>片区负责人</name>
+    <phone>13815785527</phone>
+    <member></member>
+    <status>1</status>
+  </item>
+  <item>
+    <name>营业厅</name>
+    <phone>052784313890</phone>
+    <member></member>
+    <status>1</status>
+  </item>
+  <item>
+    <name>客服热线</name>
+    <phone>052784313880</phone>
+    <member></member>
+    <status>1</status>
+  </item>
+  <item>
+    <name>火警</name>
+    <phone>119</phone>
+    <member></member>
+    <status>1</status>
+  </item>
+   
+</root>

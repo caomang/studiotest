@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b_gray"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_approve_condition_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <HorizontalScrollView
+            android:id="@+id/hs_approve_condition"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mobile_title_height"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_condition"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/mail_search_group_on" />
+    </LinearLayout>
+    
+     <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/approve_divider_height"
+        android:background="@color/littleGray" />
+    
+     <FrameLayout
+        android:id="@+id/fl_back_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/b_gray"
+        android:visibility="gone"  >
+
+        <Button
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/top_title_back"
+            android:visibility="gone" >
+        </Button>
+
+        <LinearLayout
+            android:id="@+id/ll_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="4dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_text_size_inc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_btn_text_size_decs" />
+
+            <Button
+                android:id="@+id/btn_text_size_dec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_btn_text_size_incs" />
+        </LinearLayout>
+    </FrameLayout> 
+
+    <RelativeLayout
+        android:id="@+id/pb_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <!-- html展示报表 -->
+
+    <LinearLayout
+        android:id="@+id/ll_content_url"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <!-- <FrameLayout -->
+        <!-- android:id="@+id/fl_time_bar" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:background="@color/white" > -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/ll_time_bar" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center_vertical|right" -->
+        <!-- android:layout_marginRight="4dp" -->
+        <!-- android:orientation="horizontal" -->
+        <!-- android:visibility="gone"> -->
+
+
+        <!-- <Spinner -->
+        <!-- android:id="@+id/sp_integrate_timer" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentRight="true" -->
+        <!-- android:layout_centerVertical="true" -->
+        <!-- android:visibility="gone"/> -->
+        <!-- </LinearLayout> -->
+        <!-- </FrameLayout> -->
+
+        <ProgressBar
+            android:id="@+id/pb_uo_web_content_loading"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="5dip"
+            android:layout_gravity="center_horizontal"
+            android:max="100" />
+
+        <WebView
+            android:id="@+id/wv_detailcontent_url"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:visibility="gone" />
+    </LinearLayout>
+    <!-- file 附件 -->
+
+    <LinearLayout
+        android:id="@+id/ll_content_file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <!-- 普通详细页 -->
+
+    <LinearLayout
+        android:id="@+id/ll_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/tv_title_intranet_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:singleLine="false"
+                android:textColor="#000000"
+                android:textSize="18sp" 
+                android:visibility="gone">
+            </TextView>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <LinearLayout
+                android:id="@+id/ll_from"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/item_detail_title_intranet"
+                    android:text="来源:" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_author_notice_detail"
+                    style="@style/item_detail_content_intranet" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_createTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" 
+                 android:visibility="gone">
+
+                <TextView
+                    style="@style/item_detail_title_intranet"
+                    android:text="时间:" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_timer_notice_detail"
+                    style="@style/item_detail_content_intranet" >
+                </TextView>
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="1dip"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineview_start"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#FF909090"
+            android:visibility="gone" />
+
+        <WebView
+            android:id="@+id/wv_detailcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:visibility="gone" />
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/ll_attachements" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:orientation="vertical" > -->
+
+
+        <!-- <View -->
+        <!-- android:id="@+id/lineview_end" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="1px" -->
+        <!-- android:background="#877474" -->
+        <!-- android:visibility="gone" /> -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:orientation="horizontal" -->
+        <!-- android:paddingLeft="11dp" > -->
+
+
+        <!-- <TextView -->
+        <!-- style="@style/item_detail_title" -->
+        <!-- android:text="附件列表：" -->
+        <!-- android:visibility="gone" > -->
+        <!-- </TextView> -->
+
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/tv_attaches_notice_detail" -->
+        <!-- style="@style/item_detail_content" -->
+        <!-- android:text="terry, jone" -->
+        <!-- android:visibility="gone" > -->
+        <!-- </TextView> -->
+        <!-- </LinearLayout> -->
+        <!-- </LinearLayout> -->
+
+        <ListView
+            android:id="@+id/ll_notice_detail_attachements"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:cacheColorHint="#00000000"
+            android:divider="#000000"
+            android:dividerHeight="0px"
+            android:fadingEdge="none"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="9dp"
+            android:paddingTop="8dp" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

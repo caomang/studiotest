@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_dl"
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:background="@drawable/schedules_list_layout_date_location_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/schedule_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始时间 -- 结束时间"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/schedule_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="地点:000"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/schedule_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="会议标题"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="参会范围："
+            android:textColor="@color/a_orange" />
+
+        <TextView
+            android:id="@+id/schedule_limits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="部内参加人 + 部外参加人"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/schedulename_constitutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建人："
+            android:textColor="@color/a_orange" />
+
+        <TextView
+            android:id="@+id/schedule_constitutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:text="主办处室："
+            android:textColor="@color/a_orange" />
+
+        <TextView
+            android:id="@+id/schedule_publishMan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="名称"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

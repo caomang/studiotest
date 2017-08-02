@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mobile_title_height"
+    android:background="@drawable/top_bg"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@+id/bt_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/top_title_back" >
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="查询结果"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/vedio_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/vedio_search"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/bt_vedio_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/vedio_search_ask" />
+
+        <EditText
+            android:id="@+id/vedio_search_edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@null" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone" >
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bt_vedio_collection"
+        android:visibility="gone" />
+
+</RelativeLayout>

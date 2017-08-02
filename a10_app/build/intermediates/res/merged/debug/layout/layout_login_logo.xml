@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_top_log"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    android:paddingTop="@dimen/layout_login_logo" >
+
+   <!--  <ImageView
+        android:layout_width="wrap_content"z
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitStart"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:text="石化应用"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /> -->
+
+</LinearLayout>

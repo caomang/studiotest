@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_child_content"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/wv_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_divider_contents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_tabs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/littleGray" />
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4" >
+
+            <LinearLayout
+                android:id="@+id/ll_contents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

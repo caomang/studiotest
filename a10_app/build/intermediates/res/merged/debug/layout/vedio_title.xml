@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp" >
+
+    <Button
+        android:id="@+id/bt_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_title_back"
+        android:visibility="visible" >
+    </Button>
+
+    <LinearLayout
+        android:id="@+id/vedio_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/vedio_search"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/bt_vedio_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/vedio_search_ask" />
+
+        <EditText
+            android:id="@+id/vedio_search_edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone" >
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_vedio_collection"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/approve_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:visibility="gone" >
+
+    <TextView
+    style="@style/approve_detail_table"
+    android:text="抄表顺序号" />
+
+
+    <include layout="@layout/layout_approve_detail_vertial_line" />
+
+
+    <TextView
+    android:id="@+id/tv_caobiao_detail_order"
+    style="@style/approve_detail_table"
+    android:layout_weight="2"
+    android:text="666"
+    android:textColor="@color/black" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="客户"
+            android:textColor="#3D7DC4"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/tv_name"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <TextView
+            android:id="@+id/tv_caobiao_detail_name"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/view"
+            android:text="明名明明"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tv_caobiao_detail_name"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <TextView
+            android:id="@+id/tv_caobiao_detail_client_num"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:layout_toRightOf="@id/view1"
+            android:drawableRight="@drawable/arrow"
+            android:text="0000000"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_approve_detail_horizontal_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="地址"
+            android:textColor="#3D7DC4"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/tv_address"
+            android:background="@drawable/shape_matters_router_child_divider" />
+
+        <TextView
+            android:id="@+id/tv_caobiao_detail_client_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/view3"
+            android:singleLine="true"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaa"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

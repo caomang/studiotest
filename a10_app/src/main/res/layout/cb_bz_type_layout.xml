@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:background="@drawable/approve_list_edittext2"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/shape_matters_router_child_divider" />
+
+    <LinearLayout
+        android:id="@+id/history_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time" />
+
+        <TextView
+            android:id="@+id/ls_bz_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/LightGray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

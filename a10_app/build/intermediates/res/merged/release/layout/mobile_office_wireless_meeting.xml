@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/top_title_back"
+            android:gravity="center"
+            android:visibility="gone"
+            android:paddingRight="17dp" />
+
+        <Button
+            android:id="@+id/bt_search"
+            android:layout_width="105dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/newspaper_search"
+            android:gravity="center"
+            android:paddingRight="17dp"
+            android:paddingTop="11dp"
+            android:text="全部"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/newspaper_search"
+            android:gravity="center"
+            android:paddingRight="17dp"
+            android:paddingTop="11dp"
+            android:text="时间"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_metting_all"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/newspaper_search"
+            android:gravity="center"
+            android:paddingRight="17dp"
+            android:paddingTop="11dp"
+            android:text="@string/tv_metting_all"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1.0" />
+
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/ic_metting_refresh" />
+        <ImageView
+            android:id="@+id/bt_subscrip_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/ic_metting_subscript" />
+    </LinearLayout>
+
+    <cn.sbx.deeper.moblie.util.MyHorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#4E4C4D"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <RadioGroup
+                android:id="@+id/rg_group_types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+            </RadioGroup>
+        </LinearLayout>
+    </cn.sbx.deeper.moblie.util.MyHorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/hv_month_horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#FFFF02"
+        android:fadingEdge=""
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             >
+
+            <RadioGroup
+                android:id="@+id/rg_group_months"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+               >
+            </RadioGroup>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ListView
+        android:id="@+id/lv_mobile_metting"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/littleWhile"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/littleGray"
+        android:dividerHeight="1px" >
+    </ListView>
+
+</LinearLayout>

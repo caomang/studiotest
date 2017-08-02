@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/b_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <!-- 发送按钮 -->
+
+        <Button
+            android:id="@+id/btn_command_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rt_text_nomarl_time_on"
+            android:text="发送" />
+        <!-- 附件按钮 -->
+
+        <Button
+            android:id="@+id/btn_command_add_attachment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rt_text_nomarl_time_on"
+            android:text="附件" >
+        </Button>
+
+        <Button
+            android:id="@+id/common_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rt_text_nomarl_time_on"
+            android:text="短语" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_command_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rt_text_nomarl_time_on"
+            android:visibility="gone"
+            android:text="返回" >
+        </Button>
+    </LinearLayout>
+    <!-- 发送指令界面 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <!-- 发送指令文本内容 -->
+
+        <EditText
+            android:id="@+id/et_command_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="left|top"
+            android:hint="请在此输入发布指令"
+            android:textColor="@color/black" >
+        </EditText>
+
+        <!-- 显示图片 -->
+
+        <GridView
+            android:id="@+id/gv_command_attachments"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:columnWidth="90dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="80dp"
+            android:visibility="gone" >
+        </GridView>
+    </LinearLayout>
+
+</LinearLayout>

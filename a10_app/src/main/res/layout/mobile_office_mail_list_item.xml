@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_metting_selected"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/tv_dot_mail_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_email_read" 
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_ishave_att"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_email_have_att"
+            android:visibility="gone" />
+    </LinearLayout>
+    <!-- <ImageView -->
+    <!-- android:id="@+id/iv_ishave_att" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_vertical" -->
+    <!-- android:layout_marginLeft="5dp" -->
+    <!-- android:src="@drawable/ic_email_have_att" -->
+    <!-- android:visibility="invisible" -->
+    <!-- /> -->
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/tv_subject_mail_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="回复回复放松地激发了；啊地激发了深刻地激发啊了独守空房啊地离开放"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp" >
+
+            <TextView
+                android:id="@+id/tv_people_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发件人"
+                android:textColor="#6b6b6b"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_mail_sender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="测试人员"
+                android:textColor="#6b6b6b"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_mail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:text="2012-01-03"
+                android:textColor="#6b6b6b"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+<!--     <ImageView -->
+<!--         android:id="@+id/tv_dot_mail_item" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="center_vertical" -->
+<!--         android:layout_marginLeft="15dp" -->
+<!--         android:layout_marginRight="15dp" -->
+<!--         android:background="@drawable/ic_email_read" /> -->
+
+    <ImageView
+        android:id="@+id/tv_image_mail_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/arrow"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:background="#EBF1FF"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_title1"
+                    style="@style/style_approve_detail_group_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="8dp"
+                    android:text="基本" />
+
+                <ImageView
+                    android:id="@+id/iv_pic_jiben"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/mail_add" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#DCDDDD" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#E7EBF6"
+                android:orientation="vertical"
+                android:padding="8dp" >
+
+                <TextView
+                    android:id="@+id/tv_title_common_download"
+                    style="@style/style_approve_detail_group_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#28AFEC"
+                    android:drawableLeft="@drawable/tabs_common_download"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="下载 "
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_title_upload_schedinfo"
+                    style="@style/style_approve_detail_group_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="#28AFEC"
+                    android:drawableLeft="@drawable/tabs_upload"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="上传 "
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#DCDDDD" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:background="#EBF1FF"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_title_more"
+                    style="@style/style_approve_detail_group_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="8dp"
+                    android:text="更多" />
+
+                <ImageView
+                    android:id="@+id/iv_pic_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/mail_add" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#DCDDDD" />
+
+            <LinearLayout
+                android:id="@+id/ll_moredes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#E7EBF6"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:padding="8dp" >
+
+                <TextView
+                    android:id="@+id/tv_title_difference_download"
+                    style="@style/style_approve_detail_group_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#28AFEC"
+                    android:drawableLeft="@drawable/tabs_common_download"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="重复下载 "
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_title_upload_picture"
+                    style="@style/style_approve_detail_group_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="#28AFEC"
+                    android:drawableLeft="@drawable/tabs_upload"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="图片补传 "
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <!-- 下载结果显示区域 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_schedinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="下载结果"
+                    android:textColor="#00A0E9"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="下载结果"
+                    android:textColor="#00A0E9"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_des1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="下载结果"
+                    android:textColor="#00A0E9"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_des2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="下载结果"
+                    android:textColor="#00A0E9"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_des3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="下载结果"
+                    android:textColor="#00A0E9"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

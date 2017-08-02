@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <list>
+        <listitem>
+            <itemid>7539000000</itemid>
+            <title>刘建</title>
+            <field1>建湖县汇文路</field1>
+            <field2>2015-03-18</field2>
+            <field3>登达花苑16栋1单元102室</field3>
+            
+        </listitem>
+        <listitem>
+            <itemid>9230100000</itemid>
+            <title>田才华</title>
+            <field1>建湖县汇文路</field1>
+           <field2>2015-03-18</field2>
+            <field3>登达花苑25栋2单元204室</field3>
+           
+        </listitem>
+    </list>
+</root>

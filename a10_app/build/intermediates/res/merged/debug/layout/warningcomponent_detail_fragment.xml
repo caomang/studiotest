@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- <include layout="@layout/alarm_command_title" /> -->
+    <!-- 预警信息+刷新按钮 -->
+
+    <LinearLayout
+        android:id="@+id/itemDetail"
+        android:layout_width="match_parent"
+        android:background="@color/b_gray"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/current_deal_layout"
+            android:layout_width="match_parent"
+            android:layout_height="27dip"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在处理：第 "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#E88238"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 条数据"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/previousPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:background="#00000000"
+                android:text="上一页"
+                android:textSize="20sp"
+                android:visibility="gone" >
+            </Button>
+        </LinearLayout>
+        <!-- 报警时间 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/alarm_detail_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="报警时间 "
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cccccc" />
+
+                <TextView
+                    android:id="@+id/call_time"
+                    style="@style/alarm_detail_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="  2011"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" >
+            </View>
+            <!-- 预警来源 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/alarm_detail_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="预警来源"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cccccc" />
+
+                <TextView
+                    android:id="@+id/alarmSource"
+                    style="@style/alarm_detail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text=" 未知"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" >
+            </View>
+
+            <!-- 物料 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/alarm_detail_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="装置/物料 "
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cccccc" />
+
+                <TextView
+                    android:id="@+id/product"
+                    style="@style/alarm_detail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="  烷化剂"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" >
+            </View>
+            <!-- 报警描述 style="@style/alarm_item"  style="@style/alarm_item" -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/alarm_detail_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="报警描述"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cccccc" />
+
+                <TextView
+                    android:id="@+id/description"
+                    style="@style/alarm_detail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="  XXXXXXXX"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" >
+            </View>
+            <!-- 处理意见 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/alarm_detail_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="处理意见"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cccccc" />
+
+                <TextView
+                    android:id="@+id/conduct"
+                    style="@style/alarm_detail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="  同意"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" >
+            </View>
+            <!-- 审核意见 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/alarm_detail_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="20dip"
+                        android:text="审核意见"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cccccc" />
+
+                <TextView
+                    android:id="@+id/check"
+                    style="@style/alarm_detail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dip"
+                    android:paddingLeft="10dp"
+                    android:text="  没什么意见"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" >
+            </View>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

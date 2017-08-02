@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_notice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/doccomponent_seach"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+        <EditText
+            android:id="@+id/et_seach"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="请输入关键字"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="#585151"
+            android:textColorHint="@color/et_hint_color"
+              android:background="@drawable/hebei_layout_login_edt_bg"
+            android:textSize="16sp" />
+        <Button 
+            android:id="@+id/btn_seach"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="搜索"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:background="@drawable/bt_union_office_msg_save"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="巡检应急手册"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F6F6F6"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <cn.sbx.deeper.moblie.view.MyHorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="@null"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/rg_group_types"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </LinearLayout>
+        </cn.sbx.deeper.moblie.view.MyHorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/doccomponent_seach"
+        android:background="@drawable/newspaper_bg" >
+
+        <cn.sbx.deeper.moblie.view.MyListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@null" />
+        <!-- <com.sunboxsoft.office.view.MyListView -->
+        <!-- android:id="@+id/lv_intranet_list" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="match_parent" -->
+        <!-- android:divider="@null"/> -->
+    </LinearLayout>
+ <LinearLayout
+        android:id="@+id/ll_dialog"
+        android:layout_width="65dip"
+        android:layout_height="65dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/spinner"
+            android:indeterminateDuration="2000"
+            android:indeterminateOnly="true" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#B2ABAB"
+            android:textSize="14sp" />
+    </LinearLayout>
+</RelativeLayout>

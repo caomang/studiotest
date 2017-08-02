@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/newspaper_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="3dp"
+        android:visibility="gone"
+        android:background="@drawable/newspaper_top">
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/bt_newspaper_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/newspaper_search"
+            android:paddingLeft="10dp"
+            android:paddingRight="35dp"
+            android:paddingTop="15dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- android:layout_marginTop="70dp" -->
+        <!-- android:divider="#FFCC00" -->
+
+        <ListView
+            android:id="@+id/lv_newspapers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#FFCC00"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/gv_item_mo_forground"
+            android:scrollbars="none" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/ll_bs_shadow_fill"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+<!--         <ProgressBar -->
+<!--             android:id="@+id/pb_loading" -->
+<!--             style="?android:attr/progressBarStyleLarge" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_centerInParent="true" -->
+<!--             android:layout_marginLeft="24dp" /> -->
+    </RelativeLayout>
+
+</LinearLayout>

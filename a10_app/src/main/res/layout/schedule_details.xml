@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/littleWhile"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/b_gray"
+        android:gravity="center_vertical" >
+        <Button
+            android:id="@+id/bt_left" 
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/top_title_back"
+             />
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_alignParentRight="true"  
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/tv_approve_detail_title_next"
+            android:background="@drawable/ic_approve_next"
+            style="@style/style_approve_title_next"
+            android:visibility="invisible"
+             />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent"
+            android:layout_height="@dimen/approve_divider_height" android:background="@color/littleGray"/>
+    <ExpandableListView
+        android:id="@+id/elv_details"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:cacheColorHint="#00000000"
+        android:childDivider="@drawable/shape_matters_router_child_divider"
+        android:divider="@color/littleGray"
+        android:dividerHeight="1px"
+        android:fadeScrollbars="false"
+        android:fadingEdgeLength="1px"
+        android:groupIndicator="@null"
+         >
+    </ExpandableListView>
+    
+</LinearLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/b_gray" >
+
+        <CheckBox
+            android:id="@+id/cb_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:button="@null"
+            android:drawableLeft="@drawable/approve_back"
+            android:padding="5dp"
+            android:text=" 返回"
+            android:textColor="#3773c0"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </FrameLayout>
+    -->
+
+
+    <!-- <View -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="@dimen/approve_divider_height" -->
+    <!-- android:background="@color/littleGray" /> -->
+
+    <HorizontalScrollView
+        android:id="@+id/hs_approve_tab"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/list_top"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:scrollbars="none" >
+    </HorizontalScrollView>
+
+    <!-- <View -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="@dimen/approve_divider_height" -->
+    <!-- android:background="@color/littleGray" /> -->
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/approve_divider_height"
+        android:layout_below="@id/hs_approve_tab"
+        android:background="@color/littleGray" />
+
+    <RelativeLayout
+        android:id="@+id/ll_approve_condition_container"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/line"
+        android:background="@drawable/nav_top_bar02"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/et_search_long"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/approve_list_edittext_long"
+            android:hint="请输入..."
+            android:paddingLeft="3dp"
+            android:singleLine="true" />
+
+        <HorizontalScrollView
+            android:id="@+id/hsv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/mobile_title_height"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_search"
+            android:layout_toRightOf="@+id/et_search_long"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_condition"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left|center_vertical"
+                android:orientation="horizontal" >
+
+                <!-- <Spinner -->
+                <!-- android:id="@+id/sp_select" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="@dimen/mobile_title_height" -->
+                <!-- android:visibility="gone" -->
+                <!-- /> -->
+                <!-- <Spinner -->
+                <!-- android:id="@+id/sp_orderby" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="@dimen/mobile_title_height" /> -->
+
+
+                <!-- <EditText -->
+                <!-- android:id="@+id/et_input" -->
+                <!-- android:layout_width="@dimen/inbox_mail_width" -->
+                <!-- android:layout_height="wrap_content" /> -->
+                <!-- <ImageView -->
+                <!-- android:id="@+id/iv_search" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:background="@drawable/mail_search_group_on" -->
+                <!-- /> -->
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/approve_list_search"
+            android:paddingTop="4dp" />
+        <!-- mail_search_group_on  approve_list_search -->
+    </RelativeLayout>
+
+    <!-- <View -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="@dimen/approve_divider_height" -->
+    <!-- android:background="@color/littleGray" /> -->
+
+    <RelativeLayout
+        android:id="@+id/rl_ck_batch_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alert_top_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="全选"
+            android:textColor="#6B5F5F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cb_alert_checked_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/radio_iscare_selector"
+            android:button="@null" />
+    </RelativeLayout>
+
+    <com.sinopec.plugin.MyListView
+        android:id="@+id/ml_approve_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_approve_condition_container"
+        android:cacheColorHint="#82806E"
+        android:divider="@color/littleGray"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_dialog"
+        android:layout_width="65dip"
+        android:layout_height="65dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/spinner"
+            android:indeterminateDuration="2000"
+            android:indeterminateOnly="true" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#B2ABAB"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

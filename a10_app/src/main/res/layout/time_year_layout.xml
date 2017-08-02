@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:id="@+id/time_layout"
+	android:layout_marginTop="12dp"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:background="@drawable/layout_bg">
+	
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="300dp"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center_horizontal"
+		android:paddingTop="20dp">
+	  
+	  	<com.sunboxsoft.office.view.wheel.WheelView android:id="@+id/wheel_year"
+			android:layout_height="wrap_content"
+			android:layout_width="200dp"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_marginTop="8dp"
+	    android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="horizontal"
+	android:layout_gravity="center_horizontal"
+	    >
+	    <Button 
+	        android:id="@+id/bt_cheel_choose"
+	        android:text="  选 择  "
+	        android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+	        />
+	    <Button 
+	        android:id="@+id/bt_cheel_cancel"
+	        android:text="  取 消  "
+	        android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+	        />
+	</LinearLayout>	
+</LinearLayout>

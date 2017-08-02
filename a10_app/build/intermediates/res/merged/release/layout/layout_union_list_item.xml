@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_metting_selected_all"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_metting_selected_all"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_subject_mail_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="信息发布"
+                android:textColor="#515457"
+                android:textSize="17sp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_mail_sender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="发布时间:2013-01-25"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/subject_mail_item"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right" />
+
+        <ImageView
+            android:id="@+id/iv_intranet_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/ic_schedule_item_right"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+<!--     <View -->
+<!--         android:id="@+id/view" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="2px" -->
+<!--         android:background="@color/littleGray" /> -->
+
+</LinearLayout>

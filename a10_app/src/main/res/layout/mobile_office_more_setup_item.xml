@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/littleWhile"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_typeName"
+            style="@style/style_more_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="信用审批" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/littleGray" />
+    <LinearLayout
+        android:id="@+id/ll_childs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/cb_useMain"
+                style="@style/style_more_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="与主账号相同" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_update"
+                style="@style/style_more_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改" />
+
+            <TextView
+                android:id="@+id/tv_delete"
+                style="@style/style_more_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="删除" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/littleGray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                style="@style/style_more_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="帐号：" />
+
+            <EditText
+                android:id="@+id/et_name"
+                style="@style/style_more_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/littleGray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                style="@style/style_more_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码：" />
+
+            <EditText
+                android:id="@+id/et_passWord"
+                style="@style/style_more_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:password="true" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/littleGray" />
+    </LinearLayout>
+</LinearLayout>

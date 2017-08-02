@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/layout_list_item_first"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_weight="1.0"
+            android:id="@+id/tv_date_schedule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="12月19日"
+            android:textColor="#7B7B7B"
+            android:textSize="16sp" 
+            >
+        </TextView>
+
+        <TextView
+            android:layout_weight="1.0"
+            android:id="@+id/tv_week_schedule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="星期一"
+            android:textColor="#7B7B7B"
+            android:textSize="16sp" >
+        </TextView>
+	
+        <ImageView
+            android:id="@+id/tv_image_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:scaleType="center"
+            android:src="@drawable/mail1" >
+        </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_msg_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/frame_bg"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

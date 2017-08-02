@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/newspaper_bg"
+    android:orientation="vertical" >
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- android:layout_marginTop="70dp" -->
+        <!-- android:divider="#FFCC00" -->
+
+        <ListView
+            android:id="@+id/lv_newspapers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#FFCC00"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/gv_item_mo_forground"
+            android:scrollbars="none" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/ll_bs_shadow_fill"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

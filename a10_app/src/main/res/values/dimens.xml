@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ui_10_dip">10dip</dimen>
+    <dimen name="polling_fontsize">18dp</dimen>
+    <dimen name="main_bar_height">50dp</dimen>
+    <dimen name="main_left_bar_width">80dp</dimen>
+    <dimen name="main_bar_width">75dp</dimen>
+    <dimen name="main_menu_item_text_marginleft">4dp</dimen>
+    <dimen name="dimen_net_set_tv1">14sp</dimen>
+    <dimen name="list_refresh_height">65dip</dimen>
+    <dimen name="content_large_size">20sp</dimen>
+
+    <!-- screen support  same as 800_480 screen -->
+    <dimen name="login_bt_login_confirm_width">59.25dp</dimen>
+    <dimen name="login_bt_login_confirm_height">30.75dp</dimen>
+    <dimen name="login_cb_remind_password_width">59.25dp</dimen>
+    <dimen name="login_cb_remind_password_height">30.75dp</dimen>
+    <dimen name="login_content_margin_bottom">50dp</dimen>
+    <dimen name="main_bar_scroll_bitmap_height">48.75dp</dimen>
+    <dimen name="main_bar_item_width">64.5dp</dimen>
+    <dimen name="main_bar_item_height">48.75dp</dimen>
+    <dimen name="main_menu_grid_padding_top">20dp</dimen>
+    <dimen name="main_menu_item_width">89.5dp</dimen>
+    <dimen name="main_menu_item_height">89.5dp</dimen>
+    <dimen name="main_meni_grid_padding_left">15dp</dimen>
+    <dimen name="main_meni_grid_padding_right">15dp</dimen>
+
+    <!-- 邮件radiobutton 92.5dp -->
+    <dimen name="inbox_mail_width">150dp</dimen>
+    <dimen name="inbox_mail_height">45dp</dimen>
+    <dimen name="inbox_tabs_width">110.5dp</dimen>
+    <dimen name="inbox_tabs_width_A10">106.5dp</dimen>
+
+    <!-- mobile_title height -->
+    <dimen name="mobile_title_height">45dp</dimen>
+    <!-- choose people -->
+    <dimen name="dimen_choose_people_width">28dp</dimen>
+
+    <!-- left menu -->
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="text_height">29px</dimen>
+    <dimen name="text_height_padding">30dp</dimen>
+    <dimen name="ap_detail_view_basic_height">40dp</dimen>
+    <dimen name="ap_detail_view_basic_height_padding">10dp</dimen>
+    <dimen name="tab_frame_width">25dp</dimen>
+    <dimen name="tab_radio_x">70dp</dimen>
+    <dimen name="tab_radio_y">20dp</dimen>
+    <dimen name="tab_radio_rect_x">85dp</dimen>
+    <dimen name="tab_radio_rect_y">1dp</dimen>
+    <dimen name="tab_radio_number_rect">14sp</dimen>
+
+    <!-- main bar img -->
+    <dimen name="tab_bar_img_width">29dp</dimen>
+    <dimen name="tab_bar_img_height">26dp</dimen>
+
+    <!-- divider height -->
+    <dimen name="approve_divider_height">1px</dimen>
+
+    <!-- approve route rect width -->
+    <dimen name="approve_route_rect_width">3px</dimen>
+    <dimen name="approve_list_footer_height">45dp</dimen>
+    <dimen name="menu_slide_left_img_width">42dp</dimen>
+    <dimen name="menu_slide_left_img_height">42dp</dimen>
+    <dimen name="menu_squared_img_width">42dp</dimen>
+    <dimen name="menu_squared_img_height">42dp</dimen>
+    <dimen name="approve_choose_user_bt_width">22dp</dimen>
+    <dimen name="approve_choose_user_bt_height">22dp</dimen>
+    <dimen name="layout_login_logo">270dp</dimen>
+    <dimen name="layout_login_content">272dp</dimen>
+    <dimen name="gd_arrow_offset">5dp</dimen>
+<!-- 同步数据 -->
+    <dimen name="button_height">35dp</dimen>
+</resources>

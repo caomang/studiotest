@@ -1,0 +1,197 @@
+﻿{
+    "soapenv:Envelope": {
+        "@xmlns:soapenv": "http://schemas.xmlsoap.org/soap/envelope/", 
+        "soapenv:Body": {
+            "CM_H_MRStDwn": {
+                "@faultStyle": "wsdl", 
+                "@xmlns": "http://oracle.com/CM_H_MRStDwn.xsd", 
+                "output": [
+                    {
+                        "respCode": "0000", 
+                        "respDescr": "成功", 
+                        "schedInfo": [
+                            {
+                                "meterReadRoute": "1404-01", 
+                                "cmMrRteDescr": "抄表路径1", 
+                                "meterReadCycle": "1404", 
+                                "cmMrCycDescr": "宝应公司双月抄表", 
+                                "scheduledSelectionDate": "2015-09-21", 
+                                "scheduledReadDate": "2015-09-25", 
+                                "custInfo": [
+                                    {
+                                        "meterReadCycleRouteSequence": "0", 
+                                        "accountId": "1111111111", 
+                                        "entityName": "用户1", 
+                                        "customerClass": "11R00001", 
+                                        "cmCustClDescr": "居民", 
+                                        "cmMrAddress": "某某地址1", 
+                                        "cmMrDistrict": "某某片区", 
+                                        "cmMrStreet": "某某大街1", 
+                                        "cmMrCommunity": "某某小区1", 
+                                        "cmMrBuilding": "1", 
+                                        "cmMrUnit": "A", 
+                                        "cmMrRoomNum": "101", 
+                                        "spMeterHistoryId": "11111111", 
+                                        "meterConfigurationId": "1111", 
+                                        "cmMrMtrBarCode": null, 
+                                        "fullScale": "9999.0000000", 
+                                        "cmMrAvgVol": "10.00", 
+                                        "rateSchedule": "11R01", 
+                                        "cmRsDescr": "测试费率", 
+                                        "cmMrLastBal": "0.00", 
+                                        "cmMrOverdueAmt": "0.00", 
+                                        "cmMrDebtStatDt": "2015-09-22", 
+                                        "cmMrLastMrDttm": "2015-09-08-00.00.00", 
+                                        "readType": "60", 
+                                        "cmMrLastMr": "100.00", 
+                                        "cmMrLastVol": "30", 
+                                        "cmMrLastDebt": "0.00", 
+                                        "cmMrLastSecchkDt": "00.00.00", 
+                                        "cmMrRemark": "test", 
+                                        "perPhone": [
+                                            {
+                                                "sequence": "1", 
+                                                "phoneType": "CELL", 
+                                                "phone": "13888888888", 
+                                                "extension": null
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "meterReadCycleRouteSequence": "0", 
+                                        "accountId": "2222222222", 
+                                        "entityName": "用户2", 
+                                        "customerClass": "11R00001", 
+                                        "cmCustClDescr": "居民", 
+                                        "cmMrAddress": "某某地址2", 
+                                        "cmMrDistrict": "某某片区", 
+                                        "cmMrStreet": "某某大街2", 
+                                        "cmMrCommunity": "某某小区2", 
+                                        "cmMrBuilding": "2", 
+                                        "cmMrUnit": "A", 
+                                        "cmMrRoomNum": "102", 
+                                        "spMeterHistoryId": "22222222", 
+                                        "meterConfigurationId": "2222", 
+                                        "cmMrMtrBarCode": null, 
+                                        "fullScale": "9999.0000000", 
+                                        "cmMrAvgVol": "10.00", 
+                                        "rateSchedule": "11R01", 
+                                        "cmRsDescr": "测试费率", 
+                                        "cmMrLastBal": "0.00", 
+                                        "cmMrOverdueAmt": "0.00", 
+                                        "cmMrDebtStatDt": "2015-09-22", 
+                                        "cmMrLastMrDttm": "2015-09-15-00.00.00", 
+                                        "readType": "60", 
+                                        "cmMrLastMr": "100.00", 
+                                        "cmMrLastVol": "40", 
+                                        "cmMrLastDebt": "0.00", 
+                                        "cmMrLastSecchkDt": "00.00.00", 
+                                        "cmMrRemark": "test", 
+                                        "perPhone": [
+                                            {
+                                                "sequence": "1", 
+                                                "phoneType": "HOME", 
+                                                "phone": "9999-99999999", 
+                                                "extension": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }, 
+                            {
+                                "meterReadRoute": "1404-02", 
+                                "cmMrRteDescr": "抄表路径2", 
+                                "meterReadCycle": "1404", 
+                                "cmMrCycDescr": "宝应公司双月抄表", 
+                                "scheduledSelectionDate": "2015-09-21", 
+                                "scheduledReadDate": "2015-09-25", 
+                                "custInfo": [
+                                    {
+                                        "meterReadCycleRouteSequence": "0", 
+                                        "accountId": "3333333333", 
+                                        "entityName": "用户3", 
+                                        "customerClass": "11R00001", 
+                                        "cmCustClDescr": "居民", 
+                                        "cmMrAddress": "某某地址3", 
+                                        "cmMrDistrict": "某某片区", 
+                                        "cmMrStreet": "某某大街3", 
+                                        "cmMrCommunity": "某某小区3", 
+                                        "cmMrBuilding": "3", 
+                                        "cmMrUnit": "B", 
+                                        "cmMrRoomNum": "201", 
+                                        "spMeterHistoryId": "33333333", 
+                                        "meterConfigurationId": "3333", 
+                                        "cmMrMtrBarCode": null, 
+                                        "fullScale": "9999.0000000", 
+                                        "cmMrAvgVol": "10.00", 
+                                        "rateSchedule": "11R01", 
+                                        "cmRsDescr": "测试费率", 
+                                        "cmMrLastBal": "0.00", 
+                                        "cmMrOverdueAmt": "0.00", 
+                                        "cmMrDebtStatDt": "2015-09-22", 
+                                        "cmMrLastMrDttm": "2015-09-16-00.00.00", 
+                                        "readType": "60", 
+                                        "cmMrLastMr": "200.00", 
+                                        "cmMrLastVol": "50", 
+                                        "cmMrLastDebt": "0.00", 
+                                        "cmMrLastSecchkDt": "00.00.00", 
+                                        "cmMrRemark": "test", 
+                                        "perPhoneLlist": {
+                                            "perPhone": [
+                                                {
+                                                    "sequence": "2", 
+                                                    "phoneType": "BUSNTest", 
+                                                    "phone": "9999-99999988", 
+                                                    "extension": null
+                                                }
+                                            ]
+                                        }
+                                    }, 
+                                    {
+                                        "meterReadCycleRouteSequence": "0", 
+                                        "accountId": "4444444444", 
+                                        "entityName": "用户4", 
+                                        "customerClass": "11R00001", 
+                                        "cmCustClDescr": "居民", 
+                                        "cmMrAddress": "某某地址4", 
+                                        "cmMrDistrict": "某某片区", 
+                                        "cmMrStreet": "某某大街4", 
+                                        "cmMrCommunity": "某某小区4", 
+                                        "cmMrBuilding": "4", 
+                                        "cmMrUnit": "B", 
+                                        "cmMrRoomNum": "201", 
+                                        "spMeterHistoryId": "44444444", 
+                                        "meterConfigurationId": "4444", 
+                                        "cmMrMtrBarCode": null, 
+                                        "fullScale": "9999.0000000", 
+                                        "cmMrAvgVol": "10.00", 
+                                        "rateSchedule": "11R01", 
+                                        "cmRsDescr": "测试费率", 
+                                        "cmMrLastBal": "0.00", 
+                                        "cmMrOverdueAmt": "0.00", 
+                                        "cmMrDebtStatDt": "2015-09-22", 
+                                        "cmMrLastMrDttm": "2015-09-17-00.00.00", 
+                                        "readType": "60", 
+                                        "cmMrLastMr": "200.00", 
+                                        "cmMrLastVol": "60", 
+                                        "cmMrLastDebt": "0.00", 
+                                        "cmMrLastSecchkDt": "00.00.00", 
+                                        "cmMrRemark": "test", 
+                                        "perPhone": [
+                                            {
+                                                "sequence": "1", 
+                                                "phoneType": "BUSN", 
+                                                "phone": "9999-99999999", 
+                                                "extension": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

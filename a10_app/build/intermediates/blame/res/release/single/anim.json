@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_shrink_from_topleft_to_bottomright.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_shrink_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_grow_from_top.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_grow_from_top.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\page_disappear.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\page_disappear.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\page_almost_disappear.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\page_almost_disappear.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\cancel_rc2.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\cancel_rc2.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\zoom_almost_disappear.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\zoom_almost_disappear.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\zoom.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\zoom.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_top.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\shrink_from_top.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\decelerate_quint.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\decelerate_quint.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_bottom.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\shrink_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_bottomright_to_topleft.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\grow_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\fragment_slide_left_exit.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\fragment_slide_left_exit.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_grow_from_bottomright_to_topleft.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_grow_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_shrink_from_bottom.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_shrink_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_grow_from_topleft_to_bottomright.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_grow_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\slide_left_in.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_topleft_to_bottomright.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\shrink_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_grow_from_bottom.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_grow_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_topright_to_bottomleft.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\grow_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\disappear.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\disappear.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_shrink_from_topright_to_bottomleft.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_shrink_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_top.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\grow_from_top.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\page.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\page.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_grow_from_bottomleft_to_topright.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_grow_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_shrink_from_bottomright_to_topleft.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_shrink_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\zoom_disappear.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\zoom_disappear.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\fragment_slide_right_exit.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\fragment_slide_right_exit.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_grow_from_topright_to_bottomleft.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_grow_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\cancel_rc.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\cancel_rc.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\pump_bottom.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\pump_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\schedule_push_left_in.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\schedule_push_left_in.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_topright_to_bottomleft.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\shrink_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\fragment_slide_left_enter.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\fragment_slide_left_enter.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\fragment_slide_right_enter.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\fragment_slide_right_enter.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\slide_left_out.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\slide_left_out.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\slide_right_in.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_bottomleft_to_topright.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\shrink_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\slide_right_out.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\slide_right_out.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_topleft_to_bottomright.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\grow_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_bottomleft_to_topright.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\grow_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\shrink_from_bottomright_to_topleft.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\shrink_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_shrink_from_bottomleft_to_topright.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_shrink_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\tip.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\tip.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_shrink_from_top.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_shrink_from_top.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\pump_top.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\pump_top.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\grow_from_bottom.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\grow_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\page_show_always.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\page_show_always.xml"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\release\\anim\\gd_rack.xml",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\anim\\gd_rack.xml"
+    }
+]

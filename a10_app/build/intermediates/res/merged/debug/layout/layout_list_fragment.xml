@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/hs_list_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mobile_title_height"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/approve_divider_height"
+        android:background="@color/littleGray" />
+
+    <LinearLayout
+        android:id="@+id/ll_approve_condition_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:id="@+id/hs_approve_condition"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mobile_title_height"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_condition"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <!-- <Spinner -->
+                <!-- android:id="@+id/sp_select" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="@dimen/mobile_title_height" -->
+                <!-- android:visibility="gone" -->
+                <!-- /> -->
+                <!-- <Spinner -->
+                <!-- android:id="@+id/sp_orderby" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="@dimen/mobile_title_height" /> -->
+
+
+                <!-- <EditText -->
+                <!-- android:id="@+id/et_input" -->
+                <!-- android:layout_width="@dimen/inbox_mail_width" -->
+                <!-- android:layout_height="wrap_content" /> -->
+                <!-- <ImageView -->
+                <!-- android:id="@+id/iv_search" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:background="@drawable/mail_search_group_on" -->
+                <!-- /> -->
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/mail_search_group_on" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/approve_divider_height"
+        android:background="@color/littleGray" />
+
+    <RelativeLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:background="#cccccc"
+        android:visibility="gone" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:layout_gravity="bottom"
+                android:background="#33000000"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dip" >
+
+                    <View
+                        android:id="@+id/dot_0"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_focused" />
+
+                    <View
+                        android:id="@+id/dot_1"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_normal" />
+
+                    <View
+                        android:id="@+id/dot_2"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_normal" />
+
+                    <View
+                        android:id="@+id/dot_3"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_normal" />
+
+                    <View
+                        android:id="@+id/dot_4"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_normal" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <!-- 上面是VIEWpage空件 -->
+
+    <cn.sbx.deeper.moblie.util.MyHorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mobile_title_height"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/top_bg"
+        android:fadingEdge=""
+        android:scrollbars="none"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="1dp" />
+
+            <RadioGroup
+                android:id="@+id/rg_group_types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="1dp" />
+        </LinearLayout>
+    </cn.sbx.deeper.moblie.util.MyHorizontalScrollView>
+
+    <!-- <RelativeLayout -->
+    <!-- android:id="@+id/pb_loading" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:layout_below="@+id/mobile_title" -->
+    <!-- android:background="@color/littleWhile" -->
+    <!-- android:visibility="gone" > -->
+
+
+    <!-- <ProgressBar -->
+    <!-- style="?android:attr/progressBarStyleLarge" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerInParent="true" /> -->
+    <!-- </RelativeLayout> -->
+
+    <cn.sbx.deeper.moblie.view.MyListView
+        android:id="@+id/lv_intranet_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/littleWhile"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/littleGray" />
+
+</LinearLayout>

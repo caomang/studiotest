@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C3C1C6"
+        android:orientation="horizontal"
+        android:padding="7dp" >
+
+        <TextView
+            android:id="@+id/tv_title_common_download"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/tabs_background"
+            android:gravity="center"
+            android:text="普通\n下载"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <!-- android:drawableLeft="@drawable/tabs_common_download" -->
+
+        <TextView
+            android:id="@+id/tv_title_difference_download"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/tabs_background"
+            android:gravity="center"
+            android:text="重复\n下载"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <!-- android:drawableLeft="@drawable/tabs_defference_download" -->
+
+        <TextView
+            android:id="@+id/tv_title_upload_schedinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/tabs_background"
+            android:gravity="center"
+            android:text="上传"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <!-- android:drawableLeft="@drawable/tabs_defference_download" -->
+
+        <TextView
+            android:id="@+id/tv_title_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/tabs_background"
+            android:gravity="center"
+            android:text="图片\n上传"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <!-- android:drawableLeft="@drawable/tabs_upload" -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:paddingRight="8dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="抄表"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/cb_ptxz"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/tabs_background_unselect"
+                android:drawableLeft="@drawable/contacts_download"
+                android:gravity="center"
+                android:text="普通\n下载"
+                android:textColor="#00A0E9"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/cb_cbxz"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/tabs_background_unselect"
+                android:drawableLeft="@drawable/contacts_difenerce_download"
+                android:gravity="center"
+                android:text="重复\n下载"
+                android:textColor="#00A0E9"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/cb_sc"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/tabs_background_unselect"
+                android:drawableLeft="@drawable/contacts_upload"
+                android:gravity="center"
+                android:text="上传"
+                android:textColor="#00A0E9"
+                android:textSize="15dp" />
+
+            <!-- <include layout="@layout/layout_common_style" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="4dp"
+        android:background="#DCDDDD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:paddingRight="8dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="安检"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/aj_ptxz"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/tabs_background_unselect"
+                android:drawableLeft="@drawable/contacts_download"
+                android:gravity="center"
+                android:text="普通\n下载"
+                android:textColor="#00A0E9"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/aj_qzxz"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/tabs_background_unselect"
+                android:drawableLeft="@drawable/contacts_difenerce_download"
+                android:gravity="center"
+                android:text="重复\n下载"
+                android:textColor="#00A0E9"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/aj_sc"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/tabs_background_unselect"
+                android:drawableLeft="@drawable/contacts_upload"
+                android:gravity="center"
+                android:text="上传"
+                android:textColor="#00A0E9"
+                android:textSize="15dp" />
+
+            <!-- <include layout="@layout/layout_common_style" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="4dp"
+        android:background="#DCDDDD" />
+
+    <!-- 维修 -->
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="4dp" -->
+    <!-- android:orientation="horizontal" -->
+    <!-- android:paddingRight="8dp" > -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="维修" -->
+    <!-- android:textSize="16dp" /> -->
+    <!-- </LinearLayout> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="4" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/wx_ptxz" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="90dp" -->
+    <!-- android:layout_gravity="center_vertical" -->
+    <!-- android:layout_marginRight="5dp" -->
+    <!-- android:layout_weight="1.5" -->
+    <!-- android:background="@drawable/tabs_background_unselect" -->
+    <!-- android:drawableLeft="@drawable/contacts_download" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="普通\n下载" -->
+    <!-- android:textColor="#00A0E9" -->
+    <!-- android:textSize="15dp" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/wx_qzxz" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="90dp" -->
+    <!-- android:layout_gravity="center_vertical" -->
+    <!-- android:layout_marginRight="5dp" -->
+    <!-- android:layout_weight="1.5" -->
+    <!-- android:background="@drawable/tabs_background_unselect" -->
+    <!-- android:drawableLeft="@drawable/contacts_difenerce_download" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="重复\n下载" -->
+    <!-- android:textColor="#00A0E9" -->
+    <!-- android:textSize="15dp" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/wx_sc" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="90dp" -->
+    <!-- android:layout_gravity="center_vertical" -->
+    <!-- android:layout_marginRight="5dp" -->
+    <!-- android:layout_weight="1.5" -->
+    <!-- android:background="@drawable/tabs_background_unselect" -->
+    <!-- android:drawableLeft="@drawable/contacts_upload" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="上传" -->
+    <!-- android:textColor="#00A0E9" -->
+    <!-- android:textSize="15dp" /> -->
+    <!-- </LinearLayout> -->
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv_schedinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="下载结果"
+            android:textColor="#00A0E9"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="下载结果"
+            android:textColor="#00A0E9"
+            android:textSize="14sp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/tv_des1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="下载结果"
+            android:textColor="#00A0E9"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_des2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="下载结果"
+            android:textColor="#00A0E9"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

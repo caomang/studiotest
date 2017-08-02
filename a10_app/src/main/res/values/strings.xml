@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="vote_count">投票人数：</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="hello">Hello World, MobileOfficeStandardEditionActivity!</string>
+    <string name="app_name">现场工作</string>
+
+    <color name="list_top">#e6e6e6</color>
+    <color name="list_item">#f6f6f6</color>
+    <color name="polling_operation">#000000</color>
+    <color name="gray">#535252</color>
+    <color name="darker_30_percent">#30000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="littleBlack">#5A5E62</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="item_start_color">#FFFFFF</color>
+    <color name="item_end_color">#FFF798</color>
+    <color name="blue">#3335CC</color>
+    <color name="noise">#555555</color>
+    <color name="a_gray">#5E5E5E</color>
+    <color name="b_gray">#EBEBEB</color>
+    <color name="a_littleWhile">#F4F4F4</color>
+    <color name="et_hint_color">#BDBEBE</color>
+    <color name="a_orange">#EC8319</color>
+    <color name="LightGray">#ffcccccc</color>
+    <color name="union_label">#909090</color>
+    <color name="union_reply">#F2F2F4</color>
+    <color name="document_query">#5E9BD2</color>
+    <color name="document_query_on">#0061D1</color>
+
+    <!-- <string name="tv_list_info">共%1$s条信息</string> -->
+    <drawable name="red">#C32020</drawable>
+    <drawable name="green">#DCE3EF</drawable>
+    <drawable name="gray">#6B6657</drawable>
+
+    <!-- approve -->
+    <string name="msg_data_not_found">很抱歉，没有获取到数据</string>
+    <string name="tv_approve_detail_title_next">操作</string>
+    <string name="tv_approve_detail_title_submit">提交</string>
+    <string name="tv_approve_route_suggest">常用语</string>
+    <string name="tv_approve_route_suggest_title">审批意见</string>
+    <string name="tv_approve_route_suggest_hint">请输入常用语</string>
+    <string name="tv_approve_detail_form_close">关闭</string>
+    <string name="msg_approve_choose_route">请正确选择审批路由！</string>
+    <string name="msg_approve_choose_route_error">审批路由为必选！</string>
+    <string name="tv_approve_route_choose_user">选择</string>
+    <string name="tv_approve_list_load_more">正在加载更多数据</string>
+    <string name="tv_approve_route_error_et">请填写%1$s</string>
+    <string name="msg_login_net_error">加密机未连接,进入离线模式</string>
+    <string name="tv_approve_route_error_user">%1$s</string>
+    <string name="tv_approve_route_error_rb">请选择%1$s</string>
+    <string name="tv_approve_search_condition_et">查询关键字</string>
+    <string name="tv_list_footer_load_more">点击加载更多</string>
+
+    <!-- login error -->
+    <string name="dialog_button_confirm">确定</string>
+    <string name="dialog_button_cancel">取消</string>
+    <string name="dialog_title_val_code">短信验证码</string>
+    <string name="dialog_message_val_code">您确认要获取短信验证码吗？</string>
+    <string name="msg_login_result_user_notice">提示</string>
+    <string name="msg_login_result_user_disable">用户被禁用</string>
+    <string name="msg_login_result_device_un_activitied">设备未激活</string>
+    <string name="msg_login_result_device_disable">设备被禁用</string>
+    <string name="msg_login_result_username_password_error">用户名或密码错误</string>
+    <string name="msg_login_result_user_existed">验证模式为一对一验证，但已存在该设备或用户信息</string>
+    <string name="msg_login_result_device_exception">登录异常</string>
+    <string name="msg_login_net_or_server_error">网络或服务器异常</string>
+    <string name="no_available_net">网络不给力，请稍后重试…</string>
+    <string name="msg_login_vpn_error">VPN连接失败，请重试</string>
+    <string name="tv_squared_title_userinfo">%1$s,欢迎您!</string>
+    <string name="msg_switch_loading">正在获取菜单数据...</string>
+    <string name="qa_branches_title">测试</string>
+    <string name="msg_wait">请稍后...</string>
+    <string name="tv_left_menu_title">中国石化移动办公系统</string>
+    <string name="val_code_send_info">短信验证码已发送至%1$s，请注意查收</string>
+    <string name="val_code_fetch_fail">短信验证码获取失败，请重新获取。</string>
+    <string name="val_code_fetching">正在获取短信验证码，请稍后&#8230;</string>
+
+    <!-- contacts -->
+    <string name="emp_company">所在公司： %1$s</string>
+    <string name="emp_department">所在部门： %1$s</string>
+    <string name="emp_position">职　　务： %1$s</string>
+    <string name="emp_mobile_no">手机号码： %1$s</string>
+    <string name="emp_office_no">办公号码： %1$s</string>
+    <string name="emp_fax_no">传真号码： %1$s</string>
+    <string name="emp_email_addr">邮箱地址： %1$s</string>
+    <string name="tv_task_pending">待办</string>
+    <string name="tv_main_more">设置</string>
+    <string name="ms_login_notice">正在登录...</string>
+    <string name="tv_matters_router_option">办理意见</string>
+    <string name="tv_matters_router_common">常用语</string>
+    <string name="tv_matters_router_next">下一步</string>
+
+    <!-- net setting -->
+    <string name="tv_splash_scan_netword">正在自动选择网络</string>
+    <string name="tv_net_set_intranet">内网地址:</string>
+    <string name="tv_net_set_internet">外网地址:</string>
+    <string name="tv_net_set_apn">APN:</string>
+    <string name="tv_net_set_auto">自动:</string>
+    <string name="tv_net_set_auto_detect">自动检测以上地址。</string>
+    <string name="msg_net_choose_success">自动选择地址成功</string>
+    <string name="msg_net_choose_error">没有可用的网络地址，请检查网络连接</string>
+    <string name="msg_net_choose_router">请选择一条网络路由</string>
+    <string name="msg_net_save_success">保存成功</string>
+    <string name="msg_net_scan_nets">正在检测可用的路由地址</string>
+
+    <!-- error message -->
+    <string name="msg_warning">很抱歉，没有获取到数据</string>
+    <!-- pageShow -->
+    <string name="tv_pagesgow_title">实时展示</string>
+
+    <!-- metting -->
+    <string name="tv_metting_subscription">取消订阅</string>
+    <string name="tv_metting_unsubscription">订阅</string>
+    <string name="tv_metting_subscription_list">订阅列表</string>
+    <string name="tv_metting_all">全部</string>
+    <string name="msg_metting_has_finish">会议已结束</string>
+    <string name="msg_metting_is_progress">会议没有主持人，正在进行中</string>
+    <string name="msg_metting_has_proside">当前会议有主持人，可加入此会议</string>
+    <string name="msg_metting_error">会议异常</string>
+    <string name="msg_join_meet_success">加入会议成功</string>
+    <string name="msg_join_meet_faild">加入会议失败</string>
+    <string name="msg_preside_meet_success">主持成功</string>
+    <string name="msg_preside_meet_faild">主持失败</string>
+    <string name="msg_dis_preside_meet_success">取消主持成功</string>
+    <string name="msg_dis_preside_meet_faild">取消主持失败</string>
+    <string name="msg_meet_over">会议结束</string>
+    <string name="tv_metting_radio_year">%1$s 年</string>
+    <string name="tv_metting_radio_month">%1$s 月</string>
+    <string name="msg_metting_not_participant">很抱歉，没有权限参加此会议</string>
+
+    <!-- page show -->
+    <string name="tv_page_show">页面展示</string>
+    <string name="menu_settings">hehe</string>
+
+    <!-- 工业视频 -->
+    <string name="tv_third_video_connect">连接工业视频</string>
+    <!-- #ifdef pro -->
+    <!-- <string name="app_name">APV PDF Viewer Pro</string> -->
+    <!-- #endif -->
+    <string name="s_query">查 询</string>
+    <string name="s_add">新 增</string>
+
+    <!-- <string name="about">About</string> -->
+    <string name="goto_page">Go to page…</string>
+    <string name="goto_page_dialog_title">Go to page</string>
+    <string name="goto_page_go_button">Go</string>
+    <string name="rotate_page_left">Rotate left</string>
+    <string name="rotate_page_right">Rotate right</string>
+    <string name="find_text">Find…</string>
+    <string name="find_dialog_title">Find text</string>
+    <string name="find_go_button">Find</string>
+    <string name="find_cancel_button">Cancel</string>
+    <string name="clear_find_text">Clear find</string>
+    <string name="choose_file">Open…</string>
+    <string name="toggle_invert">Invert</string>
+    <string name="toggle_fine_zoom">Toggle fine zoom</string>
+    <string name="set_as_home">Set current folder as home</string>
+    <string name="go_home">Home</string>
+    <string name="cancel">Cancel</string>
+    <string name="searching_for">Searching for "%1$s"</string>
+    <string name="page_of">Page %1$d of %2$d</string>
+    <string name="options">Settings</string>
+    <string name="zoom_animation">Zoom buttons</string>
+    <string name="attachment_not_support">暂时不支持此格式附件下载</string>
+
+    <string-array name="zoom_animations">
+        <item>100</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="zoom_animation_labels">
+        <item>disabled</item>
+        <item>disappear</item>
+        <item>almost disappear</item>
+        <item>fade</item>
+    </string-array>
+
+    <string name="default_zoom_animation">2</string>
+    <string name="page_animation">Page number/count</string>
+
+    <string-array name="page_animations">
+        <item>100</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="page_animation_labels">
+        <item>disabled</item>
+        <item>disappear</item>
+        <item>almost disappear</item>
+        <item>fade</item>
+        <item>show always</item>
+    </string-array>
+
+    <string name="default_page_animation">2</string>
+    <string name="fade_speed">Zoom and page fade wait</string>
+
+    <string-array name="fade_speeds">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="fade_speed_labels">
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+        <item>6 seconds</item>
+        <item>7 seconds</item>
+    </string-array>
+
+    <string name="default_fade_speed">7</string>
+    <string name="invert">Invert colors</string>
+    <string name="dirs_first">List directories first</string>
+    <string name="show_extension">Show .pdf extension</string>
+    <string name="orientation">Orientation</string>
+    <string name="default_orientation">0</string>
+
+    <string-array name="orientation_labels">
+        <item>automatic</item>
+        <item>harder to change</item>
+        <item>lock to portrait</item>
+        <item>lock to landscape</item>
+    </string-array>
+    <string-array name="orientations">
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="viewer">PDF Viewer</string>
+    <string name="selector">File Chooser</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="render_ahead">Render ahead</string>
+    <string name="render_ahead_sub">Uses more memory but faster forward scrolling.</string>
+    <string name="gray">Grayscale</string>
+    <string name="gray_sub">No colors, slightly slower, but uses less memory.</string>
+    <string name="page">Page</string>
+    <string name="color_mode">Color mode</string>
+
+    <string-array name="color_mode_labels">
+        <item>Normal color</item>
+        <item>Inverted color</item>
+        <item>Normal black and white</item>
+        <item>Inverted black and white</item>
+        <item>Black on yellowish</item>
+        <item>Green on black</item>
+        <item>Red on black</item>
+    </string-array>
+    <string-array name="color_modes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="default_color_mode">0</string>
+    <string name="omit_images">Skip images</string>
+    <string name="vertical_scroll_lock">Vertical scroll lock</string>
+    <string name="vertical_scroll_lock_sub">To scroll horizontally, you must first move horizontally 1/5 of the screen width.</string>
+    <string name="box">PDF page box type</string>
+
+    <string-array name="box_labels">
+        <item>ArtBox</item>
+        <item>BleedBox</item>
+        <item>CropBox</item>
+        <item>MediaBox</item>
+        <item>TrimBox</item>
+    </string-array>
+    <string-array name="boxes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="default_box">2</string>
+    <string name="extra_cache">Extra cache memory</string>
+    <string name="extra_cache_sub">Using extra cache memory can improve scrolling smoothness at the expense of stability.</string>
+
+    <string-array name="extra_caches">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="extra_cache_labels">
+        <item>none</item>
+        <item>1 MB</item>
+        <item>2 MB</item>
+        <item>4 MB</item>
+        <item>6 MB</item>
+        <item>8 MB</item>
+        <item>10 MB</item>
+    </string-array>
+
+    <string name="default_extra_cache">0</string>
+    <string name="side_margin">Extra side margins</string>
+    <string name="default_side_margin">0</string>
+
+    <string-array name="margins">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="margin_labels">
+        <item>none</item>
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+
+    <string name="top_margin">Space between pages</string>
+    <string name="default_top_margin">10</string>
+    <string name="remove_from_recent">Remove from recent</string>
+    <string name="delete">Delete file</string>
+
+    <string-array name="double_tap_actions">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="double_tap_action_labels">
+        <item>none</item>
+        <item>zoom in</item>
+        <item>zoom in or back out</item>
+    </string-array>
+
+    <string name="default_double_tap_action">2</string>
+    <string name="double_tap_action">Double tap action</string>
+
+    <string-array name="action_pairs">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>9</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="action_pair_labels">
+        <item>none</item>
+        <item>screen up/down</item>
+        <item>page up/down</item>
+        <item>page prev/next</item>
+        <item>zoom 1.02X</item>
+        <item>zoom 1.05X</item>
+        <item>zoom 1.1X</item>
+        <item>zoom 1.2X</item>
+        <item>zoom 1.414X</item>
+        <item>zoom 2X</item>
+        <item>screen up/down reversed</item>
+        <item>page up/down reversed</item>
+        <item>page prev/next reversed</item>
+    </string-array>
+
+    <string name="volume_pair">Volume -/+ key actions</string>
+    <string name="up_down_pair">Up/Down key actions</string>
+    <string name="left_right_pair">Left/Right key actions</string>
+    <string name="zoom_pair">Zoom button actions</string>
+    <string name="long_zoom_pair">Long press zoom button actions</string>
+    <string name="right_up_down_pair">Nook Touch right up/down key actions</string>
+    <string name="top_bottom_tap_pair">Action for top/bottom tap</string>
+    <string name="default_volume_pair">1</string>
+    <string name="default_up_down_pair">1</string>
+    <string name="default_left_right_pair">2</string>
+    <string name="default_zoom_pair">7</string>
+    <string name="default_long_zoom_pair">8</string>
+    <string name="default_right_up_down_pair">1</string>
+    <string name="default_top_bottom_tap_pair">0</string>
+    <string name="hw">Hardware Specific Settings</string>
+    <string name="eink">E-ink optimizations</string>
+    <string name="nook2">Nook2 fast e-ink refresh</string>
+    <string name="disabled">Disabled</string>
+    <string name="keep_on">Keep screen on while reading</string>
+    <string name="show_zoom_on_scroll">Show zoom when scrolling</string>
+    <string name="history">Show recent files</string>
+    <string name="table_of_contents">Table of Contents</string>
+    <string name="toc_dialog_title">Table of Contents</string>
+    <string name="close">Close</string>
+    <string name="text_reflow">Text Reflow</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- 日程使用 -->
+    <string name="date_lastweek">上一周</string>
+    <string name="date_thisweek">本周</string>
+    <string name="date_nextweek">下一周</string>
+    <string name="meeting_all">全部会议</string>
+    <string name="meeting_attend">我参加的</string>
+    <string name="meeting_apply">我申请的</string>
+
+    <color name="littleWhile">#DBDBDB</color>
+    <color name="littleBlue">#F7F7F7</color>
+    <!--  -->
+    <string name="msg_init_decoders">正在加载，请稍后&#8230;</string>
+    <string name="tv_list_info">共%1$s条信息</string>
+
+    <!-- 发送短信彩信 -->
+    <string name="no_recipient_or_content">请填写必要内容！</string>
+    <string name="msg_send_succ">发送成功！</string>
+    <string name="msg_send_fail">对不起，信息发送失败！</string>
+    <string name="contact_not_selected">您尚未选择接收人，人与人以";"隔开</string>
+    <string name="main_conduct_approval_opinion">请%1$s主办，</string>
+    <string name="co_conduct_approval_opinion">请%1$s协办，</string>
+    <string name="known_leaders_approval_opinion">请%1$s阅知，</string>
+    <string name="view_leaders_approval_opinion">请%1$s阅示，</string>
+    <string name="county_branches_approval_opinion">请%1$s办理，</string>
+
+    <!--对话框-->
+    <string name="alertmessage">重新下载将清空该任务所有相关数据,请谨慎操作.</string>
+    <string name="alertTitle">警告!</string>
+</resources>

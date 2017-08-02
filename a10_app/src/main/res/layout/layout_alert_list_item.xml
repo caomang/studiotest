@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/cb_alert_checked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/radio_iscare_selector"
+        android:button="@null"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tv_subject_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:text="预警时间"
+                android:textColor="#EE7700"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_subject_title_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="312232"
+                android:textColor="#EE7700"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_subject_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="1323131231"
+            android:textColor="#EE7700"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_subject_title_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="312312"
+            android:textColor="#6b6b6b"
+            android:textSize="12sp" />
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/tv_image_mail_item" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center_vertical|right" -->
+        <!-- android:layout_marginRight="10dip" -->
+        <!-- android:background="@drawable/arrow" /> -->
+
+    </LinearLayout>
+
+</LinearLayout>

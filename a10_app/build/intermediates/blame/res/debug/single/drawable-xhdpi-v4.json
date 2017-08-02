@@ -1,0 +1,1730 @@
+[
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_meeting_uncollection.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_meeting_uncollection.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_mail_choose_people_nomal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_mail_choose_people_nomal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\titile21.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\titile21.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp3.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\amp3.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_collection_choice.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_collection_choice.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_logo.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\home_logo.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_preside.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_preside.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_02.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_02.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_theme_blue.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_theme_blue.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hebei_layout_login_yanz.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\hebei_layout_login_yanz.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_word.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_word.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chaobiao.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\chaobiao.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_unionoffice_msg_input_box.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_unionoffice_msg_input_box.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\remember_checked.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\remember_checked.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\contacts_difenerce_download.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\contacts_difenerce_download.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\actionbar_compact_logo.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\actionbar_compact_logo.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_down_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_down_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_grid_selector_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_grid_selector_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scroll_left.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\scroll_left.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\left_button.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\left_button.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_sp_logo.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_sp_logo.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_nav_on1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\tab_nav_on1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\blue_line.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\blue_line.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rt_text_nomarl.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\rt_text_nomarl.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_line.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_line.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login_loginbtn.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\login_loginbtn.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_time_star_end_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_time_star_end_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hebei_layout_login_unbtn.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\hebei_layout_login_unbtn.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_spinner_filter.9.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\bg_spinner_filter.9.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_email_have_att.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_email_have_att.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tabs_upload.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\tabs_upload.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_top_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_top_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_add_people.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_add_people.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_edit.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_edit.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\document_item_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\document_item_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_up_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_up_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\daijian.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\daijian.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\check_false.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\check_false.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_approve_edit_background.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_approve_edit_background.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\username.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\username.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_single_list_bar_top.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_single_list_bar_top.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_back.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_back.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green_btn_zoom_up_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\green_btn_zoom_up_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cmd_info_bubble_reply.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\cmd_info_bubble_reply.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\weixiu.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\weixiu.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bs_panel_with_shadow_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\bs_panel_with_shadow_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approve_list_edittext.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\approve_list_edittext.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hebei_login_bt_unsetting.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\hebei_login_bt_unsetting.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cb.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\cb.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cb_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\cb_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\meeting_verticalspliter.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\meeting_verticalspliter.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_document_search_bg_s.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_document_search_bg_s.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\songshen_tijiao.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\songshen_tijiao.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_sunbox_launcher.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_sunbox_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_width_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_width_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\news_cover.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\news_cover.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\titile12.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\titile12.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pdf_complete_draw.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\pdf_complete_draw.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_btn_zoom_down_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\red_btn_zoom_down_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_next_drawlist_new.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_next_drawlist_new.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voice_to_short.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\voice_to_short.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_login_cb_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_login_cb_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_polling_3_bt2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\bg_polling_3_bt2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\qidong.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\qidong.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp7.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\amp7.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\biaoqian1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\biaoqian1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_radiobtn_bg_s.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_radiobtn_bg_s.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cb_on2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\cb_on2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_document_search_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_document_search_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voice_rcd_btn_disable.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\voice_rcd_btn_disable.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_personal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_personal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\qita.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\qita.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\zhengchang.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\zhengchang.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_approve_has_user_down.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_approve_has_user_down.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voice_rcd_hint_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\voice_rcd_hint_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp6.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\amp6.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_item_background_second.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\list_item_background_second.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_search.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_search.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_09.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_09.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sms.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\sms.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_polling_2_bt_map.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\bg_polling_2_bt_map.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_nav.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\tab_nav.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\page_setting_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\page_setting_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_document_query_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_document_query_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voice_rcd_btn_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\voice_rcd_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_btn_text_size_decs.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_btn_text_size_decs.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scroll_left1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\scroll_left1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_ppt.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\book_ppt.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_email_unread.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_email_unread.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_cancel_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_cancel_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_photo.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\book_photo.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_home_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_home_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\line_itme_list2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\line_itme_list2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_dept_has_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_dept_has_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nav_top_bar02.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\nav_top_bar02.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_theme_red.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_theme_red.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_unionoffice_msg_input_content.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_unionoffice_msg_input_content.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_search_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_search_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_search.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_search.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\titile_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\titile_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\line_gray.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\line_gray.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\anjian_title.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\anjian_title.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\popup_new.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\popup_new.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_overlay_bg.9.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_overlay_bg.9.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_dept_has_emps_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_dept_has_emps_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_bottom_right.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\menu_bottom_right.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\anjian.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\anjian.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_next2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_next2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_controlpoint_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_controlpoint_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_iscare_unit_default.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_iscare_unit_default.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_save_nomal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_save_nomal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_mail_relply_nomal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_mail_relply_nomal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_delete_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_delete_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_item_background_first.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\list_item_background_first.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\delete.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\delete.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\check_true.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\check_true.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\top_refresh.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\top_refresh.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_ok.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_ok.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_dept_has_emps.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_dept_has_emps.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_btn_zoom_up_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\red_btn_zoom_up_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_tab_default.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_tab_default.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_chose_right.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_chose_right.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arrow_up_new.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\arrow_up_new.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\news_download.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\news_download.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_send_message.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_send_message.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\setting_save.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\setting_save.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_count_bg_pass.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_count_bg_pass.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_nevagation_item_default.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_nevagation_item_default.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_folder.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_folder.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_call.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_call.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rt_text_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\rt_text_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lianxiren_bottom.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\lianxiren_bottom.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_grid_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_grid_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\aaa.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\aaa.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_ttshrk_view_scroll_picker_bar.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\com_ttshrk_view_scroll_picker_bar.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_itme.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\list_itme.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\jinggao.jpg",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\jinggao.jpg"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xlistview_arrow.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\xlistview_arrow.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_new_mail_nomal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_new_mail_nomal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_item_not_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_item_not_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_num_loading.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_num_loading.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\zhuxiao.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\zhuxiao.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_arrow.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_arrow.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lianxiren_middle.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\lianxiren_middle.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\iv_open.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\iv_open.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_alarm_resolved.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_alarm_resolved.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\admin_user.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\admin_user.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\zhaopian.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\zhaopian.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_05.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_05.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_msg_query.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_msg_query.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\unionoffice_add.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\unionoffice_add.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tabs_defference_download.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\tabs_defference_download.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arrow2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\arrow2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rt_text_nomarl_time.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\rt_text_nomarl_time.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_down_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_down_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\point_select.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\point_select.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approve_list_spinner_item.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\approve_list_spinner_item.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_tag.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_tag.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_document_add.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_document_add.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_add.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_add.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_theme_default.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_theme_default.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\admin_password.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\admin_password.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_dept_group_collapsed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_dept_group_collapsed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\alert_top_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\alert_top_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_width_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_width_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\biaoqian2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\biaoqian2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pdf_start_draw.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\pdf_start_draw.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_new_mail_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_new_mail_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cancle_checkall.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\cancle_checkall.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_10.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_10.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_newspaper_tab_nomal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_newspaper_tab_nomal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_subscript.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_subscript.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\document_add.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\document_add.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_error_page.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_error_page.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_alarm_processing.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_alarm_processing.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_top.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\bg_top.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\top_bg_new.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\top_bg_new.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_ok.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_ok.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chatto_voice_playing.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\chatto_voice_playing.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_btn_zoom_down_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\red_btn_zoom_down_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_document_query.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_document_query.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_refresh.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_refresh.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_pdf.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_pdf.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_bar_bottom_frame.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_bar_bottom_frame.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_bar_arrow_down.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_bar_arrow_down.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_default_item2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_default_item2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_07.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_07.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shebei.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\shebei.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_delete.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_delete.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\line_itme_list.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\line_itme_list.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voice_rcd_cancel_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\voice_rcd_cancel_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\setting_btn_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\setting_btn_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_next_new.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_next_new.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_search_group.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_search_group.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_collection.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_collection.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_topleft.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\bg_topleft.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_back.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_back.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tabs_background.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\tabs_background.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_ok_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_ok_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_delete_bg_s.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_delete_bg_s.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cb2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\cb2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_edit_bg_s.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_edit_bg_s.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_single_list_bar_bottom.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_single_list_bar_bottom.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\anniu2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\anniu2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_openfolder_bg_all.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_openfolder_bg_all.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rt_text_nomarl_time_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\rt_text_nomarl_time_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_check_g.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_check_g.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_main_menu_top_right_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_main_menu_top_right_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_00.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_00.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_main_menu_top_right_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_main_menu_top_right_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_login_bg1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_login_bg1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_btn_text_size_incs.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_btn_text_size_incs.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\view_line.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\view_line.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tabs_common_download.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\tabs_common_download.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\deeper_logo_480.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\deeper_logo_480.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\contacts_upload.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\contacts_upload.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_save_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_save_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_approve_choose_user_mark2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_approve_choose_user_mark2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\yichang.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\yichang.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cmd_info_bubble_message.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\cmd_info_bubble_message.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_down_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_down_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\document_line.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\document_line.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_left_more1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_left_more1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login_admin.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\login_admin.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_document_search_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_document_search_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_default_left.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_default_left.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\image_for_rotation.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\image_for_rotation.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_rate_sub.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_rate_sub.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_pdf.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\book_pdf.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\amp1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_completed_right.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\approval_completed_right.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voice_rcd_cancel_bg_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\voice_rcd_cancel_bg_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_chose_left.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_chose_left.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_tab_menu_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_tab_menu_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_choose.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_choose.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_polling_3_bt.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\bg_polling_3_bt.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_refresh.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_refresh.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_swich_menu.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_swich_menu.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_msg_buttom.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_msg_buttom.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_mail_relply_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_mail_relply_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_up_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_up_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_ppt.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_ppt.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_sp_logo2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_sp_logo2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp5.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\amp5.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_04.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_04.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_setup.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_setup.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_grid_selector_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_grid_selector_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_default_bar21.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_default_bar21.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_search_spinner_picture.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\approval_search_spinner_picture.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sunboxsoft_logo_480.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\sunboxsoft_logo_480.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_main_menu_top_right.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_main_menu_top_right.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_home_bg_all.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_home_bg_all.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\newspaper_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\newspaper_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_cancel_bg_s.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_cancel_bg_s.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_email_read.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_email_read.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_iscare_unit.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_iscare_unit.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_resend_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_resend_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_approve_next.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_approve_next.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\caozuo1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\caozuo1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_msg_save.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_msg_save.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_login_cb_nomal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_login_cb_nomal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voice_rcd_hint.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\voice_rcd_hint.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_bar_grip_left.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_bar_grip_left.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\uw_content_block_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\uw_content_block_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\contacts_download.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\contacts_download.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_default_bar2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_default_bar2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_tab_menu_bg_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_tab_menu_bg_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_submit.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_submit.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_confirm_charge_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_confirm_charge_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_btn_zoom_width_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\red_btn_zoom_width_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_search_ask.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_search_ask.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\point_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\point_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_text_dot.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_text_dot.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_down_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_down_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\setup_more.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\setup_more.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\remember_checked1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\remember_checked1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\top_title_back.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\top_title_back.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_btn_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_btn_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_btn_text_size_inc.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_btn_text_size_inc.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_arrow_up.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_arrow_up.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\titile31.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\titile31.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\single_list_item_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\single_list_item_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login_mess.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\login_mess.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approve_list_edittext2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\approve_list_edittext2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_disconnect.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_disconnect.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_backbtn_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_backbtn_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\selector_cb_auto_logon1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\selector_cb_auto_logon1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_refresh.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_refresh.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voice_rcd_btn_nor.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\voice_rcd_btn_nor.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_finish.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_finish.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_main_menu_top_right_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_main_menu_top_right_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\newspaper_top.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\newspaper_top.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\meeting_horizentalspliter.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\meeting_horizentalspliter.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scroll_left2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\scroll_left2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_login_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_login_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_submit2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_submit2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green_btn_zoom_down_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\green_btn_zoom_down_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_down_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_down_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_matters_router_option.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_matters_router_option.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\caozuo2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\caozuo2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_router_check_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\approval_router_check_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_expend.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_expend.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_dept_has_nomal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_dept_has_nomal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\actionbar_compact_logo2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\actionbar_compact_logo2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_date.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\home_date.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green_btn_zoom_width_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\green_btn_zoom_width_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_main_logo.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_main_logo.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_approve_has_user_up.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_approve_has_user_up.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\line_itme_list_newspaper.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\line_itme_list_newspaper.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\page_setting_blue.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\page_setting_blue.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_top2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\bg_top2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_up_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_up_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_edit_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_edit_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_warning_rb_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_warning_rb_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\titile11.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\titile11.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_left_menu_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_left_menu_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\time.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\time.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_03.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_03.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_rate_unsub.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_rate_unsub.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hebei_layout_login_btn.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\hebei_layout_login_btn.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_item_right.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_item_right.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_home.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_left_menu_top.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_left_menu_top.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green_btn_zoom_down_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\green_btn_zoom_down_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_up_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_up_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_daily_express.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\add_daily_express.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_yssh_intranet_bottom_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_yssh_intranet_bottom_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\amp2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_01.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_01.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_btn_zoom_up_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\red_btn_zoom_up_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chahao.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\chahao.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_document_search.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_document_search.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_item_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_item_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\daijian2.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\daijian2.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hebei_layout_login_edt_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\hebei_layout_login_edt_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\news_item_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\news_item_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green_btn_zoom_up_disabled.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\green_btn_zoom_up_disabled.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rcd_cancel_icon.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\rcd_cancel_icon.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_approve_choose_user_mark1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_approve_choose_user_mark1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\zhuxiao_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\zhuxiao_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_bar_item_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_bar_item_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\main_logo.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\main_logo.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp4.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\amp4.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tabs_background_unselect.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\tabs_background_unselect.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_top_frame.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_top_frame.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_radiobtn_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_radiobtn_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_alarmsum.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_alarmsum.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_squared_title_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_squared_title_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\arrow.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\arrow.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hebei_login_bt_setting.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\hebei_login_bt_setting.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\splash_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\splash_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\video.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\video.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_btn_zoom_up_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\red_btn_zoom_up_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\titile32.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\titile32.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_mail.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_mail.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_iscare_unit_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_iscare_unit_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_count_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_count_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_router_check_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\approval_router_check_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bs_panel_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\bs_panel_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_check_gg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_check_gg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_zoom_up_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_zoom_up_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sound.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\sound.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_msg_save_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_msg_save_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\checkall.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\checkall.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\anniu1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\anniu1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\book_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_08.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_08.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_alarm_undisposed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_alarm_undisposed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green_btn_zoom_down_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\green_btn_zoom_down_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rectange_button.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\rectange_button.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_newspaper_tab_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_newspaper_tab_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_resend_bg_s.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_resend_bg_s.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\remember_unchecked1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\remember_unchecked1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\titile22.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\titile22.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_deeper_logo.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_deeper_logo.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_openfolder_up.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_openfolder_up.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approve_list_edittext3.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\approve_list_edittext3.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_bar_item_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_bar_item_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\approval_contract_item1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\approval_contract_item1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hebei_layout_login_unyanz.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\hebei_layout_login_unyanz.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_confirm_charge_nomal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_confirm_charge_nomal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_default_item1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_default_item1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\small_06.gif",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\small_06.gif"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_send_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_send_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_left_more.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_left_more.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_send_nomal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_send_nomal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\image_logo1.bmp",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\image_logo1.bmp"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lxr_icon.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\lxr_icon.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lianxiren_top.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\lianxiren_top.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_default_bar1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_default_bar1.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_back_pressed.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_back_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_expends_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_expends_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_dept_group_expanded.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_dept_group_expanded.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_doc_excel.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_doc_excel.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_approve_spinner_background.9.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_approve_spinner_background.9.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_ok_check.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_ok_check.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\remember_unchecked.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\remember_unchecked.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shurukuang.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\shurukuang.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_change_bg_s.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_change_bg_s.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_bar_item_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_bar_item_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_xls.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\book_xls.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_btn_text_size_dec.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_btn_text_size_dec.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_schedule_operate_change_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_schedule_operate_change_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_bar_background.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_bar_background.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_play.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_play.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vedio_add.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\vedio_add.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\document_edit_text.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\document_edit_text.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_join.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_join.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_document_add_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_document_add_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_warning_rb.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_warning_rb.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\top_bg.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\top_bg.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_search_group_on.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_search_group_on.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green_btn_zoom_up_disabled_focused.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\green_btn_zoom_up_disabled_focused.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\iv_collspan.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\iv_collspan.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gd_quick_action_bar_grip_right.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\gd_quick_action_bar_grip_right.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_next.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\btn_next.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lv_sub_indicator_white.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\lv_sub_indicator_white.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_button.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\right_button.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_btn_zoom_down_normal.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\red_btn_zoom_down_normal.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_mail_choose_people_selected.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_mail_choose_people_selected.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mail_noadd.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\mail_noadd.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_msg_top.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_msg_top.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\jiben.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\jiben.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_word.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\book_word.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_metting_dispreside.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_metting_dispreside.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\document_save.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\document_save.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\newspaper_search.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\newspaper_search.png"
+    },
+    {
+        "merged": "E:\\Android\\a10_app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_sp_logo1.png",
+        "source": "E:\\Android\\a10_app\\src\\main\\res\\drawable-xhdpi\\ic_sp_logo1.png"
+    }
+]

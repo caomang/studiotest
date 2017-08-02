@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include
+        layout="@layout/mobile_title"
+        android:visibility="gone" />
+
+    <!-- <include layout="@layout/layout_partial_lv_info_title" /> -->
+
+    <RelativeLayout
+        android:id="@+id/title_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="3dip"
+        android:paddingLeft="10dp"
+        android:visibility="gone" >
+
+        <!-- 指令信息中 的黄色条 -->
+
+        <TextView
+            android:id="@+id/tv_list_info_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="3dip"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/ibtn_main_bar_send_command_ui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dip"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/b_gray"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp" >
+
+        <TextView
+            android:id="@+id/alarm_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="共 "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E88238"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 条数据"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_leader_command_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000" >
+    </ListView>
+
+</LinearLayout>
